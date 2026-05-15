@@ -1,0 +1,395 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "zequestchapterm"
+	group: "3BA8AFE5D48A2AF9"
+	icon: "minecolonies:blockhuttownhall"
+	id: "48169CA4BCFDFC5C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0BA03863B165A101"]
+			description: [
+				"{ze.quest.188.des}"
+				"{@pagebreak}"
+				"{ze.quest.188.des2}"
+				"{image:kubejs:textures/quest/quest_col1.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/quest_col2.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/quest_col3.png width:160 height:90 align:center}"
+				"{ze.quest.188.des3}"
+			]
+			icon: "minecolonies:blockhuttownhall"
+			id: "1C7867DEBB1D876E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1634425D3A881DF7"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.188.subtitle}"
+			tasks: [
+				{
+					id: "5DE92720DB3271BE"
+					item: "structurize:sceptergold"
+					type: "item"
+				}
+				{
+					block: "minecolonies:blockhuttownhall"
+					block_type: 0
+					checkItem: false
+					id: "4B6A1750CF07003C"
+					isItemInteraction: false
+					title: "{ze.quest.task.use.townhall}"
+					type: "questsadditions:use"
+					value: 1L
+				}
+			]
+			title: "{ze.quest.188.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C7867DEBB1D876E"]
+			description: [
+				"{ze.quest.222.des}"
+				"{@pagebreak}"
+				"{ze.quest.222.des2}"
+			]
+			hide_until_deps_complete: true
+			id: "6C3145345FB47232"
+			rewards: [
+				{
+					id: "21512B6AC42E4950"
+					item: "minecolonies:resourcescroll"
+					type: "item"
+				}
+				{
+					id: "1A5DD5FD736C051F"
+					item: {
+						Count: 1
+						id: "minecolonies:build_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E27C6B7F4F08773"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ze.quest.222.subtitle}"
+			tasks: [{
+				id: "44B4C23C479A0C4B"
+				item: "minecolonies:blockhutbuilder"
+				type: "item"
+			}]
+			title: "{ze.quest.222.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C3145345FB47232"]
+			description: ["{ze.quest.223.des}"]
+			hide_until_deps_complete: true
+			id: "3D03BDB3808D67D3"
+			rewards: [{
+				id: "50A9564D8D99A278"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.223.subtitle}"
+			tasks: [{
+				id: "5E378E8A75687526"
+				item: "minecolonies:blockhuttavern"
+				type: "item"
+			}]
+			title: "{ze.quest.223.title}"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D03BDB3808D67D3"]
+			description: ["{ze.quest.225.des}"]
+			id: "60A332A0F467BD16"
+			rewards: [{
+				id: "2F6188C232F12704"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.225.subtitle}"
+			tasks: [{
+				id: "43797C7FE0140BE6"
+				item: "minecolonies:blockhutcitizen"
+				type: "item"
+			}]
+			title: "{ze.quest.225.title}"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C3145345FB47232"]
+			description: ["{ze.quest.224.des}"]
+			hide_until_deps_complete: true
+			id: "785185417D64E868"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "468BD06F8375D1EA"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.224.subtitle}"
+			tasks: [{
+				id: "6A9DF0ED1BCCFF9B"
+				item: "minecolonies:blockhutuniversity"
+				type: "item"
+			}]
+			title: "{ze.quest.224.title}"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C3145345FB47232"]
+			description: ["{ze.quest.226.des}"]
+			id: "0144CDD6745A5318"
+			rewards: [{
+				id: "2A26B5AD241F3970"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.226.subtitle}"
+			tasks: [{
+				id: "1FDDE8B51DBF4C65"
+				item: "minecolonies:blockhutguardtower"
+				type: "item"
+			}]
+			title: "{ze.quest.226.title}"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["78C9162389D315B1"]
+			description: ["{ze.quest.229.des}"]
+			id: "517A4EFD6FAFA74B"
+			rewards: [{
+				id: "65533E90F015A7B4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.229.subtitle}"
+			tasks: [{
+				id: "28AA767CE379EF1C"
+				item: "minecolonies:blockhutfisherman"
+				type: "item"
+			}]
+			title: "{ze.quest.229.title}"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["78C9162389D315B1"]
+			description: ["{ze.quest.231.des}"]
+			icon: "minecolonies:blockhutfarmer"
+			id: "3B5090451D70D396"
+			rewards: [{
+				id: "3AF8B8501AA6E2E8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.231.subtitle}"
+			tasks: [
+				{
+					id: "1B3AAFE7CA9BDF28"
+					item: "minecolonies:blockhutfarmer"
+					type: "item"
+				}
+				{
+					id: "0A38BCA39EA7EF8D"
+					item: "minecolonies:blockhutfield"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.231.title}"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C3145345FB47232"]
+			description: ["{ze.quest.233.des}"]
+			id: "188C1387E3C05C38"
+			rewards: [{
+				id: "6351D8D71F960E41"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.233.subtitle}"
+			tasks: [{
+				id: "0FF73913BFBE17B8"
+				item: "minecolonies:blockhutlumberjack"
+				type: "item"
+			}]
+			title: "{ze.quest.233.title}"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C3145345FB47232"]
+			description: ["{ze.quest.234.des}"]
+			id: "093CC1EFFA68411C"
+			rewards: [{
+				id: "3770E69189EAB8FD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.234.subtitle}"
+			tasks: [{
+				id: "2AAC31B30CF40AE2"
+				item: "minecolonies:blockhutminer"
+				type: "item"
+			}]
+			title: "{ze.quest.234.title}"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C3145345FB47232"]
+			description: ["{ze.quest.230.des}"]
+			hide_until_deps_complete: true
+			id: "33EE910CB5148111"
+			rewards: [{
+				id: "71A226F805ED12D0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.230.subtitle}"
+			tasks: [
+				{
+					id: "6EE00FEC93FAC747"
+					item: "minecolonies:blockhutwarehouse"
+					type: "item"
+				}
+				{
+					block: "minecolonies:blockhutdeliveryman"
+					block_type: 0
+					checkItem: false
+					id: "59F2792936156A27"
+					isItemInteraction: false
+					title: "{ze.quest.task.use.deliveryman}"
+					type: "questsadditions:use"
+					value: 1L
+				}
+			]
+			title: "{ze.quest.230.title}"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B5090451D70D396"]
+			description: ["{ze.quest.232.des}"]
+			id: "2EACCE6635A1E44E"
+			rewards: [{
+				id: "30CCD63402ACF6BC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.232.subtitle}"
+			tasks: [{
+				id: "0BBCD62932753FB7"
+				item: "minecolonies:blockhutbaker"
+				type: "item"
+			}]
+			title: "{ze.quest.232.title}"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C3145345FB47232"]
+			description: ["{ze.quest.227.des}"]
+			hide_until_deps_complete: true
+			id: "78C9162389D315B1"
+			rewards: [{
+				id: "4ABED21E1D70B4AC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.227.subtitle}"
+			tasks: [{
+				id: "1E5D61DDEE1F3C9C"
+				item: "minecolonies:blockhutcook"
+				type: "item"
+			}]
+			title: "{ze.quest.227.title}"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78C9162389D315B1"]
+			description: ["{ze.quest.228.des}"]
+			id: "6B8E6851BBB536F0"
+			rewards: [{
+				id: "5F1ECF6CF91CD66D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.228.subtitle}"
+			tasks: [{
+				id: "27BE43676BFD1433"
+				item: "minecolonies:blockhutkitchen"
+				type: "item"
+			}]
+			title: "{ze.quest.228.title}"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33EE910CB5148111"]
+			description: ["{ze.quest.235.des}"]
+			id: "5F86F487314D703B"
+			rewards: [{
+				id: "23670F42A1267F2E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.235.subtitle}"
+			tasks: [
+				{
+					id: "6A87802DDB1A3439"
+					item: "minecolonies:blockstash"
+					type: "item"
+				}
+				{
+					id: "0F3780E3AB6CDEF7"
+					item: "minecolonies:blockpostbox"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.235.title}"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["785185417D64E868"]
+			description: ["{ze.quest.236.des}"]
+			id: "30CC693C2541A9C9"
+			rewards: [{
+				id: "66F40591BFED92DF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.236.subtitle}"
+			tasks: [{
+				id: "651C3684D7992C1F"
+				item: "minecolonies:blockhuthospital"
+				type: "item"
+			}]
+			title: "{ze.quest.236.title}"
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.m.subtitle}"]
+	title: "{ze.quest.chapter.m}"
+}

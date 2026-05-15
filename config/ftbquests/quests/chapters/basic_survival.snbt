@@ -1,0 +1,729 @@
+{
+	autofocus_id: "2C5140F243CF63D9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_survival"
+	group: "5F239CD8F461F424"
+	icon: "minecraft:player_head"
+	id: "592C66CCDF54DFCB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: ["{ze.quest.1.des}"]
+			hide_until_deps_complete: true
+			id: "0DDFD34DC79CB4CC"
+			rewards: [{
+				id: "23155E9395D77FD3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "{ze.quest.1.subtitle}"
+			tasks: [
+				{
+					count: 2L
+					id: "4223C306BCCA5C0F"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "10D44FAEED93B063"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.1.title}"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13E9C85E9DF4B30C"]
+			description: ["{ze.quest.4.des}"]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:straw"
+			id: "300338FC14001F36"
+			rewards: [{
+				id: "439CCA19C88A8821"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "{ze.quest.4.subtitle}"
+			tasks: [{
+				id: "668CCC1001A4228C"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			title: "{zs.quest.4.title}"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["300338FC14001F36"]
+			description: ["{ze.quest.5.des}"]
+			hide_until_deps_complete: true
+			id: "2225C6FD87BB3331"
+			rewards: [{
+				id: "4FBB375E31FA607A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "{ze.quest.5.subtitle}"
+			tasks: [{
+				id: "2B7D2B0E44B8E00F"
+				item: {
+					Count: 1
+					id: "simple_flint_tools:flinthatchet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.5.title}"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DDFD34DC79CB4CC"]
+			description: ["{ze.quest.6.des}"]
+			icon: "minecraft:oak_log"
+			id: "3157A90919C1D232"
+			rewards: [{
+				id: "401C3A65D6F880BC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "{ze.quest.6.subtitle}"
+			tasks: [{
+				count: 5L
+				id: "65CF1C3A0907B0F4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+					}
+				}
+				title: "{ze.quest.task.any_wood_log}"
+				type: "item"
+			}]
+			title: "{ze.quest.6.title}"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6507DA47792986DA"]
+			description: ["{ze.quest.0.des}"]
+			icon: "minecraft:player_head"
+			id: "2C5140F243CF63D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: "kubejs:start_kit"
+					id: "2E58FF80C47D3BEB"
+					table_id: 3597129474649017054L
+					title: "{ze.quest.0.reward}"
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @a [{\"selector\":\"@s\"},{\"translate\":\"ze.quest.reward.tech.start.t\",\"color\":\"gold\"}]"
+					elevate_perms: true
+					id: "5144FBC6E0B3D6A6"
+					title: "{ze.quest.reward.tech.start}"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ze.quest.0.subtitle}"
+			tasks: [{
+				id: "02B718A20666825E"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.0.title}"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3157A90919C1D232"]
+			description: ["{ze.quest.8.des}"]
+			icon: "minecraft:oak_planks"
+			id: "1E47A8F12081456F"
+			rewards: [{
+				id: "176D04F011E92DB5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "{ze.quest.8.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "10A5A0D7210D6BDA"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)"
+					}
+				}
+				title: "{ze.quest.task.any_wood_plank}"
+				type: "item"
+			}]
+			title: "{ze.quest.8.title}"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BA03863B165A101"]
+			description: ["{ze.quest.11.des}"]
+			hide_until_deps_complete: true
+			id: "0151A3BE3524503C"
+			rewards: [{
+				id: "1A84D0EEBD5F88B0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "{ze.quest.11.subtitle}"
+			tasks: [
+				{
+					id: "08A4B6AAB637BA28"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00B3048D38EC30D4"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FCA1ABAAC9866C9"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.11.title}"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E47A8F12081456F"]
+			description: ["{ze.quest.10.des}"]
+			id: "0BA03863B165A101"
+			rewards: [{
+				id: "132C92A7C57C6C92"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "{ze.quest.10.subtitle}"
+			tasks: [{
+				id: "00D520D739A5EB73"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "{ze.quest.10.title}"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DDFD34DC79CB4CC"]
+			description: ["{ze.quest.3_1.des}"]
+			id: "13E9C85E9DF4B30C"
+			rewards: [{
+				id: "057C70826CAAAEC9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "{ze.quest.3_1.subtitle}"
+			tasks: [{
+				id: "6310ADC958FB2A87"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.3_1.title}"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BA03863B165A101"]
+			description: ["{ze.quest.17.des}"]
+			id: "175E9DD84FFB7BD7"
+			rewards: [{
+				id: "0A70D408FA146165"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{ze.quest.17.subtitle}"
+			tasks: [{
+				id: "2615B1B18F2806B7"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.17.title}"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0151A3BE3524503C"]
+			description: ["{ze.quest.18.des}"]
+			id: "17DA9A870C1F268D"
+			rewards: [{
+				id: "540F3E1C2A1B4B10"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.18.subtitle}"
+			tasks: [{
+				id: "6369DFFEC6F54ECF"
+				item: {
+					Count: 1
+					id: "grapplemod:grapplinghook"
+					tag: {
+						Damage: 0
+						custom: {
+							angle: 20.0d
+							attract: 0b
+							attractradius: 3.0d
+							crc32: 2252267022L
+							detachonkeyrelease: 0b
+							doublehook: 0b
+							enderstaff: 0b
+							hookgravity: 1.0d
+							maxlen: 30.0d
+							motor: 0b
+							motoracceleration: 0.2d
+							motordampener: 0b
+							motormaxspeed: 4.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							oneropepull: 0b
+							phaserope: 0b
+							playermovementmult: 1.0d
+							pullbackwards: 1b
+							reelin: 1b
+							repel: 0b
+							repelforce: 1.0d
+							rocket: 0b
+							rocket_active_time: 0.5d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							rocket_vertical_angle: 0.0d
+							smartdoublemotor: 1b
+							smartmotor: 0b
+							sneakingangle: 10.0d
+							sneakingverticalthrowangle: 0.0d
+							sticky: 0b
+							throwspeed: 2.0d
+							verticalthrowangle: 0.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.18.title}"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0151A3BE3524503C"]
+			description: ["{ze.quest.19.des}"]
+			icon: "immersiveengineering:coke_oven"
+			id: "50D4B2A6B499BDAB"
+			rewards: [{
+				id: "6D1EDE5959201D47"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{ze.quest.19.subtitle}"
+			tasks: [{
+				count: 27L
+				id: "29401C0BC7BC54E2"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			title: "{ze.quest.19.title}"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50D4B2A6B499BDAB"]
+			description: ["{ze.quest.20.des}"]
+			hide_until_deps_complete: true
+			icon: "immersiveengineering:blast_furnace"
+			id: "1662086D43D735B7"
+			rewards: [{
+				id: "42330A74CF429343"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{ze.quest.20.subtitle}"
+			tasks: [{
+				count: 27L
+				id: "18C681352CF0A3FF"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			title: "{ze.quest.20.title}"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1662086D43D735B7"]
+			description: ["{ze.quest.21.des}"]
+			id: "5E31388488F3E173"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "493A1E0562EC8C2D"
+					table_id: 2928502593784218937L
+					type: "random"
+				}
+				{
+					id: "657889B0D63210E5"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					id: "38CDFAFB0EF2E010"
+					item: "cyber_ware_port:radio_kit"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ze.quest.21.subtitle}"
+			tasks: [{
+				id: "52281EFC5E5DEAE5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ingots/steel)"
+					}
+				}
+				title: "{ze.quest.task.any_steel_ingot}"
+				type: "item"
+			}]
+			title: "{ze.quest.21.title}"
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50D4B2A6B499BDAB"]
+			description: ["{ze.quest.56.des}"]
+			icon: "immersiveengineering:alloy_smelter"
+			id: "17ADC9F773E7580F"
+			rewards: [{
+				id: "618E228ACBE3C5D4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{ze.quest.56.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "7B0E46C64C61C6ED"
+				item: { Count: 8, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			title: "{ze.quest.56.title}"
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0151A3BE3524503C"]
+			description: ["{ze.quest.183.des}"]
+			id: "0313585D6BA778F2"
+			rewards: [{
+				id: "55EBEABB57A7F72C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.183.subtitle}"
+			tasks: [{
+				id: "77145A2045D5C9F2"
+				item: "naturescompass:naturescompass"
+				type: "item"
+			}]
+			title: "{ze.quest.183.title}"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0151A3BE3524503C"]
+			description: ["{ze.quest.193.des}"]
+			id: "66DEAAA7F60C840E"
+			rewards: [{
+				id: "69E8CB8501837BEB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.193.subtitle}"
+			tasks: [{
+				id: "3AC08CC1CED5FF05"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			title: "{ze.quest.193.title}"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			description: ["{ze.quest.196.des}"]
+			icon: "ftbquests:book"
+			id: "6507DA47792986DA"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				id: "34B4404DA7BF8807"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "{ze.quest.196.subtitle}"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "6A31E3073875E674"
+				title: "{ze.quest.task.visit.ow}"
+				type: "dimension"
+			}]
+			title: "{ze.quest.196.title}"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0151A3BE3524503C"]
+			description: ["{ze.quest.245.des}"]
+			id: "7C8796FCB5589D5A"
+			rewards: [
+				{
+					id: "5F3F17196DFB84AF"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+				{
+					id: "0BF928728A81D432"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ze.quest.245.subtitle}"
+			tasks: [{
+				id: "66137F3720C00AD2"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			title: "{ze.quest.245.title}"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: ["{ze.quest.294.des}"]
+			icon: "minecraft:ender_pearl"
+			id: "229C89E303DD84B9"
+			rewards: [{
+				id: "23216E0BE6D0774D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.294.subtitle}"
+			tasks: [{
+				id: "48E40AD8C9C63F3D"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.294.title}"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: ["{ze.quest.295.des}"]
+			icon: "minecraft:map"
+			id: "6FF022F0250AC5C2"
+			rewards: [{
+				id: "73BD8AA8E0CF7730"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.295.subtitle}"
+			tasks: [{
+				id: "46A45055A4860B39"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.295.title}"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: ["{ze.quest.293.des}"]
+			icon: "create:brass_hand"
+			id: "53A330C9D357E5AD"
+			rewards: [{
+				id: "426B77A84ADC4324"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.293.subtitle}"
+			tasks: [{
+				id: "784571551454DFBA"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.293.title}"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: ["{ze.quest.296.des}"]
+			icon: "create:minecart_coupling"
+			id: "2CD7509430B97FA9"
+			rewards: [{
+				id: "0906C5BB74FEC379"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.296.subtitle}"
+			tasks: [{
+				id: "613ADA4B9A81CE2D"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.296.title}"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: ["{ze.quest.2.des}"]
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "23399DF933F47051"
+			rewards: [{
+				id: "3D3E3F4974B13312"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "{ze.quest.2.subtitle}"
+			tasks: [{
+				id: "20593ADC9F4FA87B"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.2.title}"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0151A3BE3524503C"]
+			description: ["{ze.quest.304.des}"]
+			id: "760223941A97D820"
+			rewards: [
+				{
+					id: "0FC839E98B564ACF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "7B68575A070C3941"
+					item: "immersiveengineering:hemp_fabric"
+					type: "item"
+				}
+			]
+			subtitle: "{ze.quest.304.subtitle}"
+			tasks: [{
+				id: "0383E9575784A5F3"
+				item: {
+					Count: 1
+					id: "immersiveengineering:glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.304.title}"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0151A3BE3524503C"]
+			description: ["{ze.quest.403.des}"]
+			id: "03D503BB5B0D5332"
+			rewards: [{
+				id: "481651A1485796F7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.403.subtitle}"
+			tasks: [{
+				id: "3E3F6FBDAA28E074"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:cat_eye)"
+					}
+				}
+				title: "{ze.quest.task.any.catEye}"
+				type: "item"
+			}]
+			title: "{ze.quest.403.title}"
+			x: 8.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["{ze.quest.chatper.a.subtitle}"]
+	title: "{ze.quest.chapter.a}"
+}

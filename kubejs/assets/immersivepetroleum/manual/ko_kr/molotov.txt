@@ -1,0 +1,8 @@
+화염병
+폭동의 상징
+<&molotov>
+<link;bottling_machine;§o§n병조림기§r>를 이용하여 빈 유리병에 <link;immersivepetroleum:fluids;§n§o휘발유§r;gasoline>을 채웁니다.
+휘발유가 채워진 유리병의 목 부분에 양털이나 <link;hemp;튼튼한 원단;fabric_recipe>을 끼웁니다. 
+
+던질 준비를 하려면 반대 손에 부싯돌과 부시를 들고 주 손에 화염병을 들고 우클릭을 하여 점화를 합니다.<np>
+던질 수 있는 시간은 §o15초§r 입니다. 시간이 지나면 병 안의 휘발유가 모두 연소되어 빈 병만 남게 됩니다.

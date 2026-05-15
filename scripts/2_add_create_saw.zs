@@ -1,0 +1,1 @@
+<recipetype:create:cutting>.addRecipe("db_s", <item:tacz:modern_kinetic_gun>.withTag({GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:db_short",HasBulletInBarrel:0}), <item:tacz:modern_kinetic_gun>.withTag({GunId:"tacz:db_long"}), 200);

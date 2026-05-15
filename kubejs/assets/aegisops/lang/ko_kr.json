@@ -1,0 +1,35 @@
+{
+  "itemGroup.aegisops.tab": "Aegis Ops",
+
+  "item.aegisops.soldier_spawn_egg": "Soldier Spawn Egg",
+  "item.aegisops.sniper_spawn_egg": "Sniper Spawn Egg",
+  "item.aegisops.heavy_spawn_egg": "Heavy Spawn Egg",
+  "item.aegisops.demolition_spawn_egg": "Demolition Spawn Egg",
+  "item.aegisops.medic_spawn_egg": "Medic Spawn Egg",
+  "item.aegisops.engineer_spawn_egg": "Engineer Spawn Egg",
+  "item.aegisops.swordman_spawn_egg": "Swordman Spawn Egg",
+  "item.aegisops.port_disp": "휴대용 공급기",
+  "item.aegisops.db_turret": "더블 배럴 터렛",
+  "item.aegisops.engi_hammer": "Engineering Hammer",
+  "item.aegisops.bandage": "붕대",
+  "item.aegisops.morphine": "Morphine Shot",
+  "item.aegisops.modular_shield": "모듈러 방패",
+  "item.aegisops.grenade": "수류탄",
+  "item.aegisops.vp_terminal": "Vector Pursuer Terminal",
+
+  "block.aegisops.drop_pod_block": "드롭 포드",
+  "block.aegisops.drop_pod_block_used": "드롭 포드",
+  "block.aegisops.beacon_block_unused": "신호기",
+  "block.aegisops.beacon_block": "신호기 코어",
+  "block.aegisops.hell_pod_block": "헬 포드",
+  "block.aegisops.hell_pod_block_bot": "헬 포드",
+  "block.aegisops.hell_pod_block_top": "헬 포드",
+
+  "entity.aegisops.port_disp": "휴대용 공급기",
+  "entity.aegisops.db_turret": "더블 배럴 터렛",
+
+  "key.category.aegisops.aegisops": "AegisOps Controls",
+  "key.category.aegisops.follow_mode": "Toggle Follow Mode",
+  "key.category.aegisops.target_mode": "Toggle Target Mode",
+  "key.category.aegisops.special_mode": "Activate Special Ability"
+}

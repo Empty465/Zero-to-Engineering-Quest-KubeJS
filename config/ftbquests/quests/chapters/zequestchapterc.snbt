@@ -1,0 +1,824 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zequestchapterc"
+	group: "0FDE61B1C6A90A0B"
+	icon: "ae2:controller"
+	id: "0FF52ACD26229662"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: [
+				"{ze.quest.89.des}"
+				"{image:kubejs:textures/quest/meteo.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "38D836D5D0E6B9BD"
+			rewards: [
+				{
+					id: "05C66B919182668C"
+					item: "ae2:guide"
+					type: "item"
+				}
+				{
+					id: "061B8C139811DDD2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ze.quest.89.subtitle}"
+			tasks: [{
+				icon: "ae2:sky_stone_block"
+				id: "7FBAD09953056458"
+				structure: "ae2:meteorite"
+				title: "{ze.quest.task.find.meteo}"
+				type: "structure"
+			}]
+			title: "{ze.quest.89.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0151A3BE3524503C"]
+			description: ["{ze.quest.131.des}"]
+			id: "4C04BEE84DFA7227"
+			rewards: [
+				{
+					id: "37DAF5689A4D0543"
+					item: "ae2:crank"
+					type: "item"
+				}
+				{
+					id: "02C6B382A105EB9C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ze.quest.131.subtitle]"
+			tasks: [{
+				id: "15D1EBBBD24BAE0C"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			title: "{ze.quest.131.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4C04BEE84DFA7227"
+				"38D836D5D0E6B9BD"
+			]
+			description: ["{ze.quest.132.des}"]
+			hide_until_deps_complete: true
+			id: "7CF6C13488D7CC6C"
+			rewards: [{
+				id: "703F848F85FFD6C3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.132.subtitle}"
+			tasks: [{
+				id: "663C5DEA006087B5"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "{ze.quest.132.title}"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7CF6C13488D7CC6C"]
+			description: ["{ze.quest.135.des}"]
+			id: "6822E608987FA95A"
+			rewards: [{
+				id: "0838ED75C9C10CB7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.135.subtitle}"
+			tasks: [{
+				id: "2A7B1651E276B6C5"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "{ze.quest.135.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CF6C13488D7CC6C"]
+			description: ["{ze.quest.133.des}"]
+			id: "4136E28467153061"
+			rewards: [
+				{
+					id: "1E7364174327CC41"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "253DF83F790C1ED3"
+					item: "mekanism:cardboard_box"
+					type: "item"
+				}
+			]
+			subtitle: "{ze.quest.133.subtitle}"
+			tasks: [{
+				id: "3B2F740845133275"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:quartz_budding)"
+					}
+				}
+				title: "{ze.quest.task.any_quartz_budding}"
+				type: "item"
+			}]
+			title: "{ze.quest.133.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"677D2161C2D93DF9"
+				"4136E28467153061"
+			]
+			description: ["{ze.quest.138.des}"]
+			hide_until_deps_complete: true
+			id: "17E8474C6C62C381"
+			rewards: [{
+				id: "55A769461E2BFBB8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.138.subtitle}"
+			tasks: [{
+				id: "1159A6FE70D0A5D9"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			title: "{ze.quest.138.title}"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CF6C13488D7CC6C"]
+			description: ["{ze.quest.134.des}"]
+			id: "0AFF1F1D24F4E9B1"
+			rewards: [{
+				id: "44D30E5F8E952DB5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.134.subtitle}"
+			tasks: [{
+				id: "20F3CE56917B2280"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			title: "{ze.quest.134.title}"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0AFF1F1D24F4E9B1"
+				"6822E608987FA95A"
+			]
+			description: ["{ze.quest.136.des}"]
+			id: "677D2161C2D93DF9"
+			rewards: [{
+				id: "21F8CE1D25819CAF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.136.subtitle}"
+			tasks: [{
+				id: "58593C977D781C49"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			title: "{ze.quest.136.title}"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38D836D5D0E6B9BD"]
+			description: ["{ze.quest.139.des}"]
+			hide_until_deps_complete: true
+			id: "36861C335544B719"
+			rewards: [{
+				id: "6886321DA6EDBFDC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.139.subtitle}"
+			tasks: [{
+				id: "1414D6AA20BE79A7"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "{ze.quest.139.title}"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"36861C335544B719"
+				"677D2161C2D93DF9"
+			]
+			description: ["{ze.quest.140.des}"]
+			id: "0E2EBA5E6562D22D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "403DF53C00645121"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.140.subtitle}"
+			tasks: [{
+				id: "1425AC545349E066"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "{ze.quest.140.title}"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0AFF1F1D24F4E9B1"
+				"6822E608987FA95A"
+			]
+			description: ["{ze.quest.137.des}"]
+			id: "7B730E520D132A69"
+			rewards: [{
+				id: "3B39552061E6B081"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.137.subtitle}"
+			tasks: [{
+				id: "69E6D428EAED9074"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			title: "{ze.quest.137.title}"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E2EBA5E6562D22D"]
+			description: ["{ze.quest.154.des}"]
+			hide_until_deps_complete: true
+			id: "7E305E7BBE8918E9"
+			rewards: [{
+				id: "632EB054AC40A4FC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.154.subtitle}"
+			tasks: [{
+				id: "1411C9F55CA00BCB"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			title: "{ze.quest.154.title}"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E305E7BBE8918E9"]
+			description: ["{ze.quest.152.des}"]
+			id: "6D685D89EA0E635A"
+			rewards: [{
+				id: "3FDA677B752F763A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.152.subtitle}"
+			tasks: [{
+				id: "1FE373B97568EBC6"
+				item: "ae2:item_storage_cell_1k"
+				type: "item"
+			}]
+			title: "{ze.quest.152.title}"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7E305E7BBE8918E9"
+				"7EFA1DAD03B2E770"
+			]
+			description: ["{ze.quest.153.des}"]
+			id: "2932F1326388032E"
+			rewards: [{
+				id: "70ACD95A2E28B7D1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.153.subtitle}"
+			tasks: [{
+				id: "65A07BF4BF8B94FE"
+				item: "appmek:chemical_storage_cell_1k"
+				type: "item"
+			}]
+			title: "{ze.quest.153.title}"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E2EBA5E6562D22D"]
+			description: ["{ze.quest.156.des}"]
+			hide_until_deps_complete: true
+			id: "7DB99C86EB11D4A1"
+			rewards: [{
+				id: "4C40156C503FC88D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.156.subtitle}"
+			tasks: [{
+				id: "1CD59C5B6125EF00"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			title: "{ze.quest.156.title}"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7E305E7BBE8918E9"
+				"7DB99C86EB11D4A1"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.quest.157.des}"]
+			id: "007756FBC67C3DB9"
+			rewards: [{
+				id: "540085B7E2BEDCC3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.157.subtitle}"
+			tasks: [{
+				id: "569BB33CAA6B1687"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			title: "{ze.quest.157.title}"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7E305E7BBE8918E9"]
+			description: ["{ze.quest.151.des}"]
+			id: "569DAE8F26DD9383"
+			rewards: [{
+				id: "4FC3F77327B2D4B5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.151.subtitle}"
+			tasks: [{
+				id: "460305A4BA559EAB"
+				item: "ae2:fluid_storage_cell_1k"
+				type: "item"
+			}]
+			title: "{ze.quest.151.title}"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["007756FBC67C3DB9"]
+			description: ["{ze.quest.158.des}"]
+			hide_until_deps_complete: true
+			id: "09658F7B5E7F25F2"
+			rewards: [
+				{
+					id: "46FAAB65D8CDB270"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+				{
+					id: "65DE7B447F169C8F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ze.quest.158.subtitle}"
+			tasks: [
+				{
+					id: "2EF7580920AC92EF"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "35D399943C58179E"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.158.title}"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09658F7B5E7F25F2"]
+			description: ["{ze.quest.159.des}"]
+			id: "46527F0599886638"
+			rewards: [{
+				id: "5596EC34C0498346"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.159.subtitle}"
+			tasks: [{
+				id: "2472E28C2583DAEF"
+				item: "aeinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			title: "{ze.quest.159.title}"
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["46527F0599886638"]
+			description: ["{ze.quest.160.des}"]
+			id: "769F3DEDB517CFCC"
+			rewards: [{
+				id: "719A813DB1FC7E11"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.160.subtitle}"
+			tasks: [{
+				id: "424FFA79F87D5417"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			title: "{ze.quest.160.title}"
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["007756FBC67C3DB9"]
+			description: [
+				"{ze.quest.161.des}"
+				"{@pagebreak}"
+				"{ze.quest.161.des2}"
+			]
+			id: "07DB7F4EEA13728E"
+			rewards: [{
+				id: "3A814F46175C1B60"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.161.subtitle}"
+			tasks: [
+				{
+					id: "6AF35DB61459DF0B"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "7B899DD8A0052D90"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.161.title}"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["07DB7F4EEA13728E"]
+			description: ["{ze.quest.162.des}"]
+			hide_until_deps_complete: true
+			id: "2800407A96C3E74A"
+			rewards: [{
+				id: "43EE47616842F33B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.162.subtitle}"
+			tasks: [
+				{
+					id: "537AC694655A7994"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "6E01289EABFDF86B"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.162.title}"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2800407A96C3E74A"]
+			description: ["{ze.quest.163.des}"]
+			id: "16590B49D930E20F"
+			rewards: [{
+				id: "74FFDCAD84973865"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.163.subtitle}"
+			tasks: [{
+				id: "129D847D7E52CD9D"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			title: "{ze.quest.163.title}"
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["16590B49D930E20F"]
+			description: ["{ze.quest.164.des}"]
+			hide_until_deps_complete: true
+			id: "27FF73008FAD21B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AF5EFF543C554C5"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.164.subtitle}"
+			tasks: [{
+				id: "197372E379594EFE"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "{ze.quest.164.title}"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6D685D89EA0E635A"
+				"2932F1326388032E"
+				"569DAE8F26DD9383"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.quest.155.des}"]
+			id: "1A0F9A5910B162ED"
+			rewards: [{
+				id: "7F53D6A61B8B69A0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.155.subtitle}"
+			tasks: [{
+				id: "7D4E561517807E92"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			title: "{ze.quest.155.title}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["16590B49D930E20F"]
+			description: ["{ze.quest.167.des}"]
+			id: "2CF9340DABC038CE"
+			rewards: [{
+				id: "3BE6B0EB2B2285D8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.167.subtitle}"
+			tasks: [
+				{
+					id: "6A7E2070643AE30D"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "58F52750C9B2B16A"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.167.title}"
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16590B49D930E20F"]
+			description: [
+				"{ze.quest.165.des}"
+				"{@pagebreak}"
+				"{ze.quest.165.des2}"
+				"{@pagebreak}"
+				"{ze.quest.165.des3}"
+			]
+			id: "3C90A92DC23FDC23"
+			rewards: [{
+				id: "7FA9D2BFF3B17625"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.165.subtitle}"
+			tasks: [
+				{
+					id: "7776FA309C8D1C02"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					id: "1DB83EEDDEDFADEB"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.165.title}"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16590B49D930E20F"]
+			description: ["{ze.quest.166.des}"]
+			id: "732AC2EFCEA7F4C0"
+			rewards: [{
+				id: "1CE44AF09ACB6473"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.166.subtitle}"
+			tasks: [{
+				id: "574696A9460D5CCE"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			title: "{ze.quest.166.title}"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36861C335544B719"]
+			description: ["{ze.quest.148.des}"]
+			icon: "ae2:singularity"
+			id: "1185ED86F0792524"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "061D1B9DFDFF9A4A"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.148.subtitle}"
+			tasks: [
+				{
+					id: "1A1C6222A05C30FD"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "70A420F76707B711"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+				{
+					id: "619AE972DEF12DBC"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.148.title}"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1185ED86F0792524"]
+			description: ["{ze.quest.149.des}"]
+			hide_until_deps_complete: true
+			id: "744957CCF6A9A33D"
+			rewards: [{
+				id: "4FA7056447F4ADC6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.149.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "4FB56F8D399248C5"
+				item: {
+					Count: 2
+					id: "ae2:quantum_entangled_singularity"
+					tag: {
+						freq: 176431261256700L
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.149.title}"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"744957CCF6A9A33D"
+				"6822E608987FA95A"
+				"0E2EBA5E6562D22D"
+			]
+			description: ["{ze.quest.150.des}"]
+			hide_until_deps_complete: true
+			id: "06EC87B0FA7991ED"
+			rewards: [{
+				id: "5073841648127CDE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.150.subtitle}"
+			tasks: [
+				{
+					count: 16L
+					id: "75195CFA92A2B161"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "06AD0E8A513129CC"
+					item: { Count: 2, id: "ae2:quantum_link" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.150.title}"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C04BEE84DFA7227"]
+			description: ["{ze.quest.292.des}"]
+			id: "7F06D7060D76A0A3"
+			rewards: [{
+				id: "2E057AF3B008263C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.292.subtitle}"
+			tasks: [{
+				id: "14886F1BCEFD2A10"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			title: "{ze.quest.292.title}"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"09658F7B5E7F25F2"
+				"06EC87B0FA7991ED"
+			]
+			description: ["{ze.quest.298.des}"]
+			hide_until_deps_complete: true
+			id: "37B9A1A46B8AFA0D"
+			rewards: [{
+				id: "412CEFC265858314"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.298.subtitle}"
+			tasks: [{
+				id: "2DFD548706D3483F"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			title: "{ze.quest.298.title}"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16590B49D930E20F"]
+			description: ["{ze.quest.308.des}"]
+			hide_until_deps_complete: true
+			id: "0B83C59E6565763A"
+			rewards: [{
+				id: "3CCA1A2C06924E2F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.308.subtitle}"
+			tasks: [{
+				id: "36F0F2E4F0F41DAD"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			title: "{ze.quest.308.title}"
+			x: 7.0d
+			y: -6.0d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.c.subtitle}"]
+	title: "{ze.quest.chapter.c}"
+}

@@ -1,0 +1,1740 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "zequestchapterp"
+	group: "0753A2AC132A65EB"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:beacon"
+	id: "7453CDE0876B363E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			dependencies: ["5E31388488F3E173"]
+			description: ["{ze.quest.299.des}"]
+			hide_until_deps_complete: true
+			icon: "minecraft:beacon"
+			id: "54639B6A28356029"
+			rewards: [{
+				id: "092371583F97E894"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.299.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:beacon"
+					id: "01BB7475D4255DA9"
+					observe_type: 0
+					timer: 0L
+					title: "{ze.quest.task.obs.beacon}"
+					to_observe: "minecraft:beacon"
+					type: "observation"
+				}
+				{
+					block: "cyber_ware_port:radio_kit"
+					block_type: 0
+					id: "4106252A7D0DBE0C"
+					replace: false
+					replaced: "minecraft:air"
+					title: "{ze.quest.task.place.radio}"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "{ze.quest.299.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54639B6A28356029"]
+			description: ["{ze.quest.310.des}"]
+			hide_until_deps_complete: true
+			id: "766311F01E7C66BD"
+			rewards: [{
+				id: "04200B897624DE5A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.310.subtitle}"
+			tasks: [{
+				elapsedTime: 7200L
+				gameTime: "game"
+				id: "5E9FBE76FCA3449E"
+				title: "{ze.quest.task.time.6day}"
+				type: "questsadditions:time"
+			}]
+			title: "{ze.quest.310.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["766311F01E7C66BD"]
+			description: ["{ze.quest.311.des}"]
+			hide_until_deps_complete: true
+			icon: "cyber_ware_port:radio_kit"
+			id: "52A824D990D3E08A"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [{\"selector\":\"@s\"},{\"translate\":\"ze.quest.reward.tech.space.t\",\"color\":\"gold\"}]"
+				elevate_perms: true
+				id: "0F3AD100737C613B"
+				title: "{ze.quest.reward.tech.space}"
+				type: "command"
+			}]
+			subtitle: "{ze.quest.311.subtitle}"
+			tasks: [
+				{
+					icon: "cyber_ware_port:radio_kit"
+					id: "5EDFA54964CDFDC3"
+					observe_type: 0
+					timer: 0L
+					title: "{ze.quest.task.obs.radio}"
+					to_observe: "cyber_ware_port:radio_kit"
+					type: "observation"
+				}
+				{
+					id: "6EAA05970CAA0F87"
+					title: "{ze.quest.task.acc}"
+					type: "checkmark"
+				}
+			]
+			title: "{ze.quest.311.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["6EC89312865A6D49"]
+			description: ["{ze.quest.358.des}"]
+			hide_until_deps_complete: true
+			id: "01B2838A5B222694"
+			rewards: [{
+				id: "4E04514A1F140F93"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.358.subtitle}"
+			tasks: [
+				{
+					icon: "farmersrespite:wild_coffee_bush"
+					id: "4282209B72D30F40"
+					observe_type: 0
+					timer: 0L
+					title: "{ze.quest.task.obs.coff}"
+					to_observe: "farmersrespite:coffee_bush_top"
+					type: "observation"
+				}
+				{
+					id: "7EA59DE4B2B5C159"
+					item: "farmersrespite:coffee_berries"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.358.title}"
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			description: ["{ze.quest.327.des}"]
+			hide_until_deps_complete: true
+			id: "2AEEF1F556EE2A6A"
+			rewards: [{
+				id: "63BBD1B792E375AA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.327.subtitle}"
+			tasks: [{
+				id: "7CDF32B67AF163A7"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			title: "{ze.quest.327.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2AEEF1F556EE2A6A"
+				"49C90CDEE1BE94A1"
+			]
+			description: ["{ze.quest.328.des}"]
+			id: "7642CF0E5ED13894"
+			rewards: [{
+				id: "103DCDC1385756DB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.328.subtitle}"
+			tasks: [{
+				id: "22A7396C78CAC84B"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1L
+			}]
+			title: "{ze.quest.328.title}"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2AEEF1F556EE2A6A"
+				"671164358668CD0B"
+			]
+			description: ["{ze.quest.329.des}"]
+			id: "34FD863487C1F8FF"
+			rewards: [{
+				id: "7E81FD4194660D0C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.329.subtitle}"
+			tasks: [{
+				amount: 1000L
+				fluid: "minecraft:water"
+				id: "66D31AA4E996659F"
+				type: "fluid"
+			}]
+			title: "{ze.quest.329.title}"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"34FD863487C1F8FF"
+				"7642CF0E5ED13894"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.quest.330.des}"]
+			hide_until_deps_complete: true
+			id: "3D3C3664560C5D56"
+			rewards: [{
+				id: "671CCC9547256081"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.330.subtitle}"
+			tasks: [{
+				id: "2366E766105D0B75"
+				item: { Count: 9, id: "kubejs:money" }
+				type: "item"
+			}]
+			title: "{ze.quest.330.title}"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D3C3664560C5D56"]
+			description: ["{ze.quest.331.des}"]
+			hide_until_deps_complete: true
+			icon: "twilightforest:steeleaf_ingot"
+			id: "5D0B1ECF92B4EF09"
+			rewards: [{
+				id: "0351ADF9774F514A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.331.subtitle}"
+			tasks: [{
+				id: "7DF24D18044A6E20"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.331.title}"
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D3C3664560C5D56"]
+			description: ["{ze.quest.332.des}"]
+			hide_until_deps_complete: true
+			icon: "mekanism:teleportation_core"
+			id: "2D7251B823808B24"
+			rewards: [{
+				id: "2C17588E792D105F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.332.subtitle}"
+			tasks: [{
+				id: "4CF2A5F7DD5F6935"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.332.title}"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D3C3664560C5D56"]
+			description: ["{ze.quest.341.des}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					Damage: 0
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "tacz:m4a1"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "09DF2D6DDD4A0E48"
+			rewards: [{
+				id: "29EDD9ABE309FF41"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.341.subtitle}"
+			tasks: [{
+				id: "3F5A885212B46D70"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.341.title}"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D3C3664560C5D56"]
+			description: ["{ze.quest.351.des}"]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:hamburger"
+			id: "0B84491DCC7C8985"
+			rewards: [{
+				id: "19755DB084B0F7EE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.351.subtitle}"
+			tasks: [{
+				id: "7C6ABF73CB718F76"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.351.title}"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D3C3664560C5D56"]
+			description: ["{ze.quest.360.des}"]
+			icon: "industrialforegoing:iron_gear"
+			id: "60C94D2A94C53DC3"
+			rewards: [{
+				id: "429C1DBB84DC7C34"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.360.subtitle}"
+			tasks: [{
+				id: "500471C0E12B1032"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.360.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["5D0B1ECF92B4EF09"]
+			description: ["{ze.quest.317.des}"]
+			hide_until_deps_complete: true
+			id: "42A4F34F21426CB2"
+			rewards: [{
+				id: "2A531F81596D5441"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.317.subtitle}"
+			tasks: [
+				{
+					icon: "betterarcheology:fossiliferous_dirt"
+					id: "2EB457B9DD3A5B49"
+					observe_type: 0
+					timer: 0L
+					title: "{ze.quest.task.obs.fosil_dirt}"
+					to_observe: "betterarcheology:fossiliferous_dirt"
+					type: "observation"
+				}
+				{
+					id: "3310C146FE547877"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:brushes)"
+						}
+					}
+					title: "{ze.quest.task.any.brush}"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.317.title}"
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["42A4F34F21426CB2"]
+			description: ["{ze.quest.318.des}"]
+			hide_until_deps_complete: true
+			id: "165BF6258EFF21CF"
+			rewards: [{
+				count: 10
+				id: "3A3C45FDFDE05B63"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.318.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "61D8FA7B671F9757"
+				item: "betterarcheology:guardian_fossil"
+				type: "item"
+			}]
+			title: "{ze.quest.318.title}"
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["42A4F34F21426CB2"]
+			description: ["{ze.quest.319.des}"]
+			hide_until_deps_complete: true
+			id: "2E888FCD775E1F74"
+			rewards: [{
+				count: 10
+				id: "143A575A86E17B8F"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.319.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "5DEAB6F075F79CAB"
+				item: "betterarcheology:chicken_fossil"
+				type: "item"
+			}]
+			title: "{ze.quest.319.title}"
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["42A4F34F21426CB2"]
+			description: ["{ze.quest.320.des}"]
+			hide_until_deps_complete: true
+			id: "0105D37725E29FE0"
+			rewards: [{
+				count: 10
+				id: "6FF16A1AB099962A"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.320.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "708F249E54BB0413"
+				item: "betterarcheology:wolf_fossil"
+				type: "item"
+			}]
+			title: "{ze.quest.320.title}"
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["42A4F34F21426CB2"]
+			description: ["{ze.quest.324.des}"]
+			hide_until_deps_complete: true
+			id: "73356A6DD81BE60C"
+			rewards: [{
+				count: 10
+				id: "3EB3D0FB0AC00CCF"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.324.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "24C3C42827526827"
+				item: "betterarcheology:creeper_fossil"
+				type: "item"
+			}]
+			title: "{ze.quest.324.title}"
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["42A4F34F21426CB2"]
+			description: ["{ze.quest.321.des}"]
+			hide_until_deps_complete: true
+			id: "384EA0BEAC6EE1D1"
+			rewards: [{
+				count: 10
+				id: "347C4F38DF402A2E"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.321.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "2FEFF24EEA3181BE"
+				item: "betterarcheology:villager_fossil"
+				type: "item"
+			}]
+			title: "{ze.quest.321.title}"
+			x: 12.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["42A4F34F21426CB2"]
+			description: ["{ze.quest.322.des}"]
+			hide_until_deps_complete: true
+			id: "229544A3830DD8A2"
+			rewards: [{
+				count: 10
+				id: "5EE15F0C3692E149"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.322.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "07E6A61C2FA27E0F"
+				item: "betterarcheology:ocelot_fossil"
+				type: "item"
+			}]
+			title: "{ze.quest.322.title}"
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["42A4F34F21426CB2"]
+			description: ["{ze.quest.323.des}"]
+			hide_until_deps_complete: true
+			id: "211D28B012763325"
+			rewards: [{
+				count: 10
+				id: "0DDE150FD3DB940E"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.323.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "1828CAD78852AA3F"
+				item: "betterarcheology:sheep_fossil"
+				type: "item"
+			}]
+			title: "{ze.quest.323.title}"
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["5D0B1ECF92B4EF09"]
+			description: ["{ze.quest.312.des}"]
+			hide_until_deps_complete: true
+			id: "7E79C096D4783148"
+			rewards: [{
+				count: 30
+				id: "04605F63E11D55F8"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.312.subtitle}"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:hulk_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6D390C55EBBADEB0"
+				title: "{ze.quest.task.kill.m_zombie}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.312.title}"
+			x: 14.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["5D0B1ECF92B4EF09"]
+			description: ["{ze.quest.313.des}"]
+			hide_until_deps_complete: true
+			id: "416093ECDE56D9B4"
+			rewards: [{
+				count: 30
+				id: "180E896E10DA4872"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.313.subtitle}"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "48C61DD1EE10D865"
+				title: "{ze.quest.task.kill.m_skelton}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.313.title}"
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["5D0B1ECF92B4EF09"]
+			description: ["{ze.quest.314.des}"]
+			hide_until_deps_complete: true
+			id: "2A383480CBA5FA55"
+			rewards: [{
+				count: 30
+				id: "3C9E414F25AB63B5"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.314.subtitle}"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:creeper_shard"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7D162A3854BE573B"
+				title: "{ze.quest.task.kill.m_creeper}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.314.title}"
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["5D0B1ECF92B4EF09"]
+			description: ["{ze.quest.315.des}"]
+			hide_until_deps_complete: true
+			id: "23A5CAEA64FB9173"
+			rewards: [{
+				count: 30
+				id: "690F5EC00C405829"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.315.subtitle}"
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7E7EA1A63E19FEA7"
+				title: "{ze.quest.task.kill.m_enderman}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.315.title}"
+			x: 15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2D7251B823808B24"
+				"3475118BC4F80ECB"
+			]
+			description: ["{ze.quest.333.des}"]
+			hide_until_deps_complete: true
+			id: "43617D5A29E14F84"
+			rewards: [{
+				count: 10
+				id: "3A3D1D883D1E4AE7"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.333.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "130C083027C300DE"
+					item: { Count: 10, id: "minecraft:netherrack" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "6693C67492A827B6"
+					item: { Count: 3, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.333.title}"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"43617D5A29E14F84"
+				"73E92F7F44FE51E7"
+			]
+			description: ["{ze.quest.337.des}"]
+			hide_until_deps_complete: false
+			id: "54FEDDF33EA76BA5"
+			rewards: [{
+				count: 100
+				id: "304479BBAB93F5DF"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.337.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "2A0B7A1376C8C32F"
+				item: { Count: 10, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			title: "{ze.quest.337.title}"
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"43617D5A29E14F84"
+				"11AB1AC3AF2E8F85"
+			]
+			description: ["{ze.quest.334.des}"]
+			icon: "ftb_ph:wither"
+			id: "523640F75B4263CB"
+			rewards: [{
+				count: 60
+				id: "6B6DB28EC731D5B7"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.334.subtitle}"
+			tasks: [{
+				id: "0C081CC8D06122B8"
+				title: "{ze.quest.task.data}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.334.title}"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"43617D5A29E14F84"
+				"0A1210CF7629BEB3"
+			]
+			description: ["{ze.quest.335.des}"]
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				id: "cataclysm:monstrous_helm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "045AD03CF209F5F3"
+			rewards: [{
+				count: 100
+				id: "1E7865EFBA3C61E9"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.335.subtitle}"
+			tasks: [{
+				id: "6DE435AC85342550"
+				title: "{ze.quest.task.data}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.335.title}"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"43617D5A29E14F84"
+				"5D61A5BF8A48C319"
+			]
+			description: ["{ze.quest.336.des}"]
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2347BB00088B9A57"
+			rewards: [{
+				count: 200
+				id: "79A979B305391A9B"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.336.subtitle}"
+			tasks: [{
+				id: "081328E945A2D1E5"
+				title: "{ze.quest.task.data}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.336.title}"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"54FEDDF33EA76BA5"
+				"3730EDAA88600593"
+			]
+			description: ["{ze.quest.339.des}"]
+			hide_until_deps_complete: false
+			icon: "minecraft:dragon_head"
+			id: "6A6419A14365916C"
+			rewards: [
+				{
+					id: "1AED0632FB05D34B"
+					item: "mekanism:teleportation_core"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 30
+					id: "44A64973215209F8"
+					item: "kubejs:money"
+					type: "item"
+				}
+			]
+			subtitle: "{ze.quest.339.subtitle}"
+			tasks: [{
+				id: "446185851F5965C1"
+				title: "{ze.quest.task.data}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.339.title}"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"54FEDDF33EA76BA5"
+				"285E6213D4CDE877"
+			]
+			description: ["{ze.quest.338.des}"]
+			hide_until_deps_complete: false
+			icon: "cataclysm:gauntlet_of_guard"
+			id: "16D631B7102172E2"
+			rewards: [{
+				count: 100
+				id: "23E86AE243DD68DC"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.338.subtitle}"
+			tasks: [{
+				id: "3269A54546F0C3CE"
+				title: "{ze.quest.task.data}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.338.title}"
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6A6419A14365916C"
+				"0FD678EFCFA2ED07"
+			]
+			description: ["{ze.quest.340.des}"]
+			hide_until_deps_complete: false
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "45E09E4A99187534"
+			rewards: [{
+				count: 500
+				id: "2885C3064A72C3BD"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.340.subtitle}"
+			tasks: [{
+				id: "31989CDC20B766F3"
+				title: "{ze.quest.task.data}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.340.title}"
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09DF2D6DDD4A0E48"]
+			description: ["{ze.quest.342.des}"]
+			id: "25204D3C230F2874"
+			rewards: [{
+				count: 40
+				id: "4B3CFD4DE85867F2"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.342.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "6A4241F5BEBF6A82"
+					item: {
+						Count: 1
+						id: "immersiveengineering:sword_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20L
+					id: "57B5A0012C8A3A06"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 120L
+					id: "4E2B0322ABF49034"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.342.title}"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09DF2D6DDD4A0E48"]
+			description: ["{ze.quest.343.des}"]
+			id: "5FF4682EA906CA1D"
+			rewards: [{
+				count: 50
+				id: "0C5FB84F240A8727"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.343.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "7A6998798D154D70"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "08797318FA50C512"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ze.quest.343.title}"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5FF4682EA906CA1D"
+				"25204D3C230F2874"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.quest.344.des}"]
+			id: "77C4C2F53C146F0F"
+			rewards: [{
+				count: 100
+				id: "2169CC92B637C115"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.344.subtitle}"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "04B249C6AA031CDE"
+					title: "{ze.quest.task.kill.zombie}"
+					type: "kill"
+					value: 30L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "54A4F6C79ED7ECC1"
+					title: "{ze.quest.task.kill.skelton}"
+					type: "kill"
+					value: 30L
+				}
+			]
+			title: "{ze.quest.344.title}"
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"77C4C2F53C146F0F"
+				"4FABB100809045CA"
+				"4461A55329213DD9"
+			]
+			description: ["{ze.quest.345.des}"]
+			id: "7E4875BBC280DBE6"
+			rewards: [{
+				count: 80
+				id: "4F703D07F7E65379"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.345.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "461434E941042ECE"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							Damage: 0
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:m1911"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "427D925B7F9F7938"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							Damage: 0
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:m870"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "5C9CCF005822D6AA"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:45acp"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 60L
+					id: "0A57F7A841859D67"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ze.quest.345.title}"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77C4C2F53C146F0F"]
+			description: ["{ze.quest.346.des}"]
+			id: "1BAAEAD1D7D6281E"
+			rewards: [{
+				count: 100
+				id: "1956FDC33BCBF336"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.346.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "4090089029C84E91"
+					item: "tactical_aid:quickactioninjector"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "3E12E53A614F7130"
+					item: "tactical_aid:adrenalineinjector"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.346.title}"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1BAAEAD1D7D6281E"
+				"7E4875BBC280DBE6"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.quest.347.des}"]
+			id: "7F5ADFA22ED5485E"
+			rewards: [{
+				count: 200
+				id: "383AED707D980544"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.347.subtitle}"
+			tasks: [
+				{
+					entity: "minecraft:husk"
+					icon: "ftb_ph:husk"
+					id: "06E4A915C281A2DA"
+					title: "{ze.quest.task.kill.husk}"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "minecraft:stray"
+					icon: "ftb_ph:stray"
+					id: "1DF0EEBA0314687C"
+					title: "{ze.quest.task.kill.stray}"
+					type: "kill"
+					value: 15L
+				}
+			]
+			title: "{ze.quest.347.title}"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F5ADFA22ED5485E"]
+			description: ["{ze.quest.348.des}"]
+			id: "3415B1E8B6AC9572"
+			rewards: [{
+				count: 120
+				id: "7A46C787A81AA8FD"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.348.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "24862A4307991DEB"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							Damage: 0
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:glock_17"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "29931C315490A7DB"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							AttachmentSTOCK: {
+								Count: 1b
+								id: "tacz:attachment"
+								tag: {
+									AttachmentId: "tacz:stock_m4ss"
+								}
+							}
+							Damage: 0
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "tacz:m4a1"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 85L
+					id: "676B56DC15A3688F"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 150L
+					id: "1556DF89577DA56D"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ze.quest.348.title}"
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F5ADFA22ED5485E"]
+			description: ["{ze.quest.349.des}"]
+			id: "26309D868D958BA2"
+			rewards: [{
+				count: 150
+				id: "6D2D2E13A20826BE"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.349.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "36310E7EB9329EA5"
+					item: "tactical_aid:quickactioninjector_ii"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "1BE2A510166F9D41"
+					item: "tactical_aid:adrenalineinjector_ii"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.349.title}"
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"26309D868D958BA2"
+				"3415B1E8B6AC9572"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.quest.350.des}"]
+			id: "7BA7B8332CB3208D"
+			rewards: [{
+				count: 300
+				id: "0573C04A2FA43AFF"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.350.subtitle}"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "35AF898D7163AF64"
+					title: "{ze.quest.task.kill.m_zombie}"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7CA2384BDF6F0916"
+					title: "{ze.quest.task.kill.m_skelton}"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "{ze.quest.350.title}"
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B84491DCC7C8985"]
+			description: ["{ze.quest.352.des}"]
+			id: "1851A112539BE3B8"
+			rewards: [{
+				count: 10
+				id: "55F0A7E190CC6236"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.352.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 60L
+					id: "429225A51C10BD6D"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 60L
+					id: "4E458B18CC62EE6D"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.352.title}"
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B84491DCC7C8985"]
+			description: ["{ze.quest.353.des}"]
+			id: "1E33631B1DC81CA3"
+			rewards: [{
+				count: 30
+				id: "3431C5EE833908C5"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.353.subtitle}"
+			tasks: [{
+				amount: 100000L
+				fluid: "minecraft:water"
+				id: "75CC509660EA08A9"
+				type: "fluid"
+			}]
+			title: "{ze.quest.353.title}"
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1851A112539BE3B8"
+				"1E33631B1DC81CA3"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.quest.354.des}"]
+			id: "28FC603EDE81801C"
+			rewards: [
+				{
+					count: 10
+					id: "05C780C874169390"
+					item: "farmersrespite:tea_seeds"
+					type: "item"
+				}
+				{
+					count: 50
+					id: "418E88BB59603FD2"
+					item: "kubejs:money"
+					type: "item"
+				}
+			]
+			subtitle: "{ze.quest.354.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 50L
+					id: "018996EAEC45B57B"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 50L
+					id: "5B193BE69507D3E9"
+					item: "mekanism:salt"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.354.title}"
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"28FC603EDE81801C"
+				"27FE1E2AFC67E877"
+			]
+			description: ["{ze.quest.356.des}"]
+			id: "6530414CD969854E"
+			rewards: [{
+				count: 30
+				id: "3C4557B13E3F34D5"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.356.subtitle}"
+			tasks: [{
+				amount: 10000L
+				fluid: "farmersrespite:green_tea"
+				id: "42C2BE5D231A3446"
+				type: "fluid"
+			}]
+			title: "{ze.quest.356.title}"
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6530414CD969854E"
+				"29E33D2086D6DD66"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.quest.357.des}"]
+			id: "6EC89312865A6D49"
+			rewards: [
+				{
+					id: "19357A7B76E26AE6"
+					item: "farmersrespite:coffee_beans"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "6113F100CD2C90DC"
+					item: "kubejs:money"
+					type: "item"
+				}
+			]
+			subtitle: "{ze.quest.357.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "732F822272FF1F7A"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			title: "{ze.quest.357.title}"
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28FC603EDE81801C"]
+			description: ["{ze.quest.355.des}"]
+			id: "29E33D2086D6DD66"
+			rewards: [{
+				count: 30
+				id: "39467F228741790C"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.355.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 30L
+					id: "211B5BA2E8602978"
+					item: "farmersdelight:pasta_with_meatballs"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 30L
+					id: "66E0E312A9953E6C"
+					item: "farmersdelight:fried_rice"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.355.title}"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["01B2838A5B222694"]
+			description: ["{ze.quest.359.des}"]
+			id: "59B8506BE15DF6FF"
+			rewards: [{
+				count: 100
+				id: "5D2CD1FD5E2A9B8C"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.359.subtitle}"
+			tasks: [{
+				amount: 6000L
+				fluid: "farmersrespite:coffee"
+				id: "1F219C3CD6E50E88"
+				type: "fluid"
+			}]
+			title: "{ze.quest.359.title}"
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"60C94D2A94C53DC3"
+				"5382CC8E4991FDAD"
+			]
+			description: ["{ze.quest.365.des}"]
+			id: "2D709B7368A38472"
+			rewards: [{
+				count: 40
+				id: "1FCADF04192C3935"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.365.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5182A4967FA488B4"
+				item: { Count: 10, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			title: "{ze.quest.365.title}"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60C94D2A94C53DC3"]
+			description: ["{ze.quest.366.des}"]
+			id: "37C1DFF527D3C1E5"
+			rewards: [{
+				count: 40
+				id: "3722D6249D513476"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.366.subtitle}"
+			tasks: [{
+				amount: 30000L
+				fluid: "minecraft:lava"
+				id: "0AD95942AC0260F0"
+				type: "fluid"
+			}]
+			title: "{ze.quest.366.title}"
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"74231E02E3E7B021"
+				"2D709B7368A38472"
+				"37C1DFF527D3C1E5"
+			]
+			description: ["{ze.quest.367.des}"]
+			id: "0392A1A134AEE140"
+			rewards: [{
+				count: 120
+				id: "2D28EA2DD31EAC2F"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.367.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "78D5BF1BFC14F33A"
+					item: { Count: 10, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "7574E6CBB0AF9F53"
+					item: { Count: 10, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.367.title}"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0392A1A134AEE140"
+				"2A6A53B1787FC459"
+			]
+			description: ["{ze.quest.368.des}"]
+			id: "78737B6768B78AAF"
+			rewards: [{
+				count: 200
+				id: "20092AD10D54226F"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.368.subtitle}"
+			tasks: [{
+				amount: 30000L
+				fluid: "immersivepetroleum:diesel"
+				id: "3A9A38E76B464871"
+				type: "fluid"
+			}]
+			title: "{ze.quest.368.title}"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"42BCD7FF8DD550F2"
+				"78737B6768B78AAF"
+			]
+			description: ["{ze.quest.369.des}"]
+			id: "7E936FFB8F8C28BB"
+			rewards: [{
+				count: 300
+				id: "6D3444C3ECFD0E29"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.369.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "2E5A3BA8FE3427CA"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "{ze.quest.369.title}"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D7AF551F1449B59"
+				"7E936FFB8F8C28BB"
+			]
+			description: ["{ze.quest.370.des}"]
+			id: "7C51CD1C2B43E5CB"
+			rewards: [{
+				count: 500
+				id: "10EDC5ABCCFD2C6C"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.370.subtitle}"
+			tasks: [{
+				amount: 100L
+				fluid: "mekanismgenerators:fusion_fuel"
+				id: "61FF1723F7630099"
+				type: "fluid"
+			}]
+			title: "{ze.quest.370.title}"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59B8506BE15DF6FF"
+				"7C51CD1C2B43E5CB"
+				"45E09E4A99187534"
+				"7BA7B8332CB3208D"
+				"23A5CAEA64FB9173"
+				"2A383480CBA5FA55"
+			]
+			description: ["{ze.quest.383.des}"]
+			icon: "kubejs:transcendent_engineering_part"
+			id: "7BFD7BBFE3748698"
+			rewards: [{
+				auto: "enabled"
+				id: "4A332E8E58390032"
+				item: "kubejs:transcendent_engineering_part"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.quest.383.subtitle}"
+			tasks: [{
+				id: "19152E9359A5E86D"
+				title: "{ze.quest.task.take}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.383.title}"
+			x: 18.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.p.subtitle}"]
+	title: "{ze.quest.chapter.p}"
+}

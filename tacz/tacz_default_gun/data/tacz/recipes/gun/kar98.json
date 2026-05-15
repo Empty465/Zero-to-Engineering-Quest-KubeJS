@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:treated_wood"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "createbigcannons:recoil_spring"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:kar98"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

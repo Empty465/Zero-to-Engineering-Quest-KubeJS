@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "createbigcannons:recoil_spring"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:p320"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

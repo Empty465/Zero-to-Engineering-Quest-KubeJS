@@ -1,0 +1,17 @@
+{
+  "name": "하수기",
+  "icon": "industrialforegoing:sewer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 12,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 기계는 동물에게서 $(l:agr_hus/sewage)오물$()을 수집하고 경험치를 에센스로 변환하는 데 사용됩니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sewer"
+    }
+  ]
+}

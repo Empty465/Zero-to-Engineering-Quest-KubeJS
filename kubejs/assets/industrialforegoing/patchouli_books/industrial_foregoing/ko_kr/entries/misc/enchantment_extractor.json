@@ -1,0 +1,17 @@
+{
+  "name": "마법부여 추출기",
+  "icon": "industrialforegoing:enchantment_extractor",
+  "category": "industrialforegoing:misc",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 기계는 마법부여된 책이나 아이템에서 마법부여를 추출할 수 있습니다. $(br2)이 기계는 2가지 방식으로 작동합니다. 첫 번째는 마법부여를 책에 추출하고, 두 번째는 마법부여를 추출하여 $(l:agr_hus/essence)에센스$()로 변환합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_extractor"
+    }
+  ]
+}

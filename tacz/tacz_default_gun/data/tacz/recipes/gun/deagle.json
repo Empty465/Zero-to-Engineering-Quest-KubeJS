@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "createbigcannons:recoil_spring"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:deagle"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

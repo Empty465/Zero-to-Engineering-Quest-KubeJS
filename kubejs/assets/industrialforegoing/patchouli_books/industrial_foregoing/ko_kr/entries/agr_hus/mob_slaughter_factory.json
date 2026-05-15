@@ -1,0 +1,17 @@
+{
+  "name": "몹 살육 공장",
+  "icon": "industrialforegoing:mob_slaughter_factory",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 9,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "몹과 동물을 $(l:agr_hus/meat)액체 고기$()와 $(l:agr_hus/pink_slime)부드러운 다진 고기$()로 처리하는 기계입니다. 이 기계로 죽인 몹은 전리품이나 경험치를 드롭하지 않습니다. $(br2)친화적 몹은 적대적 몹보다 더 많은 부드러운 다진 고기를 생성합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_slaughter_factory"
+    }
+  ]
+}

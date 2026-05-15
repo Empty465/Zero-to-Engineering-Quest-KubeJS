@@ -1,0 +1,13 @@
+{
+  "name": "바이오 연료 (액체)",
+  "icon": "industrialforegoing:biofuel_bucket",
+  "category": "industrialforegoing:generators",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "식물, 염료, 그리고 $(l:generators/bioreactor)바이오 반응로$()에 있는 해골 같은 일부 의심스러운 물질들로 만든 보라색 액체입니다. $(br2)$(l:generators/biofuel_generator)바이오 연료 발전기$()나 $(l:tools/infinity_tools)무한 도구들$()에서 사용됩니다."
+    }
+  ]
+}

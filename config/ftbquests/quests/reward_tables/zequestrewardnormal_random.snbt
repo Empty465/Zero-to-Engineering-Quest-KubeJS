@@ -1,0 +1,26 @@
+{
+	id: "28A42197DA518539"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 10, item: "farmersdelight:hamburger" }
+		{ count: 60, item: "minecraft:andesite" }
+		{ count: 30, item: "minecraft:iron_ingot" }
+		{
+			type: "xp"
+			xp: 100
+		}
+		{ count: 40, item: "minecraft:oak_log" }
+		{ count: 3, item: "minecraft:diamond" }
+		{ count: 30, item: "immersiveengineering:treated_wood_horizontal" }
+		{ item: "minecraft:netherite_scrap", weight: 0.1f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.1f }
+		{ item: "kubejs:hand", weight: 0.1f }
+		{ count: 10, item: "immersiveengineering:component_iron" }
+		{ count: 10, item: "immersiveengineering:component_steel" }
+		{ count: 20, item: "immersiveengineering:ingot_steel" }
+		{ count: 5, item: "tactical_aid:quickactioninjector_ii" }
+		{ count: 10, item: "twilightforest:hydra_chop", weight: 0.1f }
+	]
+	title: "{ze.quest.reward.normal_random}"
+}

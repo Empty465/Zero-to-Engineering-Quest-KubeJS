@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "immersivepetroleum:petcoke_block"
+    },
+    {
+      "tag": "forge:storage_blocks/steel"
+    },
+    {
+      "item": "immersivepetroleum:petcoke_block"
+    },
+    {
+      "item": "immersiveengineering:ingot_hop_graphite"
+    },
+    {
+      "item": "immersiveengineering:ingot_hop_graphite"
+    },
+    {
+      "item": "ae2:logic_processor"
+    },
+    {
+      "item": "ae2:calculation_processor"
+    },
+    {
+      "item": "ae2:engineering_processor"
+    }
+  ],
+  "inputFluid": "{Amount:50,FluidName:\"industrialforegoing:ether_gas\"}",
+  "output": {
+    "count": 5,
+    "item": "mekanism:steel_casing"
+  },
+  "processingTime": 300
+}

@@ -1,0 +1,22 @@
+{
+	id: "59B07C11A4796B77"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			type: "xp"
+			xp: 1000
+		}
+		{ item: "minecraft:ancient_debris" }
+		{ item: "minecraft:netherite_upgrade_smithing_template" }
+		{ item: "immersiveengineering:rs_engineering" }
+		{ item: "mekanism:steel_casing" }
+		{ item: "avaritia:infinity_catalyst", weight: 0.01f }
+		{ item: "ae2:singularity" }
+		{ item: "minecraft:axolotl_bucket", weight: 0.1f }
+		{ item: "ae2:cell_component_256k" }
+		{ item: "minecraft:nether_star" }
+		{ item: "minecraft:dirt", weight: 0.01f }
+	]
+	title: "{ze.quest.reward.epic_random}"
+}

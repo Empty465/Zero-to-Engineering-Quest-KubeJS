@@ -1,0 +1,17 @@
+{
+  "name": "광물 레이저 기지",
+  "icon": "industrialforegoing:ore_laser_base",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 14,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:resource_production/laser_drill)레이저 드릴$()로 완전히 충전되면 광석을 생산합니다. 생산할 수 있는 각 광석은 기계가 배치된 생물 군계와 기계가 채굴하도록 구성된 깊이에 따라 결정됩니다. $(br2)레이저 렌즈는 생산된 광석의 가치를 증가시킵니다. $(br2)JEI(EMI)에서 값을 확인하세요."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:ore_laser_base"
+    }
+  ]
+}

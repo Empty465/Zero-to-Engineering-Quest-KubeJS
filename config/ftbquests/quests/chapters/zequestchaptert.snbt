@@ -1,0 +1,513 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zequestchaptert"
+	group: "0753A2AC132A65EB"
+	hide_quest_until_deps_visible: true
+	icon: "cyber_ware_port:radio_kit"
+	id: "5DF98B97CBFC8E39"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7BFD7BBFE3748698"]
+			description: ["{ze.quest.404.des}"]
+			icon: "cyber_ware_port:radio_kit"
+			id: "3ECCB7C8080B0136"
+			rewards: [{
+				id: "18D457F2E143B59B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.404.subtitle}"
+			tasks: [{
+				id: "6B2D11DB7221B409"
+				title: "{ze.quest.task.acc}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.404.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ECCB7C8080B0136"]
+			description: ["{ze.quest.407.des}"]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_helmet"
+				tag: {
+					Damage: 406
+					Enchantments: [
+						{
+							id: "minecraft:protection"
+							lvl: 4s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:mending"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:aqua_affinity"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:respiration"
+							lvl: 3s
+						}
+					]
+				}
+			}
+			id: "51942840124E85C3"
+			subtitle: "{ze.quest.407.subtitle}"
+			tasks: [
+				{
+					id: "55AEA08703FBA54F"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 406
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:aqua_affinity"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:respiration"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "265C45CB8325C763"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 591
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6FFFB4B88BA7953F"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 554
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:swift_sneak"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3EAB1829D9A8F320"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 480
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:depth_strider"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:soul_speed"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ze.quest.407.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"51942840124E85C3"
+				"0CA8AEA23E5A9EE7"
+				"5DECC3A74418E55B"
+			]
+			description: ["{ze.quest.405.des}"]
+			icon: "kubejs:transcendent_engineering_part"
+			id: "2310B77DA2D55791"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/tellraw @a [{\"selector\":\"@s\"},{\"translate\":\"ze.quest.reward.tech.end.hardcoreItem.t\",\"color\":\"gold\"}]"
+					elevate_perms: true
+					id: "3A019BA4C82CE90A"
+					title: "{ze.quest.reward.tech.end.hardcoreItem}"
+					type: "command"
+				}
+				{
+					id: "58580E40E5AC0F41"
+					item: "kubejs:transcendent_engineering_part"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "{ze.quest.405.subtitle}"
+			tasks: [{
+				id: "7E8D7E94FD722897"
+				title: "{ze.quest.task.take}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.405.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3ECCB7C8080B0136"]
+			description: ["{ze.quest.406.des}"]
+			icon: "cyber_ware_port:body_part_heart"
+			id: "0CA8AEA23E5A9EE7"
+			subtitle: "{ze.quest.406.subtitle}"
+			tasks: [
+				{
+					id: "4BA73D0910232E8F"
+					item: "cyber_ware_port:body_part_heart"
+					type: "item"
+				}
+				{
+					id: "1DA3C1651812BE19"
+					item: "cyber_ware_port:body_part_eyes"
+					type: "item"
+				}
+				{
+					id: "6C55060BD66AE050"
+					item: "cyber_ware_port:body_part_leg_left"
+					type: "item"
+				}
+				{
+					id: "07B666081BFCE265"
+					item: "cyber_ware_port:body_part_leg_right"
+					type: "item"
+				}
+				{
+					id: "24D5CE7FC960ADB4"
+					item: "cyber_ware_port:body_part_arm_left"
+					type: "item"
+				}
+				{
+					id: "4188CD5D0A5DA833"
+					item: "cyber_ware_port:body_part_arm_right"
+					type: "item"
+				}
+				{
+					id: "5DAFCF8B1153C5BF"
+					item: "cyber_ware_port:body_part_muscles"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.406.title}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3ECCB7C8080B0136"]
+			description: ["{ze.quest.408.des}"]
+			id: "5DECC3A74418E55B"
+			subtitle: "{ze.quest.408.subtitle}"
+			tasks: [
+				{
+					id: "73401FCCD53ECB5C"
+					item: {
+						Count: 1
+						id: "endrem:black_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D7DC0E3D2EC8808"
+					item: {
+						Count: 1
+						id: "endrem:cold_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B469C83BF8B17A6"
+					item: {
+						Count: 1
+						id: "endrem:corrupted_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F5A22556521CE31"
+					item: {
+						Count: 1
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49937DDA99623233"
+					item: {
+						Count: 1
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F088148D95C6583"
+					item: {
+						Count: 1
+						id: "endrem:old_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55BCDD988C1E7349"
+					item: {
+						Count: 1
+						id: "endrem:rogue_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "740ECCD78A66C47B"
+					item: {
+						Count: 1
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B324E4242279436"
+					item: {
+						Count: 1
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "510B4FFE24CA6992"
+					item: {
+						Count: 1
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F370D005A4279C2"
+					item: {
+						Count: 1
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7100812D2C603619"
+					item: {
+						Count: 1
+						id: "endrem:wither_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "146BB54B742CD4C4"
+					item: {
+						Count: 1
+						id: "endrem:witch_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "471FF624ACAE7A0F"
+					item: {
+						Count: 1
+						id: "endrem:undead_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CFD26248C51AFB3"
+					item: {
+						Count: 1
+						id: "endrem:exotic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4219DF428FFF9471"
+					item: {
+						Count: 1
+						id: "endrem:cryptic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F9E161CA81D273D"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+				{
+					id: "70AE93E2D1392189"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+				{
+					id: "5107EFB15EA26AB5"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					id: "3CD914E0B8CF05B4"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+				{
+					id: "099A147AD6601922"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
+				{
+					id: "3A57FCE0BAB7F1C3"
+					item: "cataclysm:desert_eye"
+					type: "item"
+				}
+				{
+					id: "1AB0C8E3559B7265"
+					item: "cataclysm:cursed_eye"
+					type: "item"
+				}
+				{
+					id: "3204AEB2E2DD6BD6"
+					item: "cataclysm:storm_eye"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.408.title}"
+			x: 1.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.t.subtitle}"]
+	title: "{ze.quest.chapter.t}"
+}

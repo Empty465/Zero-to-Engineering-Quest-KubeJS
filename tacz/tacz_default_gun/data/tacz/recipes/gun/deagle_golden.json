@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "createbigcannons:recoil_spring"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 3
+    } 
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:deagle_golden"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "무한 망치",
+  "icon": "industrialforegoing:infinity_hammer",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "무한 망치는 범위 내의 적을 공격할 수 있는 도구입니다. 등급이 높을수록 $(6)참수$() 능력이 더 강력해져서 몹의 머리를 쉽게 얻을 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "바닥에 우클릭하면 사용자 앞에 원뿔 모양으로 $(6)파쇄(소환사 송곳니)$() 효과가 발생합니다."
+    }
+  ]
+}

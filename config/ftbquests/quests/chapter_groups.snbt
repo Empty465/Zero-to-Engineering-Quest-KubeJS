@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "5F239CD8F461F424", title: "{ze.quest.group.a}" }
+		{ id: "0753A2AC132A65EB", title: "{ze.quest.group.f}" }
+		{ id: "3BA8AFE5D48A2AF9", title: "{ze.quest.group.e}" }
+		{ id: "0FDE61B1C6A90A0B", title: "{ze.quest.group.c}" }
+		{ id: "08623641CBAA0C80", title: "{ze.quest.group.d}" }
+		{ id: "47CBD16E857F2B42", title: "{ze.quest.group.b}" }
+	]
+}

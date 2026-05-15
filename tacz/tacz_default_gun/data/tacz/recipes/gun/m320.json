@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 5
+    }, 
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 9
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m320"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

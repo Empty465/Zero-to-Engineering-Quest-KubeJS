@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 60
+    },
+    {
+      "item": {
+        "item": "createbigcannons:recoil_spring"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 3
+    }, 
+    {
+      "item": {
+        "item": "create:precision_mechanism"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:minigun"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

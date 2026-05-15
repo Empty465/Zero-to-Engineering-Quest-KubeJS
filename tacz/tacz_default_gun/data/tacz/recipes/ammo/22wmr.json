@@ -1,0 +1,29 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:plates/brass"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:nuggets/copper"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "pd_cartridges",
+    "id": "tacz:22wmr",
+    "count": 30
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

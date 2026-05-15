@@ -1,0 +1,21 @@
+{
+  "name": "몹 복제기",
+  "icon": "industrialforegoing:mob_duplicator",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "몹을 생성하는 기계입니다. 전력이 공급되고 $(l:agr_hus/essence)에센스$()와 엔티티가 담긴 $(l:tools/mib)몹 포획 도구$()를 보유하면 해당 엔티티를 주변에 생성합니다. $(br2)주변의 엔티티 수가 너무 많으면 멈춥니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_duplicator"
+    }
+  ,
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_imprisonment_tool"
+    }
+  ]
+}

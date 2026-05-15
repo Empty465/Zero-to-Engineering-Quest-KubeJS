@@ -1,0 +1,17 @@
+{
+  "name": "마법부여 적용기",
+  "icon": "industrialforegoing:enchantment_applicator",
+  "category": "industrialforegoing:misc",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 기계는 모루와 같은 방식으로 작동하지만 경험치 대신 $(l:agr_hus/essence)에센스$()를 사용합니다. 비용이 너무 높을 경우 위쪽 탱크에서 에센스를 가져올 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_applicator"
+    }
+  ]
+}

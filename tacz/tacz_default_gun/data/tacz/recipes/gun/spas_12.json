@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "createbigcannons:recoil_spring"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 2
+    }     
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:spas_12"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

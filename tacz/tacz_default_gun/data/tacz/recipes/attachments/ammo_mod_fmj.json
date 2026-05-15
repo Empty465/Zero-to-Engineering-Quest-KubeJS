@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:storage_blocks/lead"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:plates/copper"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:ammo_mod_fmj"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

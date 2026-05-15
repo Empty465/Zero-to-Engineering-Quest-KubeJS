@@ -1,0 +1,17 @@
+{
+  "name": "몹 분쇄기",
+  "icon": "industrialforegoing:mob_crusher",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "플레이어가 직접 죽인 것처럼 몹을 $(6)죽이는$() 기계입니다. 몹의 전리품과 에센스(경험치)를 바로 획득합니다. $(br2)또한 획득한 에센스를 소모하여 무작위 레벨의 $(6)약탈$()이 적용되는 모드가 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_crusher"
+    }
+  ]
+}

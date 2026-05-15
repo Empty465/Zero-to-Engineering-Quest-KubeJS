@@ -1,0 +1,33 @@
+{
+  "name": "추가 부품",
+  "icon": "industrialforegoing:range_addon11",
+  "category": "industrialforegoing:basics",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:range_addon11",
+      "title": "범위",
+      "text": "작업 영역이 있는 기계의 범위를 증가시킵니다. 모든 작업 영역이 있는 기계가 해당 추가 부품을 받아들이는 것은 아닙니다. 각 등급은 범위를 1씩 증가시킵니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:speed_addon_2",
+      "title": "속도",
+      "text": "진행 막대가 매 틱마다 진행되는 속도를 증가시킵니다. $(br2)등급 1 -> +1$(br)등급 2 -> +2"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:efficiency_addon_2",
+      "title": "효율",
+      "text": "작업을 완료하는 데 필요한 틱 수를 줄입니다. $(br2)등급 1 -> -10%$(br)등급 2 -> -20%"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:processing_addon_2",
+      "title": "처리",
+      "text": "기계가 처리를 완료할 때 수행되는 작업 수를 증가시킵니다. $(br2)등급 1 -> +1 작업 $(br)등급 2 -> +2 작업"
+    }
+  ]
+}

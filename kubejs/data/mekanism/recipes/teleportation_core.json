@@ -1,0 +1,9 @@
+{"type":"minecraft:crafting_shaped","key":{
+    "#":{"tag":"forge:dusts/ender_pearl"},
+    "A":{"tag":"mekanism:alloys/atomic"},
+    "D":{"item":"ae2:quantum_entangled_singularity"},
+    "I":{"tag":"forge:ingots/gold"}},
+"pattern":[
+    "#A#",
+    "IDI",
+    "#A#"],"result":{"item":"mekanism:teleportation_core"}}

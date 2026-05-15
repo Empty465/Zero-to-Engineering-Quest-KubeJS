@@ -1,0 +1,17 @@
+{
+  "name": "파종기",
+  "icon": "industrialforegoing:plant_sower",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 기계는 작물(씨앗)과 묘목을 심는 데 사용됩니다. $(br2)내부 인벤토리의 9개 슬롯은 $(6)색상$()으로 구분되어 있으며, 파종기 상단의 색상 표시와 일치합니다. 기계 위의 작업 영역은 9개의 구역으로 나뉘며, 각 구역에는 해당 인벤토리 슬롯에 있는 씨앗만 심습니다. (기본 파종기는 범위가 한 칸이므로 해당 기능을 사용하려면 범위 업그레이드가 필요합니다)"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_sower"
+    }
+  ]
+}

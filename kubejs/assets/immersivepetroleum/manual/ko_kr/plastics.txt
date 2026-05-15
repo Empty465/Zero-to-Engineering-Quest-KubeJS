@@ -1,0 +1,16 @@
+석유 플라스틱
+유해물질은 들어있지 않습니다!
+<&plastics0>
+<link;immersiveengineering:plastic;§n§o페놀릭 수지§r>는 현대 화학의 경이로운 발명품이지만, 석유를 이용한 공장으로는 생산하지 않았습니다.
+
+새롭게 개발된 열분해 시스템을 사용하면 이러한 문제가 더 이상 발생하지 않습니다. 페놀 수지는 <link;immersivepetroleum:fluids;§n§o나프타§r;naphtha>를 고온 공정을 통해 <link;immersivepetroleum:fluids;§n§o석유 가스§r;petroleum_gas>로 분해하여 생산할 수 있습니다.
+<&plastics1>
+<link;immersivepetroleum:hydrotreater;§n§o고압 정제기§r>는 나프타를 분해하여 1500mB의 나프타와 500mB의 물을 2000mB의 석유 가스로 전환하는데 이용됩니다.
+
+석유 가스는 <link;immersiveengineering:plastic;§n§o페놀릭 수지§r>를 직접 생산하는데 사용할 수 없습니다. 수지는 중질 중합체이기 때문입니다. 원료 혼합물은 <link;immersiveengineering:refinery;§n§o정제기§r>에서 수지의 전구체로 가공해야 합니다.
+<&plastics2>
+벤졸은 방향족 혼합물이며, <link;immersiveengineering:refinery;§n§o정제기§r>에서 석유 가스와 결합하여 페놀 함유 혼합물 <link;cokeoven;크레오소트유;outputs>를 생산할 수 있습니다.
+
+석유 가스는 §2콘스탄탄 판§r을 촉매로 사용하여 아세트알데하이드로 산화될 수 있습니다.
+
+이 두 가지 화학 원료는 <link;immersiveengineering:plastic;§n§o듀로플라스트§r;duroplast_sheet>의 고분자 수지를 생산하는데 사용됩니다.

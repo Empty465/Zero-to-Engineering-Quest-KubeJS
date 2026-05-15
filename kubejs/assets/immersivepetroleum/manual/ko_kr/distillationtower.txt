@@ -1,0 +1,21 @@
+증류탑
+환경 친화적이지 않습니다.
+<&distillationtower0>정유탑은 원유를 여러 부산물로 분리하는 대형 멀티블록입니다.<np>
+레드스톤 엔지니어링 블록에 엔지니어의 망치를 사용하면 그림과 같이 건설됩니다.
+
+제어판에 레드스톤 신호를 적용하면 기계의 작동이 중지되며, 이 동작은 엔지니어의 드라이버를 사용하여 반전시킬 수 있습니다.
+
+원유는 파란색 점이 표시된 뒤쪽의 해치로 투입할 수 있으며, 여기에서 원유가 여러 층으로 분리될 때 까지 가열됩니다. 이로 인해 다양한 유체가 생성되며 부산물로 역청이 생산되며 전면 배출구를 통해 배출됩니다.
+
+증류탑은 다음과 같은 유체들을 증류할 수 있습니다:
+
+50mB/t의 <link;immersivepetroleum:fluids;§n§o원유§r;crude>는
+|   15mB/t의 <link;immersivepetroleum:fluids;§n§o나프타§r;naphtha>
+|   20mB/t의 <link;immersivepetroleum:fluids;§n§o등유§r;kerosene>
+|   30mB/t의 <link;immersivepetroleum:fluids;§n§o황화 경유§r;diesel>
+|   10mB/t의 <link;immersivepetroleum:fluids;§n§o윤활유§r;lubricant>
+|   0.07/t의 <link;immersivepetroleum:fluids;§n§o역청§r;bitumen>로 증류되고.
+
+10mB/t의 <link;immersivepetroleum:fluids;§n§o등유§r;kerosene>는
+|   5mB/t의 <link;immersivepetroleum:fluids;§n§o벤졸§r;benzol>
+|   5mB/t의 <link;immersivepetroleum:fluids;§n§o황화 경유§r;diesel>로 증류됩니다.

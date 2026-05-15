@@ -1,0 +1,227 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "zequestchapterb"
+	group: "47CBD16E857F2B42"
+	icon: "minecraft:raw_iron"
+	id: "60D6366ABA2D557F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"459C4AEDB820636A"
+				"7E19020C0BD77B54"
+			]
+			description: [
+				"{ze.quest.dep}"
+				""
+				"{ze.smelting.crush.c}"
+			]
+			icon: "create:crushing_wheel"
+			id: "281D711B5D980037"
+			optional: true
+			shape: "gear"
+			subtitle: "{ze.quest.chapter.d}"
+			tasks: [{
+				id: "745E83702918EC2E"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.smelting.crush}"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C6F1AA1A9A31C6D"]
+			description: [
+				"{ze.quest.dep}"
+				""
+				"{ze.smelting.crush.ie}"
+			]
+			icon: "immersiveengineering:crusher"
+			id: "673D51A0FF98ACA9"
+			optional: true
+			shape: "square"
+			subtitle: "{ze.quest.chapter.e}"
+			tasks: [{
+				id: "0D984390711F0B6B"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.smelting.crush}"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["703CEF06FE2FA04E"]
+			description: [
+				"{ze.quest.dep}"
+				""
+				"{ze.smelting.chamber.a}"
+			]
+			icon: "mekanism:enrichment_chamber"
+			id: "01EB1D84A2616E01"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.quest.chapter.f}"
+			tasks: [{
+				id: "027803021DEB6DDF"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.smelting.chamber} v1"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17ADC9F773E7580F"]
+			description: [
+				"{ze.quest.dep}"
+				""
+				"{ze.smelting.alloy.ie}"
+			]
+			icon: "immersiveengineering:alloy_smelter"
+			id: "1E2DB23260FE07E0"
+			optional: true
+			shape: "square"
+			subtitle: "{ze.quest.chapter.e}"
+			tasks: [{
+				id: "2B3381AEE10B56AA"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.smelting.alloy}"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1DEA6B5BD695E52A"
+				"18B42B70794088DC"
+			]
+			description: [
+				"{ze.quest.dep}"
+				""
+				"{ze.smelting.alloy.c}"
+			]
+			icon: "create:mechanical_mixer"
+			id: "16D48613ED88BCFD"
+			optional: true
+			shape: "gear"
+			subtitle: "{ze.quest.chapter.d}"
+			tasks: [{
+				id: "40EFA5F43E47A49C"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.smelting.alloy}"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6629CE74DADDA1A3"]
+			description: [
+				"{ze.quest.dep}"
+				""
+				"{ze.smelting.crush.ie2}"
+			]
+			icon: "immersiveengineering:arc_furnace"
+			id: "69385E75B2962D72"
+			optional: true
+			shape: "square"
+			subtitle: "{ze.quest.chapter.e}"
+			tasks: [{
+				id: "447144E9C146AAE0"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.smelting.crush}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B0AC8ADC66642A3"]
+			description: [
+				"{ze.quest.dep}"
+				""
+				"{ze.smelting.chamber.b}"
+			]
+			icon: "mekanism:purification_chamber"
+			id: "586A0C5B30D04DB2"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.quest.chapter.f}"
+			tasks: [{
+				id: "238F3EC334CFBA3C"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.smelting.chamber} v2"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58ACCF1397643998"]
+			description: [
+				"{ze.quest.dep}"
+				""
+				"{ze.smelting.chamber.c}"
+			]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "5FF0D83AA2DE126D"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.quest.chapter.f}"
+			tasks: [{
+				id: "2F29806CD60786A1"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.smelting.chamber} v3"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1D6DDF34FA178D24"]
+			description: [
+				"{ze.quest.dep}"
+				""
+				"{ze.smelting.chamber.d}"
+			]
+			icon: "mekanism:chemical_dissolution_chamber"
+			id: "02CB353510BEDD26"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.quest.chapter.f}"
+			tasks: [{
+				id: "38CB20C248BE820F"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.smelting.chamber} v4"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["45A716BC1ADEB55B"]
+			description: ["{ze.smelting.chamber.e}"]
+			icon: "industrialforegoing:fermentation_station"
+			id: "0169F97CEDFF6F69"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.smelting.chamber.if}"
+			tasks: [{
+				id: "2F67404B5A1A06C5"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.smelting.chamber} v4.1"
+			x: 2.5d
+			y: 0.5d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.b.subtitle}"]
+	title: "{ze.quest.chapter.b}"
+}

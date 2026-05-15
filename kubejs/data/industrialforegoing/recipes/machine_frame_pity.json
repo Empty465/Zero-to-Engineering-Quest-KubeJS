@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:item_exists",
+              "item": "industrialforegoing:machine_frame_pity"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "I": {
+            "item": "industrialforegoing:plastic"
+          },
+          "R": {
+            "item": "mekanism:steel_casing"
+          },
+          "W": {
+            "tag": "forge:treated_wood"
+          }
+        },
+        "pattern": [
+          "WWW",
+          "IRI",
+          "WWW"
+        ],
+        "result": {
+          "item": "industrialforegoing:machine_frame_pity"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

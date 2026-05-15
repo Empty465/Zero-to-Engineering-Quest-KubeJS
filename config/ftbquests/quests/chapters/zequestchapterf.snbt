@@ -1,0 +1,1732 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "zequestchapterf"
+	group: "5F239CD8F461F424"
+	icon: "mekanism:modification_station"
+	id: "0ABADB6E8D4F25AA"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"515D40F1C7124447"
+				"2BEBC6A267A439C7"
+			]
+			description: ["{ze.quest.82.des}"]
+			id: "42BCD7FF8DD550F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3903103ECF36209A"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @a [{\"selector\":\"@s\"},{\"translate\":\"ze.quest.reward.tech.mekanism.t\",\"color\":\"gold\"}]"
+					elevate_perms: true
+					id: "4438B87F20CBA95E"
+					title: "{ze.quest.reward.tech.mekanism}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ze.quest.82.subtitle}"
+			tasks: [{
+				id: "4C7DADAA69CB1C08"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "{ze.quest.82.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42BCD7FF8DD550F2"]
+			description: ["{ze.quest.90.des}"]
+			hide_until_deps_complete: true
+			id: "083AE6A0A9EAC21B"
+			rewards: [{
+				id: "09D9B711D15B2A9D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.90.subtitle}"
+			tasks: [{
+				id: "4C51E543E84DF5FA"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "{ze.quest.90.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["083AE6A0A9EAC21B"]
+			description: ["{ze.quest.94.des}"]
+			id: "17D7504688846061"
+			rewards: [{
+				id: "3226A553E892C712"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.94.subtitle}"
+			tasks: [
+				{
+					id: "11BA0748BD15C8AF"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+				{
+					id: "0FE0C23B00120772"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.94.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["083AE6A0A9EAC21B"]
+			description: ["{ze.quest.92.des}"]
+			id: "6673F9119E4FAE82"
+			rewards: [{
+				id: "009215B2365CE303"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.92.subtitle}"
+			tasks: [
+				{
+					id: "0EC78F17A458988D"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "368D7BEA3EF5399C"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.92.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6027D966569EAADD"]
+			description: ["{ze.quest.96.des}"]
+			id: "7EFA1DAD03B2E770"
+			rewards: [{
+				id: "2435A0E1D88E3D54"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.96.subtitle}"
+			tasks: [
+				{
+					id: "59BCC64BE136556F"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "029AEFFE144BEC5B"
+					item: "mekanism:basic_chemical_tank"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.96.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["083AE6A0A9EAC21B"]
+			description: ["{ze.quest.93.des}"]
+			id: "6475CFEA8D86413B"
+			rewards: [{
+				id: "3875FD0BF16F9273"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.93.subtitle}"
+			tasks: [
+				{
+					id: "45D6776D60A69700"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+				{
+					id: "64F7FD598483A24F"
+					item: "mekanism:basic_bin"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.93.title}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["083AE6A0A9EAC21B"]
+			description: ["{ze.quest.95.des}"]
+			id: "6027D966569EAADD"
+			rewards: [{
+				id: "78331B9AC52F245A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.95.subtitle}"
+			tasks: [{
+				id: "3467CD998AC0AA9C"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			title: "{ze.quest.95.title}"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["083AE6A0A9EAC21B"]
+			description: ["{ze.quest.103.des}"]
+			id: "703CEF06FE2FA04E"
+			rewards: [{
+				id: "616413AF159EF172"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.103.subtitle}"
+			tasks: [{
+				id: "62D6A7B5EB507119"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "{ze.quest.103.title}"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6027D966569EAADD"
+				"703CEF06FE2FA04E"
+			]
+			description: ["{ze.quest.104.des}"]
+			id: "2B0AC8ADC66642A3"
+			rewards: [{
+				id: "63EEADC086E8BB20"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.104.subtitle}"
+			tasks: [
+				{
+					id: "1BDB0324A1A373B9"
+					item: "mekanism:purification_chamber"
+					type: "item"
+				}
+				{
+					id: "310986CF9F22973A"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.104.title}"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["083AE6A0A9EAC21B"]
+			description: ["{ze.quest.91.des}"]
+			id: "400CA304B46AD79E"
+			rewards: [{
+				id: "2ADCBB0D36DB8D8D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.91.subtitle}"
+			tasks: [{
+				id: "1908BCD6AD268456"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			title: "{ze.quest.91.title}"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6ADAB3DD8DFCCD32"]
+			description: ["{ze.quest.99.des}"]
+			id: "6D1FE5EB35FCAA64"
+			rewards: [{
+				id: "22B745E522712504"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.99.subtitle}"
+			tasks: [{
+				id: "58F99A38C78A685B"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			title: "{ze.quest.99.title}"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["083AE6A0A9EAC21B"]
+			description: [
+				"{ze.quest.97.des}"
+				"{@pagebreak}"
+				"{ze.quest.97.des2}"
+				"{image:kubejs:textures/quest/thermal_tower1.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/thermal_tower2.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			icon: "mekanism:thermal_evaporation_controller"
+			id: "3B47765993059733"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63A03EC571322C9B"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.97.subtitle}"
+			tasks: [
+				{
+					id: "35DFAE2B02B8F4F3"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "05F6D8E238947951"
+					item: { Count: 32, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "28B35F6FAA6163B3"
+					item: { Count: 3, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.97.title}"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B47765993059733"]
+			description: ["{ze.quest.98.des}"]
+			id: "6ADAB3DD8DFCCD32"
+			rewards: [{
+				id: "46B310099B82B76A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.98.subtitle}"
+			tasks: [{
+				id: "1146C18665074145"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			title: "{ze.quest.98.title}"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B47765993059733"]
+			description: ["{ze.quest.100N.des}"]
+			id: "7C615CC276488ECC"
+			rewards: [{
+				id: "6F3BEBAD47D672EB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.100.subtitle}"
+			tasks: [{
+				id: "1C5348283CD81708"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			title: "{ze.quest.100.title}"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2B0AC8ADC66642A3"
+				"7C615CC276488ECC"
+			]
+			description: ["{ze.quest.105.des}"]
+			id: "58ACCF1397643998"
+			rewards: [{
+				id: "34CC859F59195BAF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.105.subtitle}"
+			tasks: [{
+				id: "436B352A1899DA3B"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			title: "{ze.quest.105.title}"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"58ACCF1397643998"
+				"2451716112EF2FB9"
+				"22A976A82C3F89B0"
+				"7317F51045417F16"
+			]
+			description: ["{ze.quest.106.des}"]
+			id: "1D6DDF34FA178D24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DEE68108B09527A"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.106.subtitle}"
+			tasks: [
+				{
+					id: "41953E7C75E7AB4C"
+					item: "mekanism:chemical_dissolution_chamber"
+					type: "item"
+				}
+				{
+					id: "6295FF8E52FD835A"
+					item: "mekanism:chemical_washer"
+					type: "item"
+				}
+				{
+					id: "14F825B483DD9A42"
+					item: "mekanism:chemical_crystallizer"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.106.title}"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7EFA1DAD03B2E770"
+				"6673F9119E4FAE82"
+			]
+			description: ["{ze.quest.101.des}"]
+			id: "22A976A82C3F89B0"
+			rewards: [{
+				id: "058014CE6767E810"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.101.subtitle}"
+			tasks: [{
+				id: "65584F290B9D3D2B"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			title: "{ze.quest.101.title}"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7EFA1DAD03B2E770"
+				"6475CFEA8D86413B"
+			]
+			description: ["{ze.quest.102.des}"]
+			id: "2451716112EF2FB9"
+			rewards: [{
+				id: "0904107E564578E3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.102.subtitle}"
+			tasks: [{
+				id: "397DD01184FB7B06"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			title: "{ze.quest.102.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6673F9119E4FAE82"
+				"7EFA1DAD03B2E770"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ze.quest.107.des}"
+				"{image:kubejs:textures/quest/tank1.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/tank2.png width:160 height:90 align:center}"
+			]
+			icon: "mekanism:dynamic_tank"
+			id: "6CC642A1677A957E"
+			rewards: [{
+				id: "3EECA9143BD67EFE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.107.subtitle}"
+			tasks: [
+				{
+					count: 24L
+					id: "60C9C78669D9B091"
+					item: { Count: 24, id: "mekanism:dynamic_tank" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "463EA84982D08AFD"
+					item: { Count: 2, id: "mekanism:dynamic_valve" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.107.title}"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17D7504688846061"]
+			description: [
+				"{ze.quest.112.des}"
+				"{image:kubejs:textures/quest/matrix1.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/matrix2.png width:160 height:90 align:center}"
+			]
+			icon: "mekanism:induction_casing"
+			id: "6498651F7E1979C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AEFA8F9CAC295C3"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.112.subtitle}"
+			tasks: [
+				{
+					count: 32L
+					id: "1DF68507141AA8AD"
+					item: { Count: 32, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "12EEC0C8408419C3"
+					item: { Count: 2, id: "mekanism:induction_port" }
+					type: "item"
+				}
+				{
+					id: "669DFF1F6EA4A71E"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "5D34754ADF426EF9"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.112.title}"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17D7504688846061"]
+			description: ["{ze.quest.114.des}"]
+			id: "54FDA6C7A2E8F1AE"
+			rewards: [{
+				id: "15D4E574A29929BF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.114.subtitle}"
+			tasks: [{
+				id: "478222CEC1010BE6"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			title: "{ze.quest.114.title}"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17D7504688846061"]
+			description: ["{ze.quest.115.des}"]
+			id: "5DF026AD276307AC"
+			rewards: [{
+				id: "2841A0ECBDA33F1F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.115.subtitle}"
+			tasks: [{
+				id: "486A904FFB3D467B"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			title: "{ze.quest.115.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DF026AD276307AC"]
+			description: ["{ze.quest.116.des}"]
+			id: "5CAA4873FBAA0F45"
+			rewards: [{
+				id: "549E78C95EE3CD7A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.116.subtitle}"
+			tasks: [{
+				id: "56BA5BF82DCA1BE4"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			title: "{ze.quest.116.title}"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17D7504688846061"]
+			description: ["{ze.quest.113.des}"]
+			id: "6970115F758D2DB7"
+			rewards: [{
+				id: "76AB5F5BB8D2D4FC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.113.subtitle}"
+			tasks: [{
+				id: "7CC1F09686E21D86"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			title: "{ze.quest.113.title}"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7EFA1DAD03B2E770"]
+			description: ["{ze.quest.121.des}"]
+			hide_until_deps_complete: true
+			id: "635E0C65052333BB"
+			rewards: [{
+				id: "24C6286C1100434A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.121.subtitle}"
+			tasks: [{
+				id: "3154B7882445D981"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
+			title: "{ze.quest.121.title}"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17D7504688846061"]
+			description: ["{ze.quest.119.des}"]
+			hide_until_deps_complete: true
+			id: "602EE02313B813EF"
+			rewards: [{
+				id: "1217CA4E4BA04A5F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.119.subtitle}"
+			tasks: [{
+				id: "78513A9C1342B8E9"
+				item: "mekanism:free_runners"
+				type: "item"
+			}]
+			title: "{ze.quest.119.title}"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["602EE02313B813EF"]
+			description: ["{ze.quest.120.des}"]
+			id: "4959C79434FB6D00"
+			rewards: [{
+				id: "4904CA053238C27E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.120.subtitle}"
+			tasks: [{
+				id: "4EA376401E969A04"
+				item: "mekanism:free_runners_armored"
+				type: "item"
+			}]
+			title: "{ze.quest.120.title}"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["635E0C65052333BB"]
+			description: ["{ze.quest.122.des}"]
+			id: "7FCD471882FAF629"
+			rewards: [{
+				id: "7187F7C5533BB390"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.122.subtitle}"
+			tasks: [{
+				id: "0F0FA57BB568FD6E"
+				item: "mekanism:jetpack_armored"
+				type: "item"
+			}]
+			title: "{ze.quest.122.title}"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1AE7A97C3C049546"]
+			description: [
+				"{ze.quest.125.des}"
+				"{@pagebreak}"
+				"{ze.quest.125.des2}"
+				"{image:kubejs:textures/quest/reactor1.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/reactor2.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/reactor3.png width:160 height:90 align:center}"
+			]
+			icon: "mekanismgenerators:fission_fuel_assembly"
+			id: "5B24318FDFDAE278"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46AA64E1142869C3"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.125.subtitle}"
+			tasks: [
+				{
+					count: 60L
+					id: "78CE6AEC5DA95C1B"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "31EA8472B9FF0C68"
+					item: { Count: 30, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0A8CC1796D11BC3F"
+					item: { Count: 5, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "24E055D6A0F2C9F7"
+					item: { Count: 5, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					count: 97L
+					id: "0CBF4439EB637DB9"
+					item: { Count: 97, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.125.title}"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AE7A97C3C049546"]
+			description: [
+				"{ze.quest.124.des}"
+				"{@pagebreak}"
+				"{ze.quest.124.des2}"
+				"{image:kubejs:textures/quest/turbin1.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/turbin2.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/turbin3.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/turbin4.png width:160 height:90 align:center}"
+			]
+			icon: "mekanismgenerators:turbine_blade"
+			id: "19DF072CA458089F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18C4B8D2307A721D"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.124.subtitle}"
+			tasks: [
+				{
+					count: 60L
+					id: "52242A0F7F511D2E"
+					item: { Count: 92, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					count: 66L
+					id: "0E9216461EFA26DB"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "041BDE3B61164833"
+					item: { Count: 6, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3B714A3D990DD075"
+					item: { Count: 12, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					id: "71E2D6639C5EC17C"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1FB84AECAFAC907E"
+					item: { Count: 24, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "145A9477CAEC18F8"
+					item: { Count: 3, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "40ABEACB415BB4E6"
+					item: { Count: 63, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6725249161833708"
+					item: { Count: 125, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "32D590E4C16B775C"
+					item: { Count: 2, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.124.title}"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["195FAFF9099DE498"]
+			description: ["{ze.quest.127.des}"]
+			id: "654FD24459722F03"
+			rewards: [{
+				id: "1D93273C1BD31F47"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.127.subtitle}"
+			tasks: [
+				{
+					id: "6207BF5816BD37EE"
+					item: "mekanism:solar_neutron_activator"
+					type: "item"
+				}
+				{
+					id: "5ADB6819E1EDF140"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+				{
+					id: "4BD29661A8E00E26"
+					item: "mekanism:radioactive_waste_barrel"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.127.title}"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D6DDF34FA178D24"]
+			description: ["{ze.quest.123.des}"]
+			hide_until_deps_complete: true
+			icon: "mekanism:hazmat_mask"
+			id: "1AE7A97C3C049546"
+			rewards: [{
+				id: "040B13BEEFEC44B8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.123.subtitle}"
+			tasks: [
+				{
+					id: "30D1B0D7955D8ECE"
+					item: "mekanism:hazmat_mask"
+					type: "item"
+				}
+				{
+					id: "642E3057FEC757EE"
+					item: "mekanism:hazmat_gown"
+					type: "item"
+				}
+				{
+					id: "26BFB58E1C2C7377"
+					item: "mekanism:hazmat_pants"
+					type: "item"
+				}
+				{
+					id: "1ECA670037BF9357"
+					item: "mekanism:hazmat_boots"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.123.title}"
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"19DF072CA458089F"
+				"5B24318FDFDAE278"
+			]
+			description: ["{ze.quest.126.des}"]
+			id: "195FAFF9099DE498"
+			rewards: [{
+				id: "1DC41B3A452274E4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.126.subtitle}"
+			tasks: [{
+				id: "6A4EDCD25DEB37D1"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			title: "{ze.quest.126.title}"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["654FD24459722F03"]
+			description: [
+				"{ze.quest.128.des}"
+				"{@pagebreak}"
+				"{ze.quest.128.des2}"
+				"{@pagebreak}"
+				"{ze.quest.129.des3}"
+			]
+			hide_until_deps_complete: true
+			icon: "engineersdecor:sign_radioactive"
+			id: "5BAF6C2AB855117A"
+			rewards: [
+				{
+					id: "0974770A09E7C5EB"
+					item: "mekanism:geiger_counter"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "173017E70583E52A"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.128.subtitle}"
+			tasks: [{
+				id: "02EA6F35C8FFC4F3"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.128.title}"
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5BAF6C2AB855117A"]
+			description: [
+				"{ze.quest.130.des}"
+				"{@pagebreak}"
+				"{ze.quest.130.des2}"
+				"{image:kubejs:textures/quest/sps.png width:160 height:90 align:center}"
+			]
+			icon: "mekanism:supercharged_coil"
+			id: "6391C89B73ED7669"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A870E8930927FDF"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.130.subtitle}"
+			tasks: [
+				{
+					count: 60L
+					id: "504F86F0E74783BE"
+					item: { Count: 60, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "046A7D5E52AC0D66"
+					item: { Count: 3, id: "mekanism:sps_port" }
+					type: "item"
+				}
+				{
+					id: "02C99EC31B7489B3"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					count: 123L
+					id: "3A0AC457BA83C8F5"
+					item: { Count: 123, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.130.title}"
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2CBEAAE7E27D0C4D"
+				"083AE6A0A9EAC21B"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.quest.143.des}"]
+			id: "7317F51045417F16"
+			rewards: [{
+				id: "6C3E70826BC19C6C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.143.subtitle}"
+			tasks: [{
+				id: "66B887079D2B9E4D"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			title: "{ze.quest.143.title}"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["083AE6A0A9EAC21B"]
+			description: ["{ze.quest.142.des}"]
+			id: "2CBEAAE7E27D0C4D"
+			rewards: [{
+				id: "1F1353585F33DB34"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.142.subtitle}"
+			tasks: [{
+				id: "3E439FFCD8EBABC9"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			title: "{ze.quest.142.title}"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7317F51045417F16"
+				"744957CCF6A9A33D"
+			]
+			description: ["{ze.quest.144.des}"]
+			hide_until_deps_complete: true
+			id: "2C4C12BE458A71CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A4D6CCF54362635"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.144.subtitle}"
+			tasks: [{
+				id: "32ACF002579D89E8"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			title: "{ze.quest.144.title}"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C4C12BE458A71CF"]
+			description: ["{ze.quest.146.des}"]
+			id: "733E02733B5A8603"
+			rewards: [{
+				id: "31D18D0A9D64A7AD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.146.subtitle}"
+			tasks: [
+				{
+					id: "78198DFF97E311F0"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "4AF8F4B2A4FCC73D"
+					item: { Count: 7, id: "mekanism:teleporter_frame" }
+					type: "item"
+				}
+				{
+					id: "153A03CD72881A60"
+					item: "mekanism:portable_teleporter"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.146.title}"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C4C12BE458A71CF"]
+			description: ["{ze.quest.145.des}"]
+			id: "059CD506FDD63EB4"
+			rewards: [{
+				id: "2E1ADACC5C3D3E8D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.145.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "25371FC0F9D0F9EF"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			title: "{ze.quest.145.title}"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C4C12BE458A71CF"]
+			description: ["{ze.quest.147.des}"]
+			id: "5F243CB407265961"
+			rewards: [{
+				id: "5029CA2BC2A92DA4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.147.subtitle}"
+			tasks: [{
+				id: "4EBC0565606E4D24"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "{ze.quest.147.title}"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5BAF6C2AB855117A"]
+			description: ["{ze.quest.300.des}"]
+			icon: {
+				Count: 1
+				id: "mekanism:mekasuit_helmet"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "16000000"
+						}]
+					}
+				}
+			}
+			id: "6643CD2CC14243A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "464A78EFE12FCFB4"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.300.subtitle}"
+			tasks: [
+				{
+					id: "068A8595D8944A00"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "1F1585FE2F692FA4"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "6FA5C3AE84BCA0A0"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "20F72FD99E848C16"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+				{
+					id: "3A9C38F9FF7E552A"
+					item: "mekanism:meka_tool"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.300.title}"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6643CD2CC14243A8"]
+			description: ["{ze.quest.301.des}"]
+			icon: "mekanism:modification_station"
+			id: "5EDF2E9BF4443E31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "379C78F2DEA538B4"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.301.subtitle}"
+			tasks: [
+				{
+					id: "21F543EDE409D60A"
+					item: "mekanism:modification_station"
+					type: "item"
+				}
+				{
+					id: "4F2E66904B78D12E"
+					item: "mekanism:module_base"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.301.title}"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["087971E539FEE1F1"]
+			dependency_requirement: "all_started"
+			description: ["{ze.quest.309.des}"]
+			id: "2B45C381E66CD915"
+			rewards: [{
+				id: "379179ED0C1954C3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.309.subtitle}"
+			tasks: [
+				{
+					id: "30A01786A3B3997E"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+				{
+					id: "00830CD23F8A785F"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+						tag: {
+							uuid: [I;
+								260041357
+								1648119233
+								-1983310742
+								-2123820845
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "343F01BA86AAC244"
+					item: "buildinggadgets2:gadget_copy_paste"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.309.title}"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5BAF6C2AB855117A"]
+			description: [
+				"{ze.quest.361.des}"
+				"{@pagebreak}"
+				"{ze.quest.361.des2}"
+				"{image:kubejs:textures/quest/fusion1.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/fusion2.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/fusion3.png width:160 height:90 align:center}"
+			]
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			id: "663E2B1100FC12EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09D8DB7F253239C0"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.361.subtitle}"
+			tasks: [
+				{
+					id: "6344A1842CB3B21D"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "068533286CB5E625"
+					item: "mekanismgenerators:laser_focus_matrix"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2A9CF610004BEA69"
+					item: { Count: 2, id: "mekanismgenerators:fusion_reactor_port" }
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "0AEFD60D4CEEADE8"
+					item: { Count: 26, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "00A66AA59B769F2D"
+					item: { Count: 36, id: "mekanismgenerators:fusion_reactor_frame" }
+					type: "item"
+				}
+			]
+			title: "{ze.quest.361.title}"
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["663E2B1100FC12EB"]
+			description: ["{ze.quest.362.des}"]
+			id: "3C595CBD17A4A60A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61FA8C9D3B0B4B6C"
+					table_id: 2928502593784218937L
+					type: "random"
+				}
+				{
+					id: "3A506A798808884B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ze.quest.362.subtitle}"
+			tasks: [
+				{
+					id: "0A62898045415EEA"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+				{
+					id: "18FB9A8DCCDDDEF0"
+					item: "mekanism:laser"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.362.title}"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["663E2B1100FC12EB"]
+			description: ["{ze.quest.363.des}"]
+			id: "1D7AF551F1449B59"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FB8342A6EED96F6"
+					table_id: 2928502593784218937L
+					type: "random"
+				}
+				{
+					id: "08D63037186C4889"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ze.quest.363.subtitle}"
+			tasks: [
+				{
+					id: "1AB79191E866438B"
+					item: "mekanism:electric_pump"
+					type: "item"
+				}
+				{
+					id: "50969819F3CAA41F"
+					item: "mekanism:upgrade_filter"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.363.title}"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1D7AF551F1449B59"
+				"3C595CBD17A4A60A"
+			]
+			description: [
+				"{ze.quest.364.des}"
+				"{@pagebreak}"
+				"{ze.quest.364.des2}"
+			]
+			id: "0BF54869BFFAF58D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "510CE9058D3E28F9"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.364.subtitle}"
+			tasks: [{
+				id: "2507C7FD7E4CF0FA"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.364.title}"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			description: ["{ze.quest.371.des}"]
+			id: "087971E539FEE1F1"
+			invisible: true
+			rewards: [{
+				id: "2F1A8AD84CBB1D1C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.371.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "61D03FBE79B5D9A7"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			title: "{ze.quest.371.title}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["087971E539FEE1F1"]
+			description: ["{ze.quest.372.des}"]
+			id: "2078E514A34D7221"
+			rewards: [{
+				id: "43F82A56E5233CD8"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ze.quest.372.subtitle}"
+			tasks: [{
+				id: "2146E04B0049BC78"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "{ze.quest.372.title}"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2078E514A34D7221"]
+			description: ["{ze.quest.373.des}"]
+			id: "5D0CC3EAEDD47AD7"
+			rewards: [{
+				id: "53F5AA00ECF37DDA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.373.subtitle}"
+			tasks: [
+				{
+					id: "054EBE903927F584"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+				{
+					id: "61F003076420C05B"
+					item: "industrialforegoing:latex_processing_unit"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.373.title}"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2078E514A34D7221"]
+			description: ["{ze.quest.374.des}"]
+			id: "0EDDF25419520E6E"
+			rewards: [{
+				id: "15733EE9EDC8BC6D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.374.subtitle}"
+			tasks: [{
+				id: "232C0236B3811B97"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			title: "{ze.quest.374.title}"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0EDDF25419520E6E"]
+			description: ["{ze.quest.376.des}"]
+			id: "63DBBDF12C1ACAA7"
+			rewards: [{
+				id: "0DBDF7E1B170C5A6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.376.subtitle}"
+			tasks: [{
+				id: "176859FC75D5DA9E"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			title: "{ze.quest.376.title}"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2078E514A34D7221"]
+			description: ["{ze.quest.375.des}"]
+			id: "2B474C2F8468B224"
+			rewards: [{
+				id: "69F94BDB34952CAB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.375.subtitle}"
+			tasks: [{
+				id: "73749E9441D5E668"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			title: "{ze.quest.375.title}"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2B474C2F8468B224"
+				"63DBBDF12C1ACAA7"
+			]
+			description: ["{ze.quest.377.des}"]
+			id: "66A75BD673611F19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "758A0D138CCB3B66"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.377.subtitle}"
+			tasks: [{
+				id: "5C018A8A8FFA76BC"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			title: "{ze.quest.377.title}"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66A75BD673611F19"]
+			description: ["{ze.quest.378.des}"]
+			id: "36CF35035FDC9E63"
+			rewards: [{
+				id: "70688B3ADFC11BE8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.378.subtitle}"
+			tasks: [{
+				id: "6193815F6EE996CC"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			title: "{ze.quest.378.title}"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66A75BD673611F19"]
+			description: ["{ze.quest.379.des}"]
+			id: "4FF323B9223BBB82"
+			rewards: [{
+				id: "56C654081CB98C61"
+				item: "industrialforegoing:laser_lens10"
+				type: "item"
+			}]
+			subtitle: "{ze.quest.379.subtitle}"
+			tasks: [
+				{
+					id: "73DDC05CF1C72F45"
+					item: "industrialforegoing:fluid_laser_base"
+					type: "item"
+				}
+				{
+					id: "50EAB69A26BB6D63"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.379.title}"
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4FF323B9223BBB82"]
+			description: ["{ze.quest.380.des}"]
+			id: "4F77D693199FAA97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CDE89494C206B8A"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.380.subtitle}"
+			tasks: [{
+				id: "3652323B656CDE4E"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			title: "{ze.quest.380.title}"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2078E514A34D7221"]
+			description: ["{ze.quest.381.des}"]
+			id: "53A6BDBA5877681E"
+			rewards: [{
+				id: "4155587AC4D26D58"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.381.subtitle}"
+			tasks: [
+				{
+					id: "1E2C5F79B547D91C"
+					item: "industrialforegoing:plant_gatherer"
+					type: "item"
+				}
+				{
+					id: "02D52C2B393678AF"
+					item: "industrialforegoing:plant_sower"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.381.title}"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["66A75BD673611F19"]
+			description: ["{ze.quest.382.des}"]
+			id: "45A716BC1ADEB55B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "154FA21D11507F9F"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.382.subtitle}"
+			tasks: [
+				{
+					id: "66BCE26ADB1B445D"
+					item: "industrialforegoing:washing_factory"
+					type: "item"
+				}
+				{
+					id: "4B747FF8BC937001"
+					item: "industrialforegoing:fermentation_station"
+					type: "item"
+				}
+				{
+					id: "23573DB7BAC47EF5"
+					item: "industrialforegoing:fluid_sieving_machine"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.382.title}"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["083AE6A0A9EAC21B"]
+			description: ["{ze.quest.389.des}"]
+			icon: "mekanism:nutritional_liquifier"
+			id: "70F5411F48ADF2DF"
+			rewards: [{
+				id: "7E2CC33A065D3070"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.389.subtitle}"
+			tasks: [
+				{
+					id: "626D0F956EFCA55F"
+					item: "mekanism:nutritional_liquifier"
+					type: "item"
+				}
+				{
+					id: "229BEA0699DF659F"
+					item: "mekanism:canteen"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.389.title}"
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["{ze.quest.chatper.fd.subtitle}"]
+	title: "{ze.quest.chapter.f}"
+}

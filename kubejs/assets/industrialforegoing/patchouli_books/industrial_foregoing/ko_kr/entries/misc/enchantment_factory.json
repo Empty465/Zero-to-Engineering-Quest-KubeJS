@@ -1,0 +1,17 @@
+{
+  "name": "마법부여 공장",
+  "icon": "industrialforegoing:enchantment_factory",
+  "category": "industrialforegoing:misc",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 기계는 $(l:agr_hus/essence)에센스$()를 대량으로 공급받아서 아이템을 넣으면 해당 아이템에 $(6)30$()레벨의 마법부여를 부여합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_factory"
+    }
+  ]
+}

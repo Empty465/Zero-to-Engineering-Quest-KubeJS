@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "APA",
+    "PSP",
+    "APA"
+  ],
+  "key": {
+    "P": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "S": {
+      "item": "mekanism:teleportation_core"
+    },
+    "A": {
+      "tag": "forge:pellets/antimatter"
+    }
+  },
+  "result": {
+    "item": "rlovelyr:robot_core",
+    "count": 1
+  }
+}

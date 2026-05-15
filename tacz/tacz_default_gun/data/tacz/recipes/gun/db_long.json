@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 9
+    },
+    {
+      "item": {
+        "tag": "forge:treated_wood"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 2
+    }   
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:db_long"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

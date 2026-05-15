@@ -1,0 +1,17 @@
+{
+  "name": "블록 배치기",
+  "icon": "industrialforegoing:block_placer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 기계는 내부 인벤토리에 있는 블록을 정면에 배치합니다. $(br2)$(6)1000$()RF를 소모하여 작동합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:block_placer"
+    }
+  ]
+}

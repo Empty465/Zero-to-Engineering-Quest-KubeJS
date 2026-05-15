@@ -1,0 +1,27 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "createbigcannons:recoil_spring"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:taurus943"
+  }
+}

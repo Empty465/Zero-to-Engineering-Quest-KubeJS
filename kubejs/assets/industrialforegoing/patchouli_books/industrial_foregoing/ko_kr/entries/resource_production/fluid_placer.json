@@ -1,0 +1,17 @@
+{
+  "name": "유체 배출기",
+  "icon": "industrialforegoing:fluid_placer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 기계는 유체를 배출합니다.$(br2)내부 컨테이너에 있는 유체를 배출하고 $(6)1000$()RF를 사용합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_placer"
+    }
+  ]
+}

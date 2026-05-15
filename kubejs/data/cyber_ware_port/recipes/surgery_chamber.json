@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "minecraft:beds"
+    },
+    "D": {
+      "item": "create:precision_mechanism"
+    },
+    "I": {
+      "tag": "forge:ingots/steel"
+    },
+    "R": {
+      "item": "farmersdelight:netherite_knife"
+    }
+  },
+  "pattern": [
+    "IDI",
+    "IBI",
+    "IRI"
+  ],
+  "result": {
+    "item": "cyber_ware_port:surgery_chamber"
+  },
+  "show_notification": true
+}

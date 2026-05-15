@@ -1,0 +1,17 @@
+{
+  "name": "발효기",
+  "icon": "industrialforegoing:fermentation_station",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 20,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "생 광석 고기를 사용하여 기계에 설정한 수준에 도달하면 내용물을 밀봉하고 선택한 생산 유형에 맞추어 해당 고기를 발효시킵니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fermentation_station"
+    }
+  ]
+}

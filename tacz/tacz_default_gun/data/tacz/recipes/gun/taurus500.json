@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "createbigcannons:recoil_spring"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:taurus500"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

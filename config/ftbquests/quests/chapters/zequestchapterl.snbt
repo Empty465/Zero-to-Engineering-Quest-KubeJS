@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zequestchapterl"
+	group: "0FDE61B1C6A90A0B"
+	icon: "minecraft:ender_eye"
+	id: "55CA7B2364DE1EAF"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["765C2A350CD651B5"]
+			description: ["{ze.quest.187.des}"]
+			hide_until_deps_complete: true
+			id: "73E92F7F44FE51E7"
+			rewards: [{
+				id: "441A35FA84F605D2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.187.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "65FDDE1AE9B9BF35"
+				title: "{ze.quest.task.visit.end}"
+				type: "dimension"
+			}]
+			title: "{ze.quest.187.title}"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73E92F7F44FE51E7"]
+			description: ["{ze.quest.249.des}"]
+			hide_until_deps_complete: true
+			id: "3730EDAA88600593"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "737DC1804AD7B1A9"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.249.subtitle}"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "ftb_ph:ender_dragon"
+				id: "595921B16A1CD08B"
+				title: "{ze.quest.task.kill.ender_dragon}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.249.title}"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3730EDAA88600593"]
+			description: [
+				"{ze.quest.250.des}"
+				"{image:kubejs:textures/quest/ender_catsle.png width:160 height:90 align:center}"
+			]
+			icon: "cataclysm:void_eye"
+			id: "1B4E94D710F65EE0"
+			rewards: [{
+				id: "4856EEBA37D8BA0F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.250.subtitle}"
+			tasks: [{
+				icon: "cataclysm:void_eye"
+				id: "044C5D433F97B050"
+				structure: "cataclysm:ruined_citadel"
+				title: "{ze.quest.task.find.ruind_citadel}"
+				type: "structure"
+			}]
+			title: "{ze.quest.250.title}"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B4E94D710F65EE0"]
+			description: ["{ze.quest.252.des}"]
+			hide_until_deps_complete: true
+			id: "285E6213D4CDE877"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F66AB7C0380C655"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.252.subtitle}"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "4F8270DE7E8DD2D2"
+				title: "{ze.quest.task.kill.ender_gurdian}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.252.title}"
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1B4E94D710F65EE0"]
+			description: ["{ze.quest.251.des}"]
+			id: "0590CBC6E8F7EE5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4950723106DC4A13"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.251.subtitle}"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				id: "4E84F56466EF1FC1"
+				title: "{ze.quest.task.kill.ender_golem}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.251.title}"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3730EDAA88600593"]
+			description: ["{ze.quest.259.des}"]
+			hide_until_deps_complete: true
+			id: "74FCC72D31C26CC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CC092DDA99F30F6"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.259.subtitle}"
+			tasks: [{
+				id: "13622DC5BEB45D67"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "{ze.quest.259.title}"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["73E92F7F44FE51E7"]
+			description: ["{ze.quest.260.des}"]
+			id: "0C25B56AB80E97C5"
+			rewards: [{
+				id: "197597218DD499AB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.260.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "337BDCC260AC0415"
+				item: { Count: 4, id: "minecraft:end_crystal" }
+				type: "item"
+			}]
+			title: "{ze.quest.260.title}"
+			x: 0.5d
+			y: -3.0d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.l.subtitle}"]
+	title: "{ze.quest.chapter.l}"
+}

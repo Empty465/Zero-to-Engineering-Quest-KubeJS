@@ -1,0 +1,13 @@
+{
+  "name": "무한 톱",
+  "icon": "industrialforegoing:infinity_saw",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "무한 톱은 나무를 효율적으로 베는 도구로, 등급이 높을수록 동시에 베는 블록 수가 많아집니다. 큰 나무를 베려면 같은 블록을 계속 베어야 합니다."
+    }
+  ]
+}

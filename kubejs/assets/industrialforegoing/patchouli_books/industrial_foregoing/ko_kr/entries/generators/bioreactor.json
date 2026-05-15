@@ -1,0 +1,17 @@
+{
+  "name": "바이오 반응로",
+  "icon": "industrialforegoing:bioreactor",
+  "category": "industrialforegoing:generators",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "물과 일부 $(6)씨앗$(), $(6)나무 묘목$(), $(6)염료$() 그리고 ... $(6)해골$()???을 공급하면 $(l:generators/biofuel)바이오 연료$()를 생성하는 기계입니다. $(br2)반응로가 가진 아이템 종류가 많을수록 아이템당 생성되는 바이오 연료의 양도 많아집니다. 예를 들어: 반응로에 1개의 아이템만 있으면 $(6)80$()mb만 생성하지만, 4개의 서로 다른 아이템이 있으면 각각 $(6)110$()mb씩 생성되어 총 $(6)440$()mb를 생성합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:bioreactor"
+    }
+  ]
+}

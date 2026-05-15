@@ -1,0 +1,5 @@
+{
+  "type": "immersiveengineering:generator_fuel",
+  "burnTime": 416,
+  "fluidTag": "forge:kerosene"
+}

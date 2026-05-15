@@ -1,0 +1,218 @@
+{
+  "block.outer_end.azure_stem": "푸른 자루",
+  "block.outer_end.azure_pith": "푸른 자루",
+  "block.outer_end.azure_stripped_stem": "껍질 벗긴 푸른 자루",
+  "block.outer_end.azure_stripped_pith": "껍질 벗긴 푸른 자루",
+  "block.outer_end.azure_planks": "푸른 판자",
+  "block.outer_end.azure_leaves": "푸른 꽃잎",
+  "block.outer_end.azure_stamen": "푸른 꽃수술",
+  "block.outer_end.azure_bud": "푸른 꽃봉오리",
+  "block.outer_end.azure_grass": "푸른 잔디",
+  "block.outer_end.ender_roots": "엔더 뿌리",
+  "block.outer_end.tall_ender_roots": "긴 엔더 뿌리",
+  "block.outer_end.azure_sprouts": "푸른 싹",
+  "block.outer_end.azure_vines": "푸른 덩굴",
+  "block.outer_end.azure_fence": "푸른 울타리",
+  "block.outer_end.azure_fence_gate": "푸른 울타리 문",
+  "block.outer_end.azure_door": "푸른 문",
+  "block.outer_end.azure_trapdoor": "푸른 다락문",
+  "block.outer_end.azure_pressure_plate": "푸른 압력판",
+  "block.outer_end.azure_button": "푸른 버튼",
+  "block.outer_end.azure_slab": "푸른 반 블록",
+  "block.outer_end.azure_stairs": "푸른 계단",
+  "block.outer_end.azure_sign": "푸른 표지판",
+  "block.outer_end.azure_hanging_sign": "푸른 매달린 표지판",
+  "block.outer_end.azure_berry_vine": "푸른 열매 덩굴",
+  "block.outer_end.azure_berry_vine_top": "푸른 열매 덩굴 상단",
+  "block.outer_end.potted_azure_sprouts": "화분에 심긴 푸른 싹",
+
+  "block.outer_end.azure_vertical_slab": "푸른 세로 반 블록",
+  "block.outer_end.azure_vertical_planks": "세로 푸른 판자",
+  "block.outer_end.azure_ladder": "푸른 사다리",
+  "block.outer_end.azure_bookshelf": "푸른 책장",
+  "block.outer_end.azure_beehive": "푸른 벌집",
+  "block.outer_end.azure_chest": "푸른 상자",
+  "block.outer_end.azure_trapped_chest": "푸른 함정 상자",
+  "block.outer_end.azure_post": "푸른 기둥",
+  "block.outer_end.stripped_azure_post": "벗겨진 푸른 기둥",
+
+  "block.outer_end.himmel_block": "하늘 블록",
+  "block.outer_end.himmel_pillar": "하늘 기둥",
+  "block.outer_end.himmel_stairs": "하늘 계단",
+  "block.outer_end.himmel_slab": "하늘 반 블록",
+  "block.outer_end.himmel_vertical_slab": "하늘 세로 반 블록",
+
+  "block.outer_end.violite": "자주석",
+  "block.outer_end.violite_slab": "자주석 반 블록",
+  "block.outer_end.violite_stairs": "자주석 계단",
+  "block.outer_end.violite_vertical_slab": "자주석 세로 반 블록",
+
+
+  "block.outer_end.rose_tangled_violite": "장미빛 수정 얽힌 자주석",
+  "block.outer_end.mint_tangled_violite": "민트빛 수정 얽힌 자주석",
+  "block.outer_end.cobalt_tangled_violite": "코발트빛 수정 얽힌 자주석",
+
+  "block.outer_end.violite_bricks": "자주석 벽돌",
+  "block.outer_end.violite_brick_stairs": "자주석 벽돌 계단",
+  "block.outer_end.violite_brick_slab": "자주석 벽돌 반 블록",
+  "block.outer_end.violite_brick_vertical_slab": "자주석 벽돌 세로 반 블록",
+  "block.outer_end.violite_brick_wall": "자주석 벽돌 담장",
+  "block.outer_end.chiseled_violite_bricks": "조각된 자주석 벽돌",
+  "block.outer_end.violite_brick_pillar": "자주석 벽돌 기둥",
+
+  "block.outer_end.mossy_violite_bricks": "이끼 낀 자주석 벽돌",
+  "block.outer_end.mossy_violite_brick_stairs": "이끼 낀 자주석 벽돌 계단",
+  "block.outer_end.mossy_violite_brick_slab": "이끼 낀 자주석 벽돌 반 블록",
+  "block.outer_end.mossy_violite_brick_vertical_slab": "이끼 낀 자주석 벽돌 세로 반 블록",
+  "block.outer_end.mossy_violite_brick_wall": "이끼 낀 자주석 벽돌 담장",
+
+  "block.outer_end.cracked_violite_bricks": "금 간 자주석 벽돌",
+
+  "block.outer_end.violite_tiles": "자주석 타일",
+  "block.outer_end.violite_tile_stairs": "자주석 타일 계단",
+  "block.outer_end.violite_tile_slab": "자주석 타일 반 블록",
+  "block.outer_end.violite_tile_vertical_slab": "자주석 타일 세로 반 블록",
+
+  "block.outer_end.mossy_violite_tiles": "이끼 낀 자주석 타일",
+  "block.outer_end.mossy_violite_tile_stairs": "이끼 낀 자주석 타일 계단",
+  "block.outer_end.mossy_violite_tile_slab": "이끼 낀 자주석 타일 반 블록",
+  "block.outer_end.mossy_violite_tile_vertical_slab": "이끼 낀 자주석 타일 세로 반 블록",
+
+  "block.outer_end.cracked_violite_tiles": "금 간 자주석 타일",
+
+  "block.outer_end.rose_crystal": "장미빛 수정",
+  "block.outer_end.mint_crystal": "민트빛 수정",
+  "block.outer_end.cobalt_crystal": "코발트빛 수정",
+
+
+  "block.outer_end.rose_crystal_bud": "장미빛 수정 봉오리",
+  "block.outer_end.mint_crystal_bud": "민트빛 수정 봉오리",
+  "block.outer_end.cobalt_crystal_bud": "코발트빛 수정 봉오리",
+
+
+  "block.outer_end.rose_crystal_lamp": "장미빛 수정 램프",
+  "block.outer_end.mint_crystal_lamp": "민트빛 수정 램프",
+  "block.outer_end.cobalt_crystal_lamp": "코발트빛 수정 램프",
+
+
+  "block.outer_end.halite": "암염",
+  "block.outer_end.stromatolite": "스트로마톨라이트",
+  "block.outer_end.brine": "소금물",
+  "block.outer_end.ancient_stone": "고대 돌",
+  "block.outer_end.ancient_ice": "고대 얼음",
+  "block.outer_end.ancient_ice_column": "고대 얼음 기둥",
+  "block.outer_end.ancient_ice_cap": "고대 얼음 꼭지",
+  "block.outer_end.glowing_ancient_ice": "빛나는 고대 얼음",
+  "block.outer_end.glowing_ancient_ice_column": "빛나는 고대 얼음 기둥",
+  "block.outer_end.glowing_ancient_ice_cap": "빛나는 고대 얼음 꼭지",
+
+
+  "block.outer_end.rose_roots": "장미빛 뿌리",
+  "block.outer_end.mint_roots": "민트빛 뿌리",
+  "block.outer_end.cobalt_roots": "코발트빛 뿌리",
+
+  "item.outer_end.azure_berries": "푸른 열매",
+  "item.outer_end.rose_crystalline_berries": "장미빛 수정 열매",
+  "item.outer_end.mint_crystalline_berries": "민트빛 수정 열매",
+  "item.outer_end.cobalt_crystalline_berries": "코발트빛 수정 열매",
+  "item.outer_end.rose_crystal_arrow": "장미빛 수정 화살",
+  "item.outer_end.mint_crystal_arrow": "민트빛 수정 화살",
+  "item.outer_end.cobalt_crystal_arrow": "코발트빛 수정 화살",
+  "item.outer_end.floral_paste": "꽃잎 반죽",
+  "item.outer_end.spectragel": "스펙트라젤",
+  "item.outer_end.stalker_meat": "스토커 고기",
+  "item.outer_end.cooked_stalker_meat": "스토커 스테이크",
+  "item.outer_end.brine_bucket": "소금물 양동이",
+  "item.outer_end.ominous_miasma_bucket": "불길한 기운 양동이",
+  "item.outer_end.azure_boat": "푸른 배",
+  "item.outer_end.azure_chest_boat": "보물 상자를 가진 푸른 배",
+  "item.outer_end.halite_crystal": "암염 수정",
+  "item.outer_end.cured_chorus_fruit": "보관된 후렴과 열매",
+  "item.outer_end.cured_jerky": "보관된 허브",
+
+  "item.outer_end.rose_crystal_shard": "장미빛 수정 조각",
+  "item.outer_end.mint_crystal_shard": "민트빛 수정 조각",
+  "item.outer_end.cobalt_crystal_shard": "코발트빛 수정 조각",
+
+  "item.outer_end.rose_upgrade_template": "장미빛 강화 형판",
+  "item.outer_end.mint_upgrade_template": "민트빛 강화 형판",
+  "item.outer_end.cobalt_upgrade_template": "코발트빛 강화 형판",
+
+  "item.outer_end.smithing_template.rose_crystal_upgrade.ingredients": "장미빛 수정 조각",
+  "item.outer_end.smithing_template.mint_crystal_upgrade.ingredients": "민트빛 수정 조각",
+  "item.outer_end.smithing_template.cobalt_crystal_upgrade.ingredients": "코발트빛 수정 조각",
+
+  "upgrade.outer_end.rose_crystal_upgrade": "장미빛 수정 강화",
+  "upgrade.outer_end.mint_crystal_upgrade": "민트빛 수정 강화",
+  "upgrade.outer_end.cobalt_crystal_upgrade": "코발트빛 수정 강화",
+
+  "item.outer_end.rose_crystal_helmet": "장미빛 수정 투구",
+  "item.outer_end.rose_crystal_chestplate": "장미빛 수정 흉갑",
+  "item.outer_end.rose_crystal_leggings": "장미빛 수정 레깅스",
+  "item.outer_end.rose_crystal_boots": "장미빛 수정 부츠",
+
+  "item.outer_end.mint_crystal_helmet": "민트빛 수정 투구",
+  "item.outer_end.mint_crystal_chestplate": "민트빛 수정 흉갑",
+  "item.outer_end.mint_crystal_leggings": "민트빛 수정 레깅스",
+  "item.outer_end.mint_crystal_boots": "민트빛 수정 부츠",
+
+  "item.outer_end.cobalt_crystal_helmet": "코발트빛 수정 투구",
+  "item.outer_end.cobalt_crystal_chestplate": "코발트빛 수정 흉갑",
+  "item.outer_end.cobalt_crystal_leggings": "코발트빛 수정 레깅스",
+  "item.outer_end.cobalt_crystal_boots": "코발트빛 수정 부츠",
+
+  "item.outer_end.levitation_core": "공중부양 코어",
+  "item.outer_end.sinker_tooth": "싱커 이빨",
+  "item.outer_end.sinker_shuriken": "싱커 수리검",
+  "item.outer_end.sinker_dagger": "싱커 단검",
+  "item.outer_end.shulker_shield": "셜커 방패",
+
+  "item.outer_end.music_disc_galactic_wave": "음반",
+  "item.outer_end.music_disc_galactic_wave.desc": "Blue Duck - Galactic Wave",
+
+  "item.outer_end.music_disc_unknown_frontier": "음반",
+  "item.outer_end.music_disc_unknown_frontier.desc": "Pyrocide - Unknown Frontier",
+
+
+  "item.outer_end.spectrafly_spawn_egg": "스펙트라플라이 생성 알",
+  "item.outer_end.himmelite_spawn_egg": "히멜라이트 생성 알",
+  "item.outer_end.purpur_golem_spawn_egg": "퍼퍼 골렘 생성 알",
+  "item.outer_end.stalker_spawn_egg": "스토커 생성 알",
+  "item.outer_end.entombed_spawn_egg": "묘비자 생성 알",
+  "item.outer_end.chorus_squid_spawn_egg": "후렴 오징어 생성 알",
+  "item.outer_end.sinker_spawn_egg": "싱커 생성 알",
+
+  "entity.outer_end.spectrafly": "스펙트라플라이",
+  "entity.outer_end.himmelite": "히멜라이트",
+  "entity.outer_end.purpur_golem": "퍼퍼 골렘",
+  "entity.outer_end.stalker": "스토커",
+  "entity.outer_end.entombed": "묘비자",
+  "entity.outer_end.chorus_squid": "후렴 오징어",
+  "entity.outer_end.sinker": "싱커",
+  "entity.outer_end.sinker_shuriken": "싱커 수리검",
+  "entity.outer_end.sinker_laser": "싱커 레이저",
+  "entity.outer_end.rose_crystal_arrow": "장미빛 수정 화살",
+  "entity.outer_end.mint_crystal_arrow": "민트빛 수정 화살",
+  "entity.outer_end.cobalt_crystal_arrow": "코발트빛 수정 화살",
+
+  "biome.outer_end.azure_forest": "푸른 숲",
+  "biome.outer_end.crystal_crag": "수정 험지",
+  "biome.outer_end.primordial_pools": "원시 호수",
+
+  "advancements.end.find_end_tower.title": "엔더 건설",
+  "advancements.end.find_end_tower.description": "엔드 타워에 진입하세요",
+
+  "advancements.end.find_catacombs.title": "더 끔찍한 요새",
+  "advancements.end.find_catacombs.description": "지하 묘지를 찾으세요",
+  
+  "advancements.end.explore_end.title": "공허 너머",
+  "advancements.end.explore_end.description": "모든 엔드 생태계를 탐험하세요",
+
+  "itemGroup.outer_end": "The Outer End",
+
+    "ze.tip.oe.catacombs": "지하 묘지는 Outer End의 위험한 지하 미로입니다.",
+    "ze.tip.oe.rods": "블레이즈 막대기 대신 수정 조각을 사용하여 엔드 막대를 만들 수 있습니다.",
+    "ze.tip.oe.towers": "엔드 타워는 엔드에서 드물게 발견되며, 거대한 미로 같은 지하실을 가지고 있습니다.",
+    "ze.tip.oe.golems": "퍼퍼 골렘은 엔드 시티를 방어하는 골렘입니다.",
+    "ze.tip.oe.violite": "얽힌 바이올라이트를 사용하면 장미빛, 민트빛, 코발트빛 수정을 더 많이 키울 수 있습니다."
+}

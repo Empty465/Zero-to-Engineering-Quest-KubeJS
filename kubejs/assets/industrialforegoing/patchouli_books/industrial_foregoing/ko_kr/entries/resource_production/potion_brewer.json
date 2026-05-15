@@ -1,0 +1,17 @@
+{
+  "name": "물약 양조기",
+  "icon": "industrialforegoing:potion_brewer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 9,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "자동으로 물약을 양조하는 기계입니다.$(br2)$(6)전력$()이 공급되면 제공된 재료로 물약을 만듭니다.$(br)내부 $(6)물$()이 컨테이너가 채워져 있으면 비어 있는 병이 채워집니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:potion_brewer"
+    }
+  ]
+}

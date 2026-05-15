@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:rods/iron"
+    },
+    "I": {
+      "tag": "forge:ingots/steel"
+    },
+    "R": {
+      "item": "cyber_ware_port:component_ssc"
+    },
+    "B": {
+      "item": "cyber_ware_port:component_reactor"
+    },
+    "C": {
+      "item": "cyber_ware_port:component_microelectric"
+    }
+  },
+  "pattern": [
+    "IIA",
+    "BRC",
+    "III"
+  ],
+  "result": {
+    "item": "cyber_ware_port:radio_kit"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 13
+    },
+    {
+      "item": {
+        "item": "createbigcannons:recoil_spring"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 4
+    }, 
+    {
+      "item": {
+        "item": "create:precision_mechanism"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m16a1"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

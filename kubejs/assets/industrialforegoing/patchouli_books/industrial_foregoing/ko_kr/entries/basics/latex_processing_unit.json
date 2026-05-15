@@ -1,0 +1,13 @@
+{
+  "name": "라텍스 처리 유닛",
+  "icon": "industrialforegoing:latex_processing_unit",
+  "category": "industrialforegoing:basics",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "라텍스 처리 유닛은 $(6)100$()mb의 $(l:basics/latex)라텍스$()와 $(6)500$()mb의 물을 사용하여 1개의 $(l:basics/plastic)건조 고무$()를 생산합니다."
+    }
+  ]
+}

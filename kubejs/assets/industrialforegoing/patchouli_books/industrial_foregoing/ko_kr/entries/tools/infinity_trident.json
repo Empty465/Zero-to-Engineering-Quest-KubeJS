@@ -1,0 +1,13 @@
+{
+  "name": "무한 삼지창",
+  "icon": "industrialforegoing:infinity_trident",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "무한 삼지창은 삼지창의 진정한 힘을 해방할 수 있는 도구입니다. 등급을 높이면 $(6)충성$(), $(6)급류$(), $(6)집전$()의 다른 레벨에 접근할 수 있습니다. $(br2)집전과 공격 피해는 광역으로 적용됩니다."
+    }
+  ]
+}

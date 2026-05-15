@@ -1,0 +1,1060 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "zequestchapterr"
+	group: "0753A2AC132A65EB"
+	icon: "kubejs:money"
+	id: "5B0CD4E4A49B5470"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["52A824D990D3E08A"]
+			description: [
+				"{ze.buy.pig.des}"
+				"{ze.buy.se.des}"
+			]
+			icon: "minecraft:pig_spawn_egg"
+			id: "4FF801BF40F54403"
+			rewards: [{
+				id: "268202851122BD5E"
+				item: "minecraft:pig_spawn_egg"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 10L
+				id: "7CB3D9F485C0AEBF"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.pig}"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			description: [
+				"{ze.buy.bee.des}"
+				"{ze.buy.se.des}"
+			]
+			icon: "minecraft:bee_spawn_egg"
+			id: "000091838D0C6E53"
+			rewards: [{
+				id: "04E1FC11FCD1A9F4"
+				item: "minecraft:bee_spawn_egg"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 10L
+				id: "5EB9782A838AF9B3"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.bee}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			description: [
+				"{ze.buy.sheep.des}"
+				"{ze.buy.se.des}"
+			]
+			icon: "minecraft:sheep_spawn_egg"
+			id: "54BFF8883A9CF899"
+			rewards: [{
+				id: "12B48543BCCFB300"
+				item: "minecraft:sheep_spawn_egg"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 10L
+				id: "695BD3E07EDB8357"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.sheep}"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			description: [
+				"{ze.buy.cow.des}"
+				"{ze.buy.se.des}"
+			]
+			icon: "minecraft:cow_spawn_egg"
+			id: "5EEFE112F9A9A531"
+			rewards: [{
+				id: "73C6C5B808B26A5A"
+				item: "minecraft:cow_spawn_egg"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 10L
+				id: "4DB1661813500B61"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.cow}"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			description: [
+				"{ze.buy.chi.des}"
+				"{ze.buy.se.des}"
+			]
+			icon: "minecraft:chicken_spawn_egg"
+			id: "5DB1B186F7C74942"
+			rewards: [{
+				id: "70AD80E85C419558"
+				item: "minecraft:chicken_spawn_egg"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 10L
+				id: "1DAEA6D7D5D9FACC"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.chi}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59B8506BE15DF6FF"]
+			id: "50936019BF678EC5"
+			rewards: [{
+				count: 15
+				id: "2CBC0EBD53B12A0D"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				amount: 1000L
+				fluid: "farmersrespite:coffee"
+				id: "79FC28BA4F1F97D9"
+				type: "fluid"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6EC89312865A6D49"]
+			id: "0CCCB2DBEED6BFC6"
+			rewards: [{
+				count: 5
+				id: "29DA6FBE07B70969"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				id: "70854ED4D0B1CABE"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"52A824D990D3E08A"
+				"4FABB100809045CA"
+			]
+			id: "65B8CEDE22D05851"
+			rewards: [{
+				count: 15
+				id: "52C35D2B31FA1AA7"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				count: 14L
+				id: "51D01137F5C8445C"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:9mm"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"52A824D990D3E08A"
+				"4FABB100809045CA"
+			]
+			id: "7B0CF0AF9BF1D11F"
+			rewards: [{
+				count: 15
+				id: "53F32DFF837A9A8E"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				count: 24L
+				id: "63999709883674BC"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:556x45"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"52A824D990D3E08A"
+				"4FABB100809045CA"
+			]
+			id: "61FC6B6B18923FA1"
+			rewards: [{
+				count: 15
+				id: "32F9433B1284CF78"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				count: 19L
+				id: "41A4BC46FD1EC88D"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:762x39"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			id: "0247E06A8AD3FF77"
+			rewards: [{
+				count: 15
+				id: "46ADBB53BCFD730C"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				id: "6547155DA2DE44DF"
+				item: "tactical_aid:painlessinjector"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			id: "08CF37F7C72E3385"
+			rewards: [{
+				count: 15
+				id: "74BDD83AC879BF25"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				id: "747BCB576BC8DEB4"
+				item: "tactical_aid:metabolizeinjector"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			id: "4E9852FF0F862FC2"
+			rewards: [{
+				count: 15
+				id: "3B41BEC3D82C34F0"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				id: "49D3E5FC723892CD"
+				item: "tactical_aid:glucoseinjector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			id: "7DF449E78D523F40"
+			rewards: [{
+				count: 15
+				id: "7B642B860085B99D"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				id: "2C4CFBEC52AE27E7"
+				item: "tactical_aid:adrenalineinjector_ii"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			id: "2EC39D0EDC854A58"
+			rewards: [{
+				count: 15
+				id: "396EDAB69311C13E"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				id: "4B75BF58BEC0D856"
+				item: "tactical_aid:adrenalineinjector_iii"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			id: "2BFD17D5AF7366DB"
+			rewards: [{
+				count: 15
+				id: "161653EF017C500F"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				id: "103B87EC7EC0ADCD"
+				item: "tactical_aid:quickactioninjector_ii"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52A824D990D3E08A"]
+			id: "2B753A2F0B9CF819"
+			rewards: [{
+				count: 15
+				id: "65B5A303969C53AE"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				id: "0896888A6065EA91"
+				item: "tactical_aid:relief_injector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0105D37725E29FE0"
+				"229544A3830DD8A2"
+				"211D28B012763325"
+				"165BF6258EFF21CF"
+				"73356A6DD81BE60C"
+				"384EA0BEAC6EE1D1"
+				"2E888FCD775E1F74"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.sell.fossil.des}"]
+			hide_until_deps_complete: true
+			id: "72C1641B2188843F"
+			rewards: [{
+				count: 50
+				id: "08FD6770F2DA2155"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				id: "1B943E7B3B3FCECF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:fossil)"
+					}
+				}
+				title: "{ze.quest.task.any.fossil}"
+				type: "item"
+			}]
+			title: "{ze.sell.fossil}"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"23A5CAEA64FB9173"
+				"2A383480CBA5FA55"
+				"416093ECDE56D9B4"
+				"7E79C096D4783148"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.sell.cx.des}"]
+			hide_until_deps_complete: true
+			id: "49DF894DDA5B5789"
+			rewards: [{
+				count: 35
+				id: "566B618429A1C9CE"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				id: "0DF48C642AFB61C1"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "mutantmonsters:chemical_x"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ze.sell.cx}"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"23A5CAEA64FB9173"
+				"2A383480CBA5FA55"
+				"416093ECDE56D9B4"
+				"7E79C096D4783148"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.buy.cx.des}"]
+			icon: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "mutantmonsters:chemical_x"
+				}
+			}
+			id: "22055E26424DC6D6"
+			rewards: [{
+				id: "2758212C1E19A175"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "mutantmonsters:chemical_x"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 40L
+				id: "3E6502E5E78F9AD9"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.cx}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E936FFB8F8C28BB"]
+			description: ["{ze.buy.plastic.des}"]
+			icon: "industrialforegoing:plastic"
+			id: "27D2CAEF2221FBB9"
+			rewards: [{
+				count: 2
+				id: "55B5FFA98405A904"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 200L
+				id: "3F2E5462DA81B657"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.plastic}"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28FC603EDE81801C"]
+			description: ["{ze.buy.tea_seed.des}"]
+			icon: "farmersrespite:tea_seeds"
+			id: "13AA4E37505C97CD"
+			rewards: [{
+				id: "70FF2BB3337CB7C9"
+				item: "farmersrespite:tea_seeds"
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 100L
+				id: "488DCD6C75B36952"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.tea_seed}"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EC89312865A6D49"]
+			description: ["{ze.buy.coff_seed.des}"]
+			icon: "farmersrespite:coffee_beans"
+			id: "05A9199D5F2B7E24"
+			rewards: [{
+				id: "7D90E6E90B4D27F0"
+				item: "farmersrespite:coffee_beans"
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 100L
+				id: "086841ACBB05D12E"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.coff_seed}"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"26309D868D958BA2"
+				"29E33D2086D6DD66"
+			]
+			description: ["{ze.buy.glu_inject.des}"]
+			icon: "tactical_aid:glucoseinjector"
+			id: "5A75F0EBB3056E91"
+			rewards: [{
+				id: "1525236609F6BD83"
+				item: "tactical_aid:glucoseinjector"
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 20L
+				id: "6B4F3C1BCAC96CB4"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.glu_inject}"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3415B1E8B6AC9572"]
+			description: ["{ze.buy.exMag.des}"]
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:extended_mag_3"
+					Damage: 0
+				}
+			}
+			id: "0F05D109F0863590"
+			rewards: [{
+				id: "150B33679B7FB988"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:extended_mag_3"
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 50L
+				id: "5B82BBF2DFE116A5"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.exHeavyMag}"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E4875BBC280DBE6"]
+			description: ["{ze.buy.exMag.des}"]
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:light_extended_mag_3"
+					Damage: 0
+				}
+			}
+			id: "0371A0EC64696031"
+			rewards: [{
+				id: "33531F4A364A744B"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:light_extended_mag_3"
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 50L
+				id: "426E5C45D97E36C4"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.exLightMag}"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E4875BBC280DBE6"]
+			description: ["{ze.buy.exMag.des}"]
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:shotgun_extended_mag_3"
+					Damage: 0
+				}
+			}
+			id: "1D1132B7975B816D"
+			rewards: [{
+				id: "55FB7C7E5F738E34"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:shotgun_extended_mag_3"
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 50L
+				id: "568C9FFD6149FA5A"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.exShellMag}"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3415B1E8B6AC9572"]
+			description: ["{ze.buy.exMag.des}"]
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sniper_extended_mag_3"
+					Damage: 0
+				}
+			}
+			id: "39DA9B80E19163F9"
+			rewards: [{
+				id: "0932B661A0178D71"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:sniper_extended_mag_3"
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 50L
+				id: "184C67714357AC48"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.exSniperMag}"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2A6A53B1787FC459"
+				"52A824D990D3E08A"
+			]
+			id: "2F17B395A3A4CB29"
+			rewards: [{
+				count: 100
+				id: "509A2CD4312B3E44"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:diesel"
+				id: "6E57642214F763F7"
+				type: "fluid"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["78737B6768B78AAF"]
+			id: "18588E14623D93C1"
+			rewards: [{
+				auto: "no_toast"
+				count: 100
+				id: "327FB0EE572D1124"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:gasoline"
+				id: "447DF1FA3F7FC1C9"
+				type: "fluid"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["78737B6768B78AAF"]
+			id: "21946D45B3E10F1B"
+			rewards: [{
+				count: 10
+				id: "3CA0258F804F1952"
+				item: "kubejs:money"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:lubricant"
+				id: "3E1D0DD9D6F5D7B9"
+				type: "fluid"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72C1641B2188843F"]
+			description: ["{ze.buy.slotM.des}"]
+			hide_dependency_lines: true
+			icon: "slotmachinemod:server_slot_machine"
+			id: "36EE679CDA4AE24C"
+			rewards: [{
+				id: "68B49CADF44D51B9"
+				item: "slotmachinemod:server_slot_machine"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 150L
+				id: "249F0F8774DEFEC1"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.slotM}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36EE679CDA4AE24C"]
+			description: ["{ze.sell.lib.des}"]
+			hide_dependency_lines: true
+			id: "3D9C81FD1AA77AD4"
+			rewards: [{
+				count: 1000
+				id: "50486501546AFF03"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [
+				{
+					id: "2BC22D1E1F253CD8"
+					item: "roberts_collection:monika"
+					type: "item"
+				}
+				{
+					id: "39D87111779D6DA9"
+					item: "roberts_collection:natsuki"
+					type: "item"
+				}
+				{
+					id: "209B0E9F551206A4"
+					item: "roberts_collection:sayori"
+					type: "item"
+				}
+				{
+					id: "1B918E5280663D7E"
+					item: "roberts_collection:yuri"
+					type: "item"
+				}
+			]
+			title: "{ze.sell.lib}"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36EE679CDA4AE24C"]
+			description: ["{ze.sell.zero.des}"]
+			hide_dependency_lines: true
+			id: "54CDB223AD834E49"
+			rewards: [{
+				count: 1000
+				id: "5E502932A22FB4F7"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [
+				{
+					id: "323F323C5AA6528F"
+					item: "roberts_collection:natsuki_subaru"
+					type: "item"
+				}
+				{
+					id: "4112B0D4F11B94C6"
+					item: "roberts_collection:emilia"
+					type: "item"
+				}
+				{
+					id: "1071F9F01A5DFD91"
+					item: "roberts_collection:rem"
+					type: "item"
+				}
+				{
+					id: "5508532E7BD6A1A8"
+					item: "roberts_collection:ram"
+					type: "item"
+				}
+			]
+			title: "{ze.sell.zero}"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36EE679CDA4AE24C"]
+			dependency_requirement: "all_started"
+			description: ["{ze.sell.chain.des}"]
+			hide_dependency_lines: true
+			id: "0F58053D888D979F"
+			rewards: [{
+				count: 1000
+				id: "28F20F227E99510C"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [
+				{
+					id: "38B42CF4AD94D442"
+					item: "roberts_collection:aki_hayakawa"
+					type: "item"
+				}
+				{
+					id: "6FF9419280296F88"
+					item: "roberts_collection:denji"
+					type: "item"
+				}
+				{
+					id: "78EC773D0F3CB1D6"
+					item: "roberts_collection:himeno"
+					type: "item"
+				}
+				{
+					id: "1F367B0569350DFB"
+					item: "roberts_collection:makima"
+					type: "item"
+				}
+				{
+					id: "52A8F33AEE6FF80B"
+					item: "roberts_collection:power"
+					type: "item"
+				}
+			]
+			title: "{ze.sell.chain}"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["36EE679CDA4AE24C"]
+			description: ["{ze.sell.spin.des}"]
+			hide_dependency_lines: true
+			id: "2804B795F4EADE4D"
+			rewards: [{
+				count: 1000
+				id: "33ED42431AC070DB"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [
+				{
+					id: "44572790D005EA33"
+					item: "roberts_collection:megumi_fushiguro"
+					type: "item"
+				}
+				{
+					id: "06DBA983A85FCC89"
+					item: "roberts_collection:nobara_kugisaki"
+					type: "item"
+				}
+				{
+					id: "549FB82CD4BABB2B"
+					item: "roberts_collection:satoru_gojo"
+					type: "item"
+				}
+				{
+					id: "7AAC5DBC8B68A12C"
+					item: "roberts_collection:yuji_itadori"
+					type: "item"
+				}
+			]
+			title: "{ze.sell.spin}"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["36EE679CDA4AE24C"]
+			description: ["{ze.sell.lou.des}"]
+			hide_dependency_lines: true
+			id: "19B8565A21324EA2"
+			rewards: [{
+				count: 200
+				id: "699627912D563243"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [
+				{
+					id: "5E3C9513F60E236F"
+					item: "roberts_collection:ellie_williams"
+					type: "item"
+				}
+				{
+					id: "7E92FA6C61F4BAEA"
+					item: "roberts_collection:joel_miller"
+					type: "item"
+				}
+			]
+			title: "{ze.sell.lou}"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["52A824D990D3E08A"]
+			id: "7558FBFE654342FE"
+			rewards: [{
+				id: "12C4A24A1FF0B96D"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			subtitle: "{ze.sell}"
+			tasks: [
+				{
+					count: 30L
+					id: "2E32C3EDAA5CC5FC"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+						}
+					}
+					title: "{ze.quest.task.any_wood_log}"
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "1036ABCE79B0DCAB"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:stone)"
+						}
+					}
+					title: "{ze.quest.task.any.stone}"
+					type: "item"
+				}
+			]
+			title: "{ze.sell.logStone}"
+			x: -6.5d
+			y: 4.0d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.r.subtitle}"]
+	title: "{ze.quest.chapter.r}"
+}

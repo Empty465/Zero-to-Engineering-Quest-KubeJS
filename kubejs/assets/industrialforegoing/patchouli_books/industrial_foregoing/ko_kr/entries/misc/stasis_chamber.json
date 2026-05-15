@@ -1,0 +1,17 @@
+{
+  "name": "정지실",
+  "icon": "industrialforegoing:stasis_chamber",
+  "category": "industrialforegoing:misc",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "전력이 공급되면 이 기계는 작업 영역에 있는 모든 엔티티를 $(6)정지$()시키고 $(6)회복$()시킵니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:stasis_chamber"
+    }
+  ]
+}

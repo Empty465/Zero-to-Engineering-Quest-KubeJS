@@ -1,0 +1,17 @@
+{
+  "name": "전기 화로",
+  "icon": "industrialforegoing:resourceful_furnace",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "화로 세 개를 하나로 합쳤습니다.$(br2)제련한 아이템 하나당 $(6)2$()mb의 에센스를 생산합니다. $(6)40$()RF/t가 필요합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:resourceful_furnace"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NAN",
+    "TQT",
+    "NMN"
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:component_electronic_adv"
+    },
+    "T": {
+      "item": "immersiveengineering:ingot_hop_graphite"
+    },
+    "Q": {
+      "item": "minecraft:diamond_block"
+    },
+    "N": {
+      "tag": "forge:ingots/steel"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "item": "cyber_ware_port:robo_surgeon",
+    "count": 1
+  }
+}

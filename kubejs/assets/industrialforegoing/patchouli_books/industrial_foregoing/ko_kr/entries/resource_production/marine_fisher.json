@@ -1,0 +1,17 @@
+{
+  "name": "해양 낚시기",
+  "icon": "industrialforegoing:marine_fisher",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "고양이의 가장 친한 친구인 기계<3$(br2)최소 $(6)3x3$() 및 $(6)1$() 블록 깊이의 $(6)물 웅덩이$() 위에 배치하면 $(6)낚시$()를 시작하고 작업당 $(6)5000$()RF의 비용으로 물고기(와 아마도 다른 것?)를 낚아서 내부 인벤토리에 넣습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:marine_fisher"
+    }
+  ]
+}

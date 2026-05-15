@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:plates/brass"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:nuggets/lead"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 20
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:rpg_rocket",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

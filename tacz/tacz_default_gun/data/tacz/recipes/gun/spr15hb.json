@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/steel"
+      },
+      "count": 15
+    },
+    {
+      "item": {
+        "item": "createbigcannons:recoil_spring"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 4
+    }, 
+    {
+      "item": {
+        "item": "create:precision_mechanism"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:spr15hb"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

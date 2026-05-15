@@ -1,0 +1,51 @@
+{
+  "name": "컨베이어 업그레이드들",
+  "icon": "industrialforegoing:conveyor_extraction_upgrade",
+  "category": "industrialforegoing:transport",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_extraction_upgrade",
+      "title": "추출",
+      "text": "인벤토리에서 아이템과 유체를 빼냅니다. 플레이어 인벤토리에서도 아이템을 뺴낼 수 있습니다. $(br2)빼내야 하는 아이템과 유체는 GUI에서 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_insertion_upgrade",
+      "title": "삽입",
+      "text": "인벤토리에 아이템과 유체를 넣습니다. 2가지 모드가 있습니다: 컨베이어에 닿은 아이템을 넣거나 업그레이드에 직접 닿은 아이템을 넣습니다. $(br2)넣어야 하는 아이템과 유체는 GUI에서 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_detection_upgrade",
+      "title": "감지",
+      "text": "컨베이어 위에 있는 아이템과 엔티티를 감지합니다. $(br2)감지해야 하는 아이템과 엔티티는 GUI에서 필터링할 수 있습니다. 엔티티는 몹 포획 도구 내부에 있는 엔티티를 통해 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_bouncing_upgrade",
+      "title": "튕김",
+      "text": "컨베이어 위에 있는 아이템과 엔티티를 튕깁니다. 수직 및 수평 강도는 GUI에서 변경할 수 있습니다.$(br2)튕겨야 하는 아이템과 엔티티는 GUI에서 필터링할 수 있습니다. 엔티티는 몹 포획 도구 내부에 있는 엔티티를 통해 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_dropping_upgrade",
+      "title": "떨굼",
+      "text": "컨베이어 위에 있는 아이템과 엔티티를 아래쪽으로 떨구게 합니다. $(br2)떨구어야 하는 아이템과 엔티티는 GUI에서 필터링할 수 있습니다. 엔티티는 몹 포획 도구 내부에 있는 엔티티를 통해 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_blinking_upgrade",
+      "title": "점멸",
+      "text": "컨베이어 위에 있는 아이템과 엔티티를 순간이동시킵니다. 수직 및 수평 거리는 GUI에서 변경할 수 있습니다.$(br2)점멸해야 하는 아이템과 엔티티는 GUI에서 필터링할 수 있습니다. 엔티티는 몹 포획 도구 내부에 있는 엔티티를 통해 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_splitting_upgrade",
+      "title": "분할",
+      "text": "GUI에서 정의된 비율로 컨베이어 위에 있는 아이템과 엔티티를 분할합니다. 분할이 필요한 모든 측면에 업그레이드가 필요합니다."
+    }
+  ]
+}

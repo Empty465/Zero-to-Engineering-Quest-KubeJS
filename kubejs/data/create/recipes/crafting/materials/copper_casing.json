@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:ingots/copper"
+    },
+    "B": {
+      "tag": "forge:treated_wood"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "result": {
+    "item": "create:copper_casing",
+    "count": 4
+  },
+  "show_notification": true
+}

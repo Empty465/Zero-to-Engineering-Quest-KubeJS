@@ -1,0 +1,13 @@
+{
+  "name": "무한 핵탄두",
+  "icon": "industrialforegoing:infinity_nuke",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "무한 핵탄두는 대규모 파괴 도구로, 폭발 반경은 등급과 바이오 연료의 양에 따라 증가합니다. 핵탄두는 클레임(보호)된 청크에서는 파괴되지 않습니다. $(br2)폭발시키려면 지면에 놓고 우클릭하여 활성화하고, 부싯돌과 부시로 우클릭하여 폭발시킬 수 있습니다."
+    }
+  ]
+}

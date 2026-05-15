@@ -1,0 +1,17 @@
+{
+  "name": "블록 파괴기",
+  "icon": "industrialforegoing:block_breaker",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "한 번의 작동할 때 $(6)1000$()RF을 소모하여 정면에 있는 블록을 부수고 내부 인벤토리에 옮깁니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:block_breaker"
+    }
+  ]
+}

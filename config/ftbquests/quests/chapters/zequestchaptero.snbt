@@ -1,0 +1,1206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zequestchaptero"
+	group: "3BA8AFE5D48A2AF9"
+	icon: "supplementaries:globe"
+	id: "6D30C688CFF2A5C0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: ["{ze.quest.185.des}"]
+			hide_until_deps_complete: true
+			id: "7551E80EA1B59C47"
+			rewards: [{
+				id: "64884D0BE7A45EF2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.185.subtitle}"
+			tasks: [{
+				id: "2BC0D2C820957F89"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:end_eye)"
+					}
+				}
+				title: "{ze.quest.task.any.eye}"
+				type: "item"
+			}]
+			title: "{ze.quest.185.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7551E80EA1B59C47"]
+			description: ["{ze.quest.186.des}"]
+			hide_until_deps_complete: true
+			id: "0E5E2E88CC1A23D1"
+			rewards: [{
+				id: "6BB0F27F312FE12D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.186.subtitle}"
+			tasks: [{
+				icon: "minecraft:stone_bricks"
+				id: "19E69D7D71A28CDE"
+				structure: "integrated_stronghold:stronghold"
+				title: "{ze.quest.task.find.strong}"
+				type: "structure"
+			}]
+			title: "{ze.quest.186.title}"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0E5E2E88CC1A23D1"
+				"60179D2721B3E085"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ze.quest.261.des}"]
+			hide_until_deps_complete: true
+			id: "615051BDDB8D41E3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08A778263F151DED"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CD0B17504055355"
+					table_id: 5819673195844255311L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.261.subtitle}"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "ftb_ph:ferrous_wroughtnaut"
+				id: "1731E3DE79DE2B31"
+				title: "{ze.quest.task.kill.steel_knight}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.261.title}"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4FA67668D50F5FA9"]
+			description: ["{ze.quest.264.des}"]
+			id: "59DED01A57859BFD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28B5FA4F40BBBED2"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38C8F6AAF72D5F5D"
+					table_id: 5819673195844255311L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.264.subtitle}"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "ftb_ph:umvuthithesunbird"
+				id: "39E977E746656568"
+				title: "{ze.quest.task.kill.sunbird}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.264.title}"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: [
+				"{ze.quest.265.des}"
+				"{image:kubejs:textures/quest/frostmow.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "0B65EE89A9E9F163"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D24803464225469"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5435ABE5D70EA363"
+					table_id: 5819673195844255311L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.265.subtitle}"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: "ftb_ph:frostmaw"
+				id: "460346B6CE54058E"
+				title: "{ze.quest.task.kill.frostmow}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.265.title}"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: [
+				"{ze.quest.263.des}"
+				"{image:kubejs:textures/quest/sun_beird.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "4FA67668D50F5FA9"
+			rewards: [{
+				id: "731168D7C71EB8E6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.263.subtitle}"
+			tasks: [{
+				icon: "mowziesmobs:clawed_log"
+				id: "3C6990D4CDB994F4"
+				structure: "mowziesmobs:umvuthana_grove"
+				title: "{ze.quest.task.find.sun_villiage}"
+				type: "structure"
+			}]
+			title: "{ze.quest.263.title}"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: [
+				"{ze.quest.266.des}"
+				"{image:kubejs:textures/quest/tongbi.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "1AFD53827C9D2DD4"
+			rewards: [{
+				id: "03AA459E5EA279E0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.266.subtitle}"
+			tasks: [{
+				icon: "mowziesmobs:gong"
+				id: "1FAFE5357DC2882D"
+				structure: "mowziesmobs:monastery"
+				title: "{ze.quest.task.find.tongbi_temple}"
+				type: "structure"
+			}]
+			title: "{ze.quest.266.title}"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B6D4B902BF8FD94"]
+			description: ["{ze.quest.268.des}"]
+			hide_until_deps_complete: true
+			id: "38414304A3D3892F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70ADB3DB2A5562FC"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73ED2AD430073D11"
+					table_id: 5819673195844255311L
+					type: "choice"
+				}
+			]
+			subtitle: "{ze.quest.268.subtitle}"
+			tasks: [{
+				id: "0718F8A99C544533"
+				item: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.268.title}"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1AFD53827C9D2DD4"]
+			description: ["{ze.quest.269.des}"]
+			id: "7F38A85B7927515C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "258746E812AE516B"
+					table_id: 2928502593784218937L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "114061F529893B3D"
+					table_id: 5819673195844255311L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.269.subtitle}"
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0F83786484816168"
+				title: "{ze.quest.task.kill.tongbi}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.269.title}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AFD53827C9D2DD4"]
+			description: ["{ze.quest.267.des}"]
+			id: "1B6D4B902BF8FD94"
+			rewards: [{
+				id: "01F69139D5FA75BC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.267.subtitle}"
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				icon: "mowziesmobs:bluff_rod"
+				id: "4E0552DC710F9C9F"
+				title: "{ze.quest.task.kill.bluf}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.267.title}"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1AFD53827C9D2DD4"]
+			description: ["{ze.quest.270.des}"]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:geomancer_beads"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3199F0E46C8BA363"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26C3DD065E3C7C51"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.270.subtitle}"
+			tasks: [
+				{
+					id: "4D4A6CEFFD32B091"
+					item: {
+						Count: 1
+						id: "mowziesmobs:sculptor_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0949CA68BA70782D"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_beads"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "739BBF04C8AFA631"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "778B2C1D7E86C835"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_belt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CA7C3BEDE25DF0F"
+					item: {
+						Count: 1
+						id: "mowziesmobs:geomancer_sandals"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ze.quest.270.title}"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: [
+				"{ze.quest.262.des}"
+				"{image:kubejs:textures/quest/f_knight.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "60179D2721B3E085"
+			rewards: [{
+				id: "458237288D67C0FA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.262.subtitle}"
+			tasks: [{
+				icon: "minecraft:smooth_stone"
+				id: "2D00808151FEFF8C"
+				structure: "mowziesmobs:wrought_chamber"
+				title: "{ze.quest.task.find.knight_chamber}"
+				type: "structure"
+			}]
+			title: "{ze.quest.262.title}"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: [
+				"{ze.quest.271.des}"
+				"{image:kubejs:textures/quest/an_wither1.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/an_wither2.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "37BE16E238C0988F"
+			rewards: [{
+				id: "2886E4EA37185408"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.271.subtitle}"
+			tasks: [{
+				icon: "cataclysm:mech_eye"
+				id: "6EE0B6CE4ABA421E"
+				structure: "cataclysm:ancient_factory"
+				title: "{ze.quest.task.find.anti_fac}"
+				type: "structure"
+			}]
+			title: "{ze.quest.271.title}"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37BE16E238C0988F"
+				"11AB1AC3AF2E8F85"
+			]
+			description: ["{ze.quest.272.des}"]
+			hide_until_deps_complete: true
+			icon: "minecraft:nether_star"
+			id: "1F56D0A8C86A5B8E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74F470711BB9F22F"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02D19330140DD808"
+					table_id: 5819673195844255311L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.272.subtitle}"
+			tasks: [
+				{
+					id: "06D716CF26C081DC"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: "cataclysm:wither_assault_shoulder_weapon"
+					id: "7464BF14A461EB9D"
+					title: "{ze.quest.task.kill.harbinger}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ze.quest.272.title}"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1F56D0A8C86A5B8E"
+				"7075DD5DC9664B09"
+				"5382CC8E4991FDAD"
+			]
+			description: ["{ze.quest.273.des}"]
+			hide_until_deps_complete: true
+			id: "69A2E7C156133E70"
+			rewards: [{
+				id: "0F83E962383DDE62"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.273.subtitle}"
+			tasks: [{
+				id: "6E3CAFAE421D8179"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			title: "{ze.quest.273.title}"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: [
+				"{ze.quest.275.des}"
+				"{image:kubejs:textures/quest/curse_pyi.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			icon: "cataclysm:desert_eye"
+			id: "27455FE751D2B8F9"
+			rewards: [{
+				id: "157B4CA720EE1A3A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.275.subtitle}"
+			tasks: [
+				{
+					icon: "cataclysm:desert_eye"
+					id: "13E27027151C65A0"
+					structure: "cataclysm:cursed_pyramid"
+					title: "{ze.quest.task.find.ruind_pyi}"
+					type: "structure"
+				}
+				{
+					id: "05335501B6DF4DF3"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:brushes)"
+						}
+					}
+					title: "{ze.quest.task.any.brush}"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.275.title}"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27455FE751D2B8F9"]
+			description: ["{ze.quest.276.des}"]
+			id: "2D6BEA3A26D39D26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79A93F10FBA7A718"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.276.subtitle}"
+			tasks: [
+				{
+					entity: "cataclysm:wadjet"
+					icon: {
+						Count: 1
+						id: "cataclysm:ancient_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "54F988979DB936E9"
+					title: "{ze.quest.task.kill.wadjet}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:kobolediator"
+					icon: "cataclysm:kobolediator_skull"
+					id: "787C545156ABCC9A"
+					title: "{ze.quest.task.kill.kobolediator}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ze.quest.276.title}"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27455FE751D2B8F9"]
+			description: ["{ze.quest.277.des}"]
+			hide_until_deps_complete: true
+			icon: "cataclysm:necklace_of_the_desert"
+			id: "1F3C056984250889"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54277BCF930D2440"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22E72B0A376D923A"
+					table_id: 5819673195844255311L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.277.subtitle}"
+			tasks: [
+				{
+					id: "6253619C830374B2"
+					item: "cataclysm:necklace_of_the_desert"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ancient_remnant"
+					icon: "cataclysm:remnant_skull"
+					id: "00B79C7F0B884115"
+					title: "{ze.quest.task.kill.a_remnant}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ze.quest.277.title}"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F3C056984250889"]
+			description: ["{ze.quest.278.des}"]
+			hide_until_deps_complete: true
+			icon: "cataclysm:remnant_skull"
+			id: "19224CF9132163AD"
+			rewards: [{
+				id: "09CBB6A719AC726E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.278.subtitle}"
+			tasks: [
+				{
+					icon: "cataclysm:remnant_skull"
+					id: "0C5F9970E5681FA1"
+					observe_type: 5
+					timer: 0L
+					title: "{ze.quest.task.obs.modern_rem}"
+					to_observe: "cataclysm:modern_remnant"
+					type: "observation"
+				}
+				{
+					id: "571B74E8387504B1"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+				{
+					id: "1E2BADEC10FF2A4D"
+					item: {
+						Count: 1
+						id: "cataclysm:modern_remnant_bucket"
+						tag: {
+							Health: 150.0f
+							ModernRemnantData: {
+								AbsorptionAmount: 0.0f
+								Age: 0
+								ArmorDropChances: [
+									0.085f
+									0.085f
+									0.085f
+									0.085f
+								]
+								ArmorItems: [
+									{ }
+									{ }
+									{ }
+									{ }
+								]
+								Attributes: [
+									{
+										Base: 0.5d
+										Name: "minecraft:generic.knockback_resistance"
+									}
+									{
+										Base: 0.08d
+										Name: "forge:entity_gravity"
+									}
+									{
+										Base: 0.0d
+										Name: "obscure_api:regeneration"
+									}
+									{
+										Base: 150.0d
+										Name: "minecraft:generic.max_health"
+									}
+									{
+										Base: 1.0d
+										Name: "forge:swim_speed"
+									}
+									{
+										Base: 0.0d
+										Name: "forge:step_height_addition"
+									}
+									{
+										Base: 0.4000000059604645d
+										Name: "minecraft:generic.movement_speed"
+									}
+									{
+										Base: 6.0d
+										Name: "minecraft:generic.attack_damage"
+									}
+									{
+										Base: 5.0d
+										Name: "minecraft:generic.armor"
+									}
+									{
+										Base: 32.0d
+										Modifiers: [
+											{
+												Amount: -0.04864414545587127d
+												Name: "Random spawn bonus"
+												Operation: 1
+												UUID: [I;
+													2036468983
+													117001217
+													-1366949129
+													-683239076
+												]
+											}
+											{
+												Amount: -0.034357061604028225d
+												Name: "Random spawn bonus"
+												Operation: 1
+												UUID: [I;
+													199610302
+													263144063
+													-2138056728
+													-1746140908
+												]
+											}
+										]
+										Name: "minecraft:generic.follow_range"
+									}
+								]
+								Brain: {
+									memories: { }
+								}
+								CanPickUpLoot: 0b
+								CitadelData: { }
+								CmPetSitting: 0b
+								Command: 1
+								DeathTime: 0s
+								FallFlying: 0b
+								ForcedAge: 0
+								FromBucket: 1b
+								HandDropChances: [
+									0.085f
+									0.085f
+								]
+								HandItems: [
+									{ }
+									{ }
+								]
+								Health: 150.0f
+								HurtByTimestamp: 0
+								HurtTime: 0s
+								InLove: 0
+								LeftHanded: 0b
+								Owner: [I;
+									-161489789
+									-1405401014
+									-1852104094
+									-640646490
+								]
+								PersistenceRequired: 0b
+								Sitting: 0b
+								SwipeDelay: 0
+								Swipes: 0
+								"forge:spawn_type": "BUCKET"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ze.quest.278.title}"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: [
+				"{ze.quest.279.des}"
+				"{image:kubejs:textures/quest/sunken_city.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "5D8508C5961F754A"
+			rewards: [{
+				id: "7F25A68D402CAD44"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.279.subtitle}"
+			tasks: [{
+				icon: "cataclysm:abyss_eye"
+				id: "1C29A80543B9EFE4"
+				structure: "cataclysm:sunken_city"
+				title: "{ze.quest.task.find.sunken_city}"
+				type: "structure"
+			}]
+			title: "{ze.quest.279.title}"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05CF495B733F7837"]
+			description: ["{ze.quest.283.des}"]
+			hide_until_deps_complete: true
+			icon: "cataclysm:abyssal_sacrifice"
+			id: "7730C8148CCADE72"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03D9E65A73F9327A"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27C141F5A2315EFC"
+					table_id: 5819673195844255311L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.283.subtitle}"
+			tasks: [
+				{
+					id: "1B23B9E5B396E2DA"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: "cataclysm:tidal_claws"
+					id: "74141128E8DC3742"
+					title: "{ze.quest.task.kill.leviathan}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ze.quest.283.title}"
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5D8508C5961F754A"]
+			description: ["{ze.quest.280.des}"]
+			id: "25EAB41145F6AA0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03AF4B2BFDA4C9AC"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.280.subtitle}"
+			tasks: [{
+				entity: "cataclysm:deepling_priest"
+				icon: {
+					Count: 1
+					id: "cataclysm:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "77615E24A937E807"
+				title: "{ze.quest.task.kill.de_priest}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.280.title}"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D8508C5961F754A"]
+			description: ["{ze.quest.281.des}"]
+			id: "69103404A19AC50D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C1D1B297B80D045"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.281.subtitle}"
+			tasks: [{
+				entity: "cataclysm:deepling_warlock"
+				icon: {
+					Count: 1
+					id: "cataclysm:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "773CC5A98E0BC5ED"
+				title: "{ze.quest.task.kill.de_warlock}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.281.title}"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D8508C5961F754A"]
+			description: ["{ze.quest.282.des}"]
+			id: "05CF495B733F7837"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "063D5605AEBF5E08"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.282.subtitle}"
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: "cataclysm:coral_chunk"
+				id: "3E398E28C5561A81"
+				title: "{ze.quest.task.kill.coralssus}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.282.title}"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7730C8148CCADE72"]
+			description: ["{ze.quest.286.des}"]
+			hide_until_deps_complete: true
+			icon: "cataclysm:abyssal_egg"
+			id: "228C2A0950C65930"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38F2CCFD0A043B6E"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.286.subtitle}"
+			tasks: [
+				{
+					icon: "cataclysm:abyssal_egg"
+					id: "3B64646349EEF0D5"
+					observe_type: 5
+					timer: 0L
+					title: "{ze.quest.task.obs.baby_levi}"
+					to_observe: "cataclysm:the_baby_leviathan"
+					type: "observation"
+				}
+				{
+					id: "3F3783D3B9E36317"
+					item: "minecraft:tropical_fish"
+					type: "item"
+				}
+				{
+					id: "3193B76BAABE254D"
+					item: "cataclysm:the_baby_leviathan_bucket"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.286.title}"
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5D8508C5961F754A"
+				"73A30B43C03DA044"
+			]
+			description: ["{ze.quest.285.des}"]
+			hide_until_deps_complete: true
+			icon: "cataclysm:altar_of_amethyst"
+			id: "7FF1882503F45C96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FC10AE588B65BCC"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.285.subtitle}"
+			tasks: [
+				{
+					icon: "cataclysm:altar_of_amethyst"
+					id: "4ECE206635F5B76B"
+					observe_type: 0
+					timer: 0L
+					title: "{ze.quest.task.obs.a_altar}"
+					to_observe: "cataclysm:altar_of_amethyst"
+					type: "observation"
+				}
+				{
+					id: "56D8282355BA455C"
+					item: "cataclysm:blessed_amethyst_crab_meat"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.285.title}"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: ["{ze.quest.284.des}"]
+			hide_until_deps_complete: true
+			id: "73A30B43C03DA044"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F034D0616442F75"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.284.subtitle}"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: "cataclysm:amethyst_crab_shell"
+				id: "7EBB1185E485ECBE"
+				title: "{ze.quest.task.kill.a_crab}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.284.title}"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: [
+				"{ze.quest.287.des}"
+				"{image:kubejs:textures/quest/acrop.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "28D2D407DD6FD272"
+			rewards: [{
+				id: "3C3BD5ECBDDB999A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.287.subtitle}"
+			tasks: [{
+				icon: "cataclysm:storm_eye"
+				id: "06FC1D2F9D9C168D"
+				structure: "cataclysm:acropolis"
+				title: "{ze.quest.task.find.acrop}"
+				type: "structure"
+			}]
+			title: "{ze.quest.287.title}"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: [
+				"{ze.quest.288.des}"
+				"{image:kubejs:textures/quest/frost_prison.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "1A9AE0BC07EC0079"
+			rewards: [{
+				id: "4384E68BA5DFE70E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.288.subtitle}"
+			tasks: [{
+				icon: "cataclysm:cursed_eye"
+				id: "7DA45A98782951F5"
+				structure: "cataclysm:frosted_prison"
+				title: "{ze.quest.task.find.frost_prison}"
+				type: "structure"
+			}]
+			title: "{ze.quest.288.title}"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28D2D407DD6FD272"]
+			description: ["{ze.quest.289.des}"]
+			hide_until_deps_complete: true
+			id: "7336DBFD5A0D4510"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BA95E4E61481FF4"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E860E1E1F5046DD"
+					table_id: 5819673195844255311L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.289.subtitle}"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:essence_of_the_storm"
+				id: "1BCE879D687F6475"
+				title: "{ze.quest.task.kill.scylla}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.289.title}"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A9AE0BC07EC0079"]
+			description: ["{ze.quest.290.des}"]
+			id: "4F528AEB4EECA88F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12A71A6777D39E36"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.290.subtitle}"
+			tasks: [{
+				entity: "cataclysm:aptrgangr"
+				icon: "cataclysm:strange_key"
+				id: "7A641676BC25ABDD"
+				title: "{ze.quest.task.kill.apt}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.290.title}"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F528AEB4EECA88F"]
+			description: ["{ze.quest.291.des}"]
+			hide_until_deps_complete: true
+			icon: "cataclysm:the_annihilator"
+			id: "6374A3C1736479C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F713E5D3C8E5B11"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68B006D33D178EF2"
+					table_id: 5819673195844255311L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.291.subtitle}"
+			tasks: [
+				{
+					id: "0E52DD55194E0A47"
+					item: "cataclysm:strange_key"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:maledictus"
+					icon: "cataclysm:the_annihilator"
+					id: "77FC97B90FBD3E3E"
+					title: "{ze.quest.task.kill.mal}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ze.quest.291.title}"
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E5E2E88CC1A23D1"]
+			description: ["{ze.quest.297.des}"]
+			hide_until_deps_complete: true
+			id: "765C2A350CD651B5"
+			rewards: [
+				{
+					id: "5DE17116741F4FD2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11A4B8574CF46FA4"
+					table_id: 5819673195844255311L
+					type: "choice"
+				}
+			]
+			subtitle: "{ze.quest.297.subtitle}"
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "5F189712DD2B9A9C"
+				observe_type: 0
+				timer: 0L
+				title: "{ze.quest.task.obs.end_portal}"
+				to_observe: "minecraft:end_portal_frame"
+				type: "observation"
+			}]
+			title: "{ze.quest.297.title}"
+			x: 0.5d
+			y: -4.5d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.o.subtitle}"]
+	title: "{ze.quest.chapter.o}"
+}

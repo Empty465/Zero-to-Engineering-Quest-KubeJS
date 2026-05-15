@@ -1,0 +1,13 @@
+{
+  "name": "오물 (양동이)",
+  "icon": "industrialforegoing:sewage_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 13,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:agr_hus/sewer)하수기$()에서 생산되는 유체입니다. 그것에 대해 알고 싶지는 않을 겁니다."
+    }
+  ]
+}

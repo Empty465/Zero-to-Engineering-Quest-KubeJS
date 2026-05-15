@@ -1,0 +1,10 @@
+휴대용 발전기
+취기 만땅!
+<&portablegenerator0>휴대용 발전기는 무겁고 이동도 안 되는 <link;immersiveengineering:diesel_generator;§n§o디젤 발전기§r>를 대체하는, 쉽게 이동 설치가 가능한 가벼운 발전기 입니다. 
+
+이 발전기는 저압 및 고압 전령망에 직접 연결되며, 웅크린채로 우클릭하여 발전기를 들어올릴 수 있습니다.<np>
+휴대용 발전기는 <link;immersivepetroleum:fluids;§n§o휘발유§r;gasoline>, <link;immersivepetroleum:fluids;§n§o나프타§r;naphtha> 또는 <link;immersivepetroleum:fluids;§n§o벤졸§r;gasoline>과 같은 연료를 연소하면서 최대 <config;i;portablegenerator_flux> IF/t의 에너지를 생산하며, 100,000IF의 전력 버퍼를 가지고 있습니다.
+
+휴대용 발전기는 상단의 입력 포트를 통해 양동이, 제리 캔 그리고 파이프를 통해 연료를 공급받을 수 있습니다.
+
+연료 품질이 높을수록 오래 발전하고, 레드스톤 신호를 주면 연료 손실 없이 발전기를 즉시 정지시킬 수 있습니다.

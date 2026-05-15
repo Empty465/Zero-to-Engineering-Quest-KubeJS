@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "immersivepetroleum:napalm_bucket"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:tnt"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:ammo_mod_i"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

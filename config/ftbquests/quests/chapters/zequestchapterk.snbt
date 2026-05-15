@@ -1,0 +1,289 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zequestchapterk"
+	group: "0FDE61B1C6A90A0B"
+	icon: {
+		Count: 1
+		id: "endrem:nether_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "296F101ED7422F5F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C5140F243CF63D9"]
+			description: ["{ze.quest.184.des}"]
+			hide_until_deps_complete: true
+			id: "3475118BC4F80ECB"
+			rewards: [{
+				id: "441E67EE9092BC30"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.184.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:crimson_nylium"
+				id: "478DFD042F11AB96"
+				title: "{ze.quest.task.visit.nether}"
+				type: "dimension"
+			}]
+			title: "{ze.quest.184.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3475118BC4F80ECB"]
+			description: [
+				"{ze.quest.256.des}"
+				"{image:kubejs:textures/quest/soul_black.png width:160 height:90 align:center}"
+			]
+			icon: "cataclysm:monstrous_eye"
+			id: "410F82C24000358B"
+			rewards: [{
+				id: "03F20A35A5DA1393"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.256.subtitle}"
+			tasks: [{
+				icon: "cataclysm:monstrous_eye"
+				id: "4238EB000ABA05A9"
+				structure: "cataclysm:soul_black_smith"
+				title: "{ze.quest.task.find.soul_black}"
+				type: "structure"
+			}]
+			title: "{ze.quest.256.title}"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3475118BC4F80ECB"]
+			description: [
+				"{ze.quest.253.des}"
+				"{image:kubejs:textures/quest/burning_tower.png width:160 height:90 align:center}"
+			]
+			icon: "cataclysm:flame_eye"
+			id: "2AEA68DAC3E5B274"
+			rewards: [{
+				id: "69156E24F0BCC701"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.253.subtitle}"
+			tasks: [{
+				icon: "cataclysm:flame_eye"
+				id: "5A6A50EE594B3F4B"
+				structure: "cataclysm:burning_arena"
+				title: "{ze.quest.task.find.burn_tower}"
+				type: "structure"
+			}]
+			title: "{ze.quest.253.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["410F82C24000358B"]
+			description: ["{ze.quest.257.des}"]
+			hide_until_deps_complete: true
+			id: "0A1210CF7629BEB3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7450BF300A15E610"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FEAA6F8B72E343C"
+					table_id: 5819673195844255311L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.257.subtitle}"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "65F6A5FA80487A92"
+				title: "{ze.quest.task.kill.netherite_monster}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.257.title}"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AEA68DAC3E5B274"]
+			description: ["{ze.quest.254.des}"]
+			id: "5C77D75C592B0777"
+			rewards: [{
+				id: "3F18E6FD07DB7BB7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.254.subtitle}"
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:burning_ashes"
+				id: "117E0A8ECDC0D87B"
+				title: "{ze.quest.task.kill.ex_blaze}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.254.title}"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C77D75C592B0777"]
+			description: ["{ze.quest.255.des}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D61A5BF8A48C319"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7105FB077C17E3B8"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EF5069DF0482D5D"
+					table_id: 5819673195844255311L
+					type: "choice"
+				}
+			]
+			subtitle: "{ze.quest.255.subtitle}"
+			tasks: [
+				{
+					id: "411942C79D9C5F14"
+					item: "cataclysm:burning_ashes"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ignis"
+					icon: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3DAD61DCD366B72D"
+					title: "{ze.quest.task.kill.ignis}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ze.quest.255.title}"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A1210CF7629BEB3"]
+			description: ["{ze.quest.258.des}"]
+			hide_until_deps_complete: true
+			icon: "cataclysm:netherite_effigy"
+			id: "0E7504D9B440B533"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E3C7F06E770B449"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.258.subtitle}"
+			tasks: [
+				{
+					icon: "cataclysm:netherite_effigy"
+					id: "549DADD9581ED3CB"
+					observe_type: 5
+					timer: 0L
+					title: "{ze.quest.task.obs.mini_netherite_pet}"
+					to_observe: "cataclysm:netherite_ministrosity"
+					type: "observation"
+				}
+				{
+					id: "231414F45D053086"
+					item: "cataclysm:lava_power_cell"
+					type: "item"
+				}
+				{
+					id: "21FAF8BFCBA3CBBF"
+					item: "cataclysm:netherite_ministrosity_bucket"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.258.title}"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3475118BC4F80ECB"]
+			description: ["{ze.quest.274.des}"]
+			hide_until_deps_complete: true
+			icon: "ftb_ph:wither"
+			id: "11AB1AC3AF2E8F85"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "326A14718100BE13"
+					table_id: 6462801880492370807L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "618546E35DC554E4"
+					table_id: 5819673195844255311L
+					type: "random"
+				}
+			]
+			subtitle: "{ze.quest.274.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "01BB06A9A4E9520C"
+					item: { Count: 4, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5254BEB3971E534C"
+					item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					entity: "minecraft:wither"
+					icon: "ftb_ph:wither"
+					id: "68AB3A2AFAFDDB7F"
+					title: "{ze.quest.task.kill.wither}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ze.quest.274.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.k.subtitle}"]
+	title: "{ze.quest.chapter.k}"
+}

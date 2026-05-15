@@ -1,0 +1,17 @@
+{
+  "name": "수경재배기",
+  "icon": "industrialforegoing:hydroponic_bed",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 16,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 기계는 전력과 $(6)물$() (또는 네더 작물의 경우 $(6)용암$())을 함께 사용하면, 기계 위에 심은 작물의 성장을 약간 빠르게 만들어 줍니다. $(br2)매우 적은 양의 $(l:resource_production/ether_gas)에테르 가스$()를 공급하면 작물이 훨씬 더 빠르게 자라며 자동으로 수확하고 다시 심습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:hydroponic_bed"
+    }
+  ]
+}

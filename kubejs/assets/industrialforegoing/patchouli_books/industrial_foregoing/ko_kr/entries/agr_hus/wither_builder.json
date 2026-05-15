@@ -1,0 +1,16 @@
+{
+  "name": "위더 건설기",
+  "icon": "industrialforegoing:wither_builder",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "위더를 생성하는 기계입니다. 전력을 공급받으면 $(6)3개의 위더 스켈레톤 해골$()과 $(6)4개의 영혼 모래$()를 사용하여 작업 영역에 위더 소환 구조물을 건설합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:wither_builder"
+    }
+  ]
+}

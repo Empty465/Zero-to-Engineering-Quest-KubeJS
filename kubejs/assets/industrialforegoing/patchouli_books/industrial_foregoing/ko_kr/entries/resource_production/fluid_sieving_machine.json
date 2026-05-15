@@ -1,0 +1,17 @@
+{
+  "name": "유체 체분기",
+  "icon": "industrialforegoing:fluid_sieving_machine",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 21,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 기계는 발효된 광석 고기를 사용하여 모래와 함께 그 고기를 원래 광석의 가루로 변환합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_sieving_machine"
+    }
+  ]
+}

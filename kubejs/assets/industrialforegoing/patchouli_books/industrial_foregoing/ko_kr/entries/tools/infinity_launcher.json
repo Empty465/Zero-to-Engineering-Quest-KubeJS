@@ -1,0 +1,13 @@
+{
+  "name": "무한 발사기",
+  "icon": "industrialforegoing:infinity_launcher",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "무한 발사기는 범위 내의 몹을 포획하거나 방출할 수 있는 도구입니다. GUI에서 모드를 선택하고 발사기를 사용하면 인벤토리에 있는 몹 포획 도구를 사용하여 몹을 포획하거나 방출할 수 있습니다."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+<recipetype:create:crushing>.remove(<item:immersiveengineering:dust_coke>);

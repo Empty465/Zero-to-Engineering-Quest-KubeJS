@@ -1,0 +1,747 @@
+{
+	autofocus_id: "0FDA2CE8D5FEB24E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zequestchapteri"
+	group: "0FDE61B1C6A90A0B"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "61F698523A609D54"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2C4C12BE458A71CF"
+				"6A6419A14365916C"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ze.quest.168.des}"
+				"{image:kubejs:textures/quest/twf_portal.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "0FDA2CE8D5FEB24E"
+			rewards: [
+				{
+					id: "1DD6691C28F78FF9"
+					item: "twilightforest:magic_map"
+					type: "item"
+				}
+				{
+					id: "11FA52E7222108B6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ze.quest.168.subtitle}"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "267F86D22202CCCD"
+				title: "{ze.quest.task.visit.twf}"
+				type: "dimension"
+			}]
+			title: "{ze.quest.168.title}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FDA2CE8D5FEB24E"]
+			description: [
+				"{ze.quest.197.des}"
+				"{image:kubejs:textures/quest/map_naga.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/naga.png width:160 height:90 align:center}"
+			]
+			icon: "twilightforest:naga_courtyard_miniature_structure"
+			id: "3E374D728F4F434D"
+			rewards: [{
+				id: "39D0CEFD7E2B6267"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.197.subtitle}"
+			tasks: [{
+				icon: "twilightforest:naga_courtyard_miniature_structure"
+				id: "0AD964A0F3D416AD"
+				structure: "twilightforest:naga_courtyard"
+				title: "{ze.quest.task.find.naga}"
+				type: "structure"
+			}]
+			title: "{ze.quest.197.title}"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E374D728F4F434D"]
+			description: ["{ze.quest.198.des}"]
+			hide_until_deps_complete: true
+			icon: "ftb_ph:naga_twilight"
+			id: "0E356E96255A4F37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D4D6DE4BF7B687F"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.198.subtitle}"
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					icon: "ftb_ph:naga_twilight"
+					id: "0E546F16E69A1E46"
+					title: "{ze.quest.task.kill.naga}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "75187B6BAB78C802"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.198.title}"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0E356E96255A4F37"]
+			description: [
+				"{ze.quest.199.des}"
+				"{image:kubejs:textures/quest/map_lich.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/lich.png width:160 height:90 align:center}"
+			]
+			id: "03B4364B1FE94311"
+			rewards: [{
+				id: "67B70214DA341F61"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.199.subtitle}"
+			tasks: [{
+				icon: "twilightforest:lich_tower_miniature_structure"
+				id: "13D885769B58BDBF"
+				structure: "twilightforest:lich_tower"
+				title: "{ze.quest.task.find.lich}"
+				type: "structure"
+			}]
+			title: "{ze.quest.199.title}"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["03B4364B1FE94311"]
+			description: ["{ze.quest.200.des}"]
+			hide_until_deps_complete: true
+			id: "1EDDACF04B84E1E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69D7E32A9518856D"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.200.subtitle}"
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "ftb_ph:twilight_lich"
+				id: "75FAC2FDE87AF8A1"
+				title: "{ze.quest.task.kill.lich}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.200.title}"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1EDDACF04B84E1E1"]
+			description: [
+				"{ze.quest.205.des}"
+				"{image:kubejs:textures/quest/map_mino.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/mino.png width:160 height:90 align:center}"
+			]
+			id: "7D3BB8D749616FBE"
+			rewards: [
+				{
+					count: 2
+					id: "45D6B09FEA499CC9"
+					item: "twilightforest:maze_map"
+					type: "item"
+				}
+				{
+					id: "459AF99C49677A74"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ze.quest.205.subtitle}"
+			tasks: [{
+				icon: "twilightforest:mazestone_brick"
+				id: "0649D40A1816EA6A"
+				structure: "twilightforest:labyrinth"
+				title: "{ze.quest.task.find.minoshroom}"
+				type: "structure"
+			}]
+			title: "{ze.quest.205.title}"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1EDDACF04B84E1E1"]
+			description: [
+				"{ze.quest.201.des}"
+				"{image:kubejs:textures/quest/map_knight.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/knight.png width:160 height:90 align:center}"
+			]
+			id: "7144A24C8E2AFCB3"
+			rewards: [
+				{
+					count: 3
+					id: "67B3BA9E846F317C"
+					item: "twilightforest:maze_map"
+					type: "item"
+				}
+				{
+					id: "56F2F091BEDB230E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ze.quest.201.subtitle}"
+			tasks: [{
+				icon: "twilightforest:underbrick"
+				id: "372FFE9C39C28566"
+				structure: "twilightforest:knight_stronghold"
+				title: "{ze.quest.task.find.knight}"
+				type: "structure"
+			}]
+			title: "{ze.quest.201.title}"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1EDDACF04B84E1E1"]
+			description: [
+				"{ze.quest.209.des}"
+				"{image:kubejs:textures/quest/map_yeti.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/yeti.png width:160 height:90 align:center}"
+			]
+			id: "2DA029E974D0E36E"
+			rewards: [{
+				id: "455816B19845A062"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.209.subtitle}"
+			tasks: [{
+				icon: "minecraft:snow_block"
+				id: "38B60DD9022C624F"
+				structure: "twilightforest:yeti_cave"
+				title: "{ze.quest.task.find.alphayeti}"
+				type: "structure"
+			}]
+			title: "{ze.quest.209.title}"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A235968366A3139"]
+			description: [
+				"{ze.quest.211.des}"
+				"{image:kubejs:textures/quest/map_queen.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/queen.png width:160 height:90 align:center}"
+			]
+			id: "1AA420E5A01DA2C1"
+			rewards: [{
+				id: "774501BB2439879E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.211.subtitle}"
+			tasks: [{
+				icon: "twilightforest:aurora_block"
+				id: "637B74A45F789797"
+				structure: "twilightforest:aurora_palace"
+				title: "{ze.quest.task.find.snowqueen}"
+				type: "structure"
+			}]
+			title: "{ze.quest.211.title}"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2DA029E974D0E36E"]
+			description: ["{ze.quest.210.des}"]
+			hide_until_deps_complete: true
+			icon: "ftb_ph:alpha_yeti"
+			id: "2A235968366A3139"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68968DA7EA5F1894"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.210.subtitle}"
+			tasks: [
+				{
+					entity: "twilightforest:alpha_yeti"
+					icon: "ftb_ph:alpha_yeti"
+					id: "78FC956F2A3DB2D7"
+					title: "{ze.quest.task.kill.alphayeti}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7AD6950E1E6CD275"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.210.title}"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1AA420E5A01DA2C1"]
+			description: ["{ze.quest.212.des}"]
+			hide_until_deps_complete: true
+			id: "3AEC9134581E359A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "448CDE651DD25163"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.212.subtitle}"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "ftb_ph:snow_queen"
+				id: "0C20CC39CAC1E192"
+				title: "{ze.quest.task.kill.snowqueen}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ze.quest.212.title}"
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7144A24C8E2AFCB3"]
+			description: ["{ze.quest.202.des}"]
+			hide_until_deps_complete: true
+			id: "6F52CC5C7CC18C5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "625E4C22DB97B08C"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.202.subtitle}"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "ftb_ph:knight_phantom"
+				id: "6F0A3CD726874005"
+				title: "{ze.quest.task.kill.knight}"
+				type: "kill"
+				value: 6L
+			}]
+			title: "{ze.quest.202.title}"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6F52CC5C7CC18C5A"]
+			description: [
+				"{ze.quest.203.des}"
+				"{image:kubejs:textures/quest/map_urghast.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/urghast.png width:160 height:90 align:center}"
+			]
+			id: "541DE3D01AA98C63"
+			rewards: [{
+				id: "5DA1130A892C9848"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.203.subtitle}"
+			tasks: [{
+				icon: "twilightforest:towerwood"
+				id: "1E4277627FB11D65"
+				structure: "twilightforest:dark_tower"
+				title: "{ze.quest.task.find.urghast}"
+				type: "structure"
+			}]
+			title: "{ze.quest.203.title}"
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["541DE3D01AA98C63"]
+			description: ["{ze.quest.204.des}"]
+			hide_until_deps_complete: true
+			icon: "ftb_ph:ur_ghast"
+			id: "4F65AD4268C029FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46C9B6CE87052147"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.204.subtitle}"
+			tasks: [
+				{
+					entity: "twilightforest:ur_ghast"
+					icon: "ftb_ph:ur_ghast"
+					id: "1E692D3A032BE8B7"
+					title: "{ze.quest.task.kill.urghast}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "32D77D39AB99EA91"
+					item: "twilightforest:fiery_tears"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.204.title}"
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7D3BB8D749616FBE"]
+			description: ["{ze.quest.206.des}"]
+			hide_until_deps_complete: true
+			icon: "ftb_ph:minoshroom"
+			id: "69F24134347D3A8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4546F4A39F99262C"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.206.subtitle}"
+			tasks: [
+				{
+					entity: "twilightforest:minoshroom"
+					icon: "ftb_ph:minoshroom"
+					id: "3485B27939A7D649"
+					title: "{ze.quest.task.kill.minoshroom}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "60B987BE0DE22CEE"
+					item: "twilightforest:meef_stroganoff"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.206.title}"
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["69F24134347D3A8D"]
+			description: [
+				"{ze.quest.207.des}"
+				"{image:kubejs:textures/quest/map_hydra.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/hydra.png width:160 height:90 align:center}"
+			]
+			icon: "minecraft:grass_block"
+			id: "43868ED7774FBC47"
+			rewards: [{
+				id: "55450CE40E425D1A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.207.subtitle}"
+			tasks: [{
+				icon: "minecraft:grass_block"
+				id: "313D6BEAADDB0E62"
+				structure: "twilightforest:hydra_lair"
+				title: "{ze.quest.task.find.hydra}"
+				type: "structure"
+			}]
+			title: "{ze.quest.207.title}"
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["43868ED7774FBC47"]
+			description: ["{ze.quest.208.des}"]
+			hide_until_deps_complete: true
+			icon: "ftb_ph:hydra"
+			id: "4F92B289A1F74470"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "189FEA2A4DE60B7A"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.208.subtitle}"
+			tasks: [
+				{
+					entity: "twilightforest:hydra"
+					icon: "ftb_ph:hydra"
+					id: "19990C4727891DE0"
+					title: "{ze.quest.task.kill.hydra}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "624AC902B3C43D7C"
+					item: "twilightforest:fiery_blood"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.208.title}"
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"4F65AD4268C029FF"
+				"4F92B289A1F74470"
+				"3AEC9134581E359A"
+			]
+			description: [
+				"{ze.quest.213.des}"
+				"{image:kubejs:textures/quest/map_cloud.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/troll.png width:160 height:90 align:center}"
+			]
+			id: "0A74F852FC6A10D5"
+			rewards: [{
+				id: "3D96D10F653FC59D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.213.subtitle}"
+			tasks: [{
+				icon: "minecraft:stone"
+				id: "4C251672C2EA7E42"
+				structure: "twilightforest:troll_cave"
+				title: "{ze.quest.task.find.troll}"
+				type: "structure"
+			}]
+			title: "{ze.quest.213.title}"
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0A74F852FC6A10D5"]
+			description: ["{ze.quest.214.des}"]
+			hide_until_deps_complete: true
+			id: "03284EF91907FC08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FCCE2751DAD740E"
+				table_id: 2928502593784218937L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.214.subtitle}"
+			tasks: [{
+				id: "13D0A9F18CD81E6E"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			title: "{ze.quest.214.title}"
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["03284EF91907FC08"]
+			description: [
+				"{ze.quest.215.des}"
+				"{image:kubejs:textures/quest/cloud.png width:160 height:90 align:center}"
+			]
+			id: "3E14DA7086A0D125"
+			rewards: [{
+				id: "2C3A4AC50EB2F59C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.215.subtitle}"
+			tasks: [{
+				icon: "twilightforest:fluffy_cloud"
+				id: "27C446C8BBC7E4DE"
+				structure: "#twilightforest:landmark"
+				title: "{ze.quest.task.find.giant}"
+				type: "structure"
+			}]
+			title: "{ze.quest.215.title}"
+			x: -0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3E14DA7086A0D125"]
+			description: ["{ze.quest.216.des}"]
+			hide_until_deps_complete: true
+			icon: "minecraft:player_head"
+			id: "6BE385B65A87FC6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EE2220BFDCAC180"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.216.subtitle}"
+			tasks: [
+				{
+					entity: "twilightforest:giant_miner"
+					icon: "minecraft:player_head"
+					id: "5D4C3CCA3885098C"
+					title: "{ze.quest.task.kill.giant}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5EDDB1E3EC5A2F8F"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ze.quest.216.title}"
+			x: -0.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6BE385B65A87FC6C"]
+			description: ["{ze.quest.217.des}"]
+			id: "6DBC0CC4BF2026CE"
+			rewards: [{
+				id: "42FFF6831D13B5C7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.217.subtitle}"
+			tasks: [{
+				id: "147712B30D92C22F"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.217.title}"
+			x: -0.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6DBC0CC4BF2026CE"]
+			description: [
+				"{ze.quest.218.des}"
+				"{image:kubejs:textures/quest/map_final.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/fianl.png width:160 height:90 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "0FD678EFCFA2ED07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65FE1012A31C5F47"
+				table_id: 6462801880492370807L
+				type: "choice"
+			}]
+			subtitle: "{ze.quest.218.subtitle}"
+			tasks: [{
+				icon: "twilightforest:pink_castle_rune_brick"
+				id: "2BB82F4B752D6B21"
+				structure: "twilightforest:final_castle"
+				title: "{ze.quest.task.find.final}"
+				type: "structure"
+			}]
+			title: "{ze.quest.218.title}"
+			x: -0.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0FDA2CE8D5FEB24E"]
+			description: ["{ze.quest.219.des}"]
+			id: "6D820192C4F6553C"
+			rewards: [{
+				id: "251351DF02F9F32A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.219.subtitle}"
+			tasks: [
+				{
+					id: "118B3040BE930438"
+					item: "twilightforest:charm_of_life_1"
+					type: "item"
+				}
+				{
+					id: "06B21CA78AC5DD28"
+					item: "twilightforest:charm_of_life_2"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.219.title}"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0FDA2CE8D5FEB24E"]
+			description: ["{ze.quest.220.des}"]
+			id: "597839DAB9F1855B"
+			rewards: [{
+				id: "33DC5941B7F2F00A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.220.subtitle}"
+			tasks: [
+				{
+					id: "2BA32B8151F0D367"
+					item: "twilightforest:charm_of_keeping_1"
+					type: "item"
+				}
+				{
+					id: "5242D73CFC8DB7F2"
+					item: "twilightforest:charm_of_keeping_2"
+					type: "item"
+				}
+				{
+					id: "4257DC6B39DE094D"
+					item: "twilightforest:charm_of_keeping_3"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.220.title}"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0FDA2CE8D5FEB24E"]
+			description: [
+				"{ze.quest.221.des}"
+				"{image:kubejs:textures/quest/map_quest.png width:160 height:90 align:center}"
+				"{image:kubejs:textures/quest/quest.png width:160 height:90 align:center}"
+			]
+			icon: "ftb_ph:questing_ram"
+			id: "77006F7BB7486FF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C83EB3B822D7BAB"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.221.subtitle}"
+			tasks: [{
+				id: "252927FDFFF7425E"
+				item: "twilightforest:quest_ram_trophy"
+				type: "item"
+			}]
+			title: "{ze.quest.221.title}"
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.i.subtitle}"]
+	title: "{ze.quest.chapter.i}"
+}

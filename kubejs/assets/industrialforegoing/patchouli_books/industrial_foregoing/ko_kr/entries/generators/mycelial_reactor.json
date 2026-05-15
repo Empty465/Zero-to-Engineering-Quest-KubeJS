@@ -1,0 +1,17 @@
+{
+  "name": "균사체 반응로",
+  "icon": "industrialforegoing:mycelial_reactor",
+  "category": "industrialforegoing:generators",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(6)균사체 네트워크$()를 사용하여 $(6)균사체 발전기들$()을 감지하고 대량의 FE를 생성할 수 있습니다. $(br2)이 기능을 작동시키려면 각각의 발전기가 동시에 작동해야 합니다."
+    },
+    {
+      "type": "text",
+      "text": "이 네트워크를 사용하여 향후 새로운 기술이 발견될 수도 있습니다."
+    }
+  ]
+}

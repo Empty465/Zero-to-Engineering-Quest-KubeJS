@@ -1,0 +1,11 @@
+{
+	icon: "ftbquests:book"
+	id: "31EB9232E38ACADE"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "kubejs:hand" }
+		{ item: "kubejs:start_kit" }
+	]
+	title: "starter kit"
+}

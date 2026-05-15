@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "avaritia:extreme_crafting_table"
+  },
+  "pattern": [
+    "IBI",
+    "ACA",
+    "IAI"
+  ],
+  "key": {
+    "I": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "C": {
+      "item": "avaritia:double_compressed_crafting_table"
+    },
+    "B": {
+      "item": "kubejs:transcendent_engineering_part"
+    },
+    "A": {
+      "tag": "forge:pellets/antimatter"
+    }
+  }
+}

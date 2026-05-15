@@ -1,0 +1,18 @@
+{
+  "RepairItem": "#forge:ingots/steel",
+  "MaxDurability": 1200,
+  "RepairCost": 6,
+  "XpCost": 0,
+  "Stats": [
+    {
+      "Type": "ADS",
+      "ReductionThreshold": 0.9,
+      "MaxReduction": 0.1
+    },
+    {
+      "Type": ["Inaccuracy"],
+      "ReductionThreshold": 0.95,
+      "MaxReduction": 0.3
+    }
+  ]
+}

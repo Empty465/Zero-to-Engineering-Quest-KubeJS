@@ -1,0 +1,229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "zequestchapterg"
+	group: "47CBD16E857F2B42"
+	id: "2D3FF3DB7C61D637"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["671164358668CD0B"]
+			description: ["{ze.quest.dep}"]
+			icon: "create:fluid_tank"
+			id: "409C524349FACD2F"
+			optional: true
+			shape: "gear"
+			subtitle: "{ze.quest.chapter.d}"
+			tasks: [{
+				id: "29F614454DCB63E2"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.fluid.st}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A59757192264FEE"]
+			description: ["{ze.quest.dep}"]
+			icon: "create:item_vault"
+			id: "2B37B8F99FECE4C8"
+			optional: true
+			shape: "gear"
+			subtitle: "{ze.quest.chapter.d}"
+			tasks: [{
+				id: "4934C87B017CAE29"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.item.store}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D2933A60E53C9A5"]
+			description: ["{ze.quest.dep}"]
+			icon: "create:belt_connector"
+			id: "3AC78220C17EE301"
+			optional: true
+			shape: "gear"
+			subtitle: "{ze.quest.chapter.d}"
+			tasks: [{
+				id: "3D8F4BADE3CCA83F"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.item.trans}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49C90CDEE1BE94A1"]
+			description: ["{ze.quest.dep}"]
+			icon: "createaddition:modular_accumulator"
+			id: "7438D61C07BAA3F4"
+			optional: true
+			shape: "gear"
+			subtitle: "{ze.quest.chapter.d}"
+			tasks: [{
+				id: "5538F59CA13A5056"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.energy.st}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38BA9A25934F5AA9"]
+			description: ["{ze.quest.dep}"]
+			icon: "immersiveengineering:conveyor_basic"
+			id: "0466D8A77594EA30"
+			optional: true
+			shape: "square"
+			subtitle: "{ze.quest.chapter.e}"
+			tasks: [{
+				id: "0E9BD44E2C6C25B5"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.item.trans}"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["738B8F137D85F7C9"]
+			description: ["{ze.quest.dep}"]
+			icon: "immersiveengineering:fluid_pipe"
+			id: "16A48AC191C39F3D"
+			optional: true
+			shape: "square"
+			subtitle: "{ze.quest.chapter.e}"
+			tasks: [{
+				id: "79B2F0401824C595"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.item.trans}"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6475CFEA8D86413B"]
+			description: ["{ze.quest.dep}"]
+			icon: "mekanism:basic_bin"
+			id: "3E85D03AC33F57A8"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.quest.chapter.f}"
+			tasks: [{
+				id: "6C1C1C0F2590CD94"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.fluid.st}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6673F9119E4FAE82"]
+			description: ["{ze.quest.dep}"]
+			icon: "mekanism:basic_fluid_tank"
+			id: "232A2C4D7B35C602"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.quest.chapter.f}"
+			tasks: [{
+				id: "64AB263B146A2290"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.fluid.st}"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17D7504688846061"]
+			description: ["{ze.quest.dep}"]
+			icon: {
+				Count: 1
+				id: "mekanism:basic_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "4000000"
+						}]
+					}
+				}
+			}
+			id: "4C8FC2F8C2C11F75"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.quest.chapter.f}"
+			tasks: [{
+				id: "710F95B6ABF322A2"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.fluid.st}"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6CC642A1677A957E"]
+			description: ["{ze.quest.dep}"]
+			icon: "mekanism:dynamic_tank"
+			id: "7AA9D5C365292E45"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.quest.chapter.f}"
+			tasks: [{
+				id: "77B4AA1443445BA3"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.item.store}"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6498651F7E1979C2"]
+			description: ["{ze.quest.dep}"]
+			icon: "mekanism:induction_casing"
+			id: "253541C273C5FFD8"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.quest.chapter.f}"
+			tasks: [{
+				id: "57FA36CE3D8DEA09"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.item.store}"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62A54149825ACCFB"]
+			description: ["{ze.quest.dep}"]
+			icon: "immersiveengineering:capacitor_mv"
+			id: "70DA3B34F8F17BB5"
+			optional: true
+			shape: "square"
+			subtitle: "{ze.quest.chapter.e}"
+			tasks: [{
+				id: "326BF7403158BB0B"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.item.store}"
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.g.subtitle}"]
+	title: "{ze.quest.chapter.g}"
+}

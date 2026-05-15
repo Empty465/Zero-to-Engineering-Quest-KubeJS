@@ -1,0 +1,13 @@
+{
+  "name": "무한 드릴",
+  "icon": "industrialforegoing:infinity_drill",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "무한 드릴은 큰 범위를 채굴할 수 있는 도구입니다. 등급이 높을수록 채굴 범위가 넓어집니다."
+    }
+  ]
+}

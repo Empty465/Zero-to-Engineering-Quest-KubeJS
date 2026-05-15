@@ -1,0 +1,21 @@
+{
+  "name": "식물 비료기",
+  "icon": "industrialforegoing:plant_fertilizer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "식물에 $(6)비료$()를 공급하는 기계입니다. $(br2)이 기계는 같은 작물에 비료를 계속 공급하여 더 이상 비료를 받을 수 없을 때까지 공급한 후 다음 작물에게 공급합니다. 이로 인해 $(6)해바라기$()처럼 항상 비료를 받는 작물이나, 최종 성장 상태에 도달할 수 없는 작물에서 기계가 제대로 작동하지 않는 문제가 생길 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "식물 비료기는 다음 항목을 받습니다: $(br)$(li)뼛가루 $(li)비료"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_fertilizer"
+    }
+  ]
+}

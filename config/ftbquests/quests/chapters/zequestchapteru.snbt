@@ -1,0 +1,196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "zequestchapteru"
+	group: "47CBD16E857F2B42"
+	icon: "minecraft:crafting_table"
+	id: "54F20F6DC7F6CBF4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"515D40F1C7124447"
+				"2BEBC6A267A439C7"
+			]
+			description: ["{ze.crafting.steelC_1_des}"]
+			icon: "mekanism:steel_casing"
+			id: "04CDA5E8270B8BFC"
+			optional: true
+			shape: "square"
+			subtitle: "{ze.crafting.steelC}"
+			tasks: [
+				{
+					id: "487FA0542EB15B35"
+					title: "{ze.quest.cheak}"
+					type: "checkmark"
+				}
+				{
+					id: "6462D1E7A8EA255C"
+					item: "mekanism:steel_casing"
+					type: "item"
+				}
+			]
+			title: "{ze.crafting.basic}"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"04CDA5E8270B8BFC"
+				"35CCEDC42268BD70"
+			]
+			description: ["{ze.crafting.steelC_2_des}"]
+			icon: { Count: 2, id: "mekanism:steel_casing" }
+			id: "456A14AE9A0F986A"
+			optional: true
+			shape: "square"
+			subtitle: "{ze.crafting.steelC}"
+			tasks: [
+				{
+					id: "46C02D98DC0690C6"
+					title: "{ze.quest.cheak}"
+					type: "checkmark"
+				}
+				{
+					count: 2L
+					id: "2520FD21F2E58486"
+					item: { Count: 2, id: "mekanism:steel_casing" }
+					type: "item"
+				}
+			]
+			title: "{ze.crafting.steelC_2}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4FF323B9223BBB82"
+				"456A14AE9A0F986A"
+				"36861C335544B719"
+			]
+			description: ["{ze.crafting.steelC_3_des}"]
+			icon: { Count: 5, id: "mekanism:steel_casing" }
+			id: "21CEEA56202EAB2E"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.crafting.steelC}"
+			tasks: [
+				{
+					id: "46151607CD062C07"
+					title: "{ze.quest.cheak}"
+					type: "checkmark"
+				}
+				{
+					count: 5L
+					id: "6E8FFAEF22AAD6F5"
+					item: { Count: 5, id: "mekanism:steel_casing" }
+					type: "item"
+				}
+			]
+			title: "{ze.crafting.steelC_3}"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F5DC2C12837F7EC"]
+			description: ["{ze.crafting.ammo_2_des}"]
+			icon: "kubejs:un_ammo"
+			id: "1B5DC5C999AB674E"
+			optional: true
+			shape: "gear"
+			subtitle: "{ze.crafting.ammo}"
+			tasks: [
+				{
+					id: "1D4602A475BF3F3D"
+					title: "{ze.quest.cheak}"
+					type: "checkmark"
+				}
+				{
+					id: "769FBFF9F430D4A8"
+					item: "kubejs:un_ammo"
+					type: "item"
+				}
+			]
+			title: "{ze.crafting.assemble}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FABB100809045CA"]
+			description: ["{ze.crafting.ammo_1_des}"]
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+			id: "0F5DC2C12837F7EC"
+			optional: true
+			subtitle: "{ze.crafting.ammo}"
+			tasks: [{
+				id: "1B7D90F917AFE6BF"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.crafting.basic}"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E31388488F3E173"]
+			description: ["{ze.crafting.steel_1_des}"]
+			icon: "immersiveengineering:ingot_steel"
+			id: "71DDAB6608AF1A3D"
+			optional: true
+			shape: "square"
+			subtitle: "{ze.crafting.steel}"
+			tasks: [
+				{
+					id: "034E25AFEC5FE24B"
+					title: "{ze.quest.cheak}"
+					type: "checkmark"
+				}
+				{
+					id: "4A8CDC628E218734"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+			]
+			title: "{ze.crafting.basic}"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"71DDAB6608AF1A3D"
+				"083AE6A0A9EAC21B"
+			]
+			description: ["{ze.crafting.steel_2_des}"]
+			icon: "mekanism:ingot_steel"
+			id: "563234B349592C7F"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ze.crafting.steel}"
+			tasks: [
+				{
+					id: "633272DBB919F656"
+					title: "{ze.quest.cheak}"
+					type: "checkmark"
+				}
+				{
+					id: "26F5214677DA3676"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			title: "{ze.crafting.infus}"
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.u.subtitle}"]
+	title: "{ze.quest.chapter.u}"
+}

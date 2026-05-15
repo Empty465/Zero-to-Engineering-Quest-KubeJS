@@ -1,0 +1,17 @@
+{
+  "name": "목장기",
+  "icon": "industrialforegoing:animal_rancher",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "양의 $(6)털을 깎고$() 소를 $(6)착유$()하는 기계입니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_rancher"
+    }
+  ]
+}

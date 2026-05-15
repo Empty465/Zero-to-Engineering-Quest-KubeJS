@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:plates/brass"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:nuggets/lead"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:30_06",
+    "count": 15
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "재료 돌공장",
+  "icon": "industrialforegoing:material_stonework_factory",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(6)차세대$() $(6)조약돌$() 생성기입니다.$(br2)$(6)60$()RF/t와 $(6)물$() 및 $(6)용암$()이 공급되면 특정 재료를 생성할 수 있습니다.$(br)이 재료들은 다음과 같은 작업으로 추가로 조작할 수 있습니다:$(br)$(li)제련$(br)$(li)분쇄$(br)$(li)제작"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:material_stonework_factory"
+    }
+  ]
+}

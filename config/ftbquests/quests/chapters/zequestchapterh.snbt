@@ -1,0 +1,244 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zequestchapterh"
+	group: "08623641CBAA0C80"
+	icon: {
+		Count: 1
+		id: "tacz:modern_kinetic_gun"
+		tag: {
+			Damage: 0
+			GunCurrentAmmoCount: 30
+			GunFireMode: "AUTO"
+			GunId: "tacz:ak47"
+			HasBulletInBarrel: 1b
+		}
+	}
+	id: "5DE1EB609F22F589"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["02A4CE81A7C3FE1E"]
+			description: ["{ze.quest.53.des}"]
+			id: "407B1B543D8ECDE6"
+			rewards: [{
+				id: "70AA67EF3B14A963"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.53.subtitle}"
+			tasks: [{
+				count: 10L
+				id: "43BA7E9CB18CC129"
+				item: {
+					Count: 10
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:45_70"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ze.quest.53.title}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["407B1B543D8ECDE6"]
+			description: ["{ze.quest.54.des}"]
+			id: "1D079522721FF225"
+			rewards: [{
+				id: "68571C3B85279FF8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.54.subtitle}"
+			tasks: [{
+				id: "66C8D105FBBD4374"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						Damage: 0
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:springfield1873"
+						HasBulletInBarrel: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ze.quest.54.title}"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D079522721FF225"]
+			description: ["{ze.quest.55.des}"]
+			id: "6278338446ED9DCF"
+			rewards: [
+				{
+					id: "2969B78CC648086F"
+					item: "tacz:target"
+					type: "item"
+				}
+				{
+					id: "0858B9BB6D6E917B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{ze.quest.55.subtitle}"
+			tasks: [{
+				id: "56AC01E11DAC286B"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:scope_1873_6x"
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ze.quest.55.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D079522721FF225"]
+			description: ["{ze.quest.129.des}"]
+			icon: "minecraft:anvil"
+			id: "205716DF08D2768B"
+			rewards: [{
+				id: "5EB5D945FFDCC61B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.129.subtitle}"
+			tasks: [{
+				id: "33A35B98C8CCDCB2"
+				title: "{ze.quest.cheak}"
+				type: "checkmark"
+			}]
+			title: "{ze.quest.129.title}"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1D079522721FF225"
+				"0E668372989527E8"
+			]
+			description: ["{ze.quest.170.des}"]
+			hide_until_deps_complete: true
+			id: "4461A55329213DD9"
+			rewards: [{
+				id: "6FC74DE1A1F7E38D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "{ze.quest.170.subtitle}"
+			tasks: [{
+				id: "1B9BD6ED0945DE9A"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			title: "{ze.quest.170.title}"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"58AA39917E78E627"
+				"4461A55329213DD9"
+			]
+			description: ["{ze.quest.171.des}"]
+			hide_until_deps_complete: true
+			id: "4FABB100809045CA"
+			rewards: [{
+				id: "4ADBDB817C2667FF"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "{ze.quest.171.subtitle}"
+			tasks: [{
+				id: "5F1CD1A320A0BE23"
+				item: {
+					Count: 1
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "tacz:ammo_workbench"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.171.title}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6278338446ED9DCF"
+				"4461A55329213DD9"
+			]
+			description: ["{ze.quest.172.des}"]
+			hide_until_deps_complete: true
+			id: "3AFC3A7279A39E43"
+			rewards: [{
+				id: "0F0F96AD01A07400"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "{ze.quest.172.subtitle}"
+			tasks: [{
+				id: "366E283BD854DB55"
+				item: {
+					Count: 1
+					id: "tacz:workbench_c"
+					tag: {
+						BlockId: "tacz:attachment_workbench"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.172.title}"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["407B1B543D8ECDE6"]
+			description: ["{ze.quest.169.des}"]
+			id: "58AA39917E78E627"
+			rewards: [{
+				id: "57CA66778117E2FF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ze.quest.169.subtitle}"
+			tasks: [{
+				id: "2C4C5F833DCF1317"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ze.quest.169.title}"
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["{ze.quest.chapter.h.subtitle}"]
+	title: "{ze.quest.chapter.h}"
+}

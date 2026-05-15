@@ -1,0 +1,10 @@
+{"type":"immersiveengineering:turn_and_copy","category":"misc",
+"key":{
+    "c":{"item":"create:brass_casing"},
+    "i":{"tag":"forge:sheetmetals/steel"},
+    "r":{"item":"create:sturdy_sheet"},
+    "x":{"item":"create:electron_tube"},
+    "y":{"item":"create:precision_mechanism"}},
+"pattern":["ixi",
+           "rcr",
+           "iyi"],"quarter_turn":true,"result":{"count":1,"item":"immersiveengineering:rs_engineering"},"show_notification":true}
