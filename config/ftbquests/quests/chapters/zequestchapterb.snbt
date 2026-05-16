@@ -93,7 +93,7 @@
 				type: "checkmark"
 			}]
 			title: "{ze.smelting.alloy}"
-			x: 0.5d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -117,7 +117,7 @@
 				type: "checkmark"
 			}]
 			title: "{ze.smelting.alloy}"
-			x: -0.5d
+			x: 0.0d
 			y: 2.5d
 		}
 		{

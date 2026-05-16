@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CSC",
+    "APA"
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:ultimate_induction_cell"
+    },
+    "B": {
+      "item": "mekanism:ultimate_induction_provider"
+    },
+    "C": {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    "S": {
+      "item": "rlovelyr:robot_core"
+    },
+    "A": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "createaddition:creative_energy",
+    "count": 1
+  }
+}

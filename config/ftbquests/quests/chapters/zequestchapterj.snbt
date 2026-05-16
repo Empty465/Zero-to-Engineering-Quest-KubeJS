@@ -306,6 +306,56 @@
 			x: -1.5d
 			y: -2.5d
 		}
+		{
+			dependencies: [
+				"7E33E14D7F1814FE"
+				"2885F9FDF69EA8B2"
+			]
+			description: ["{ze.quest.413.des}"]
+			hide_until_deps_complete: true
+			id: "0FDA73889A036B5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "682A2709C676E54F"
+				table_id: 6462801880492370807L
+				type: "choice"
+			}]
+			shape: "gear"
+			subtitle: "{ze.quest.413.subtitle}"
+			tasks: [{
+				id: "7EC59F1832C80A79"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			title: "{ze.quest.413.title}"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7E33E14D7F1814FE"
+				"6498651F7E1979C2"
+			]
+			description: ["{ze.quest.414.des}"]
+			hide_until_deps_complete: true
+			id: "38E1884B2406388B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31658F8BEEA054C3"
+				table_id: 6462801880492370807L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "{ze.quest.414.subtitle}"
+			tasks: [{
+				id: "02932F92BF33955C"
+				item: "createaddition:creative_energy"
+				type: "item"
+			}]
+			title: "{ze.quest.414.title}"
+			x: 0.5d
+			y: -5.0d
+		}
 	]
 	subtitle: ["{ze.quest.chapter.j.subtitle}"]
 	title: "{ze.quest.chapter.j}"

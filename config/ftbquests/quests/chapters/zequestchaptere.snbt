@@ -1684,7 +1684,7 @@
 			]
 			title: "{ze.quest.175.title}"
 			x: -3.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["08528EE85EF2C6C7"]
@@ -1761,7 +1761,7 @@
 			]
 			title: "{ze.quest.176.title}"
 			x: -4.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["74231E02E3E7B021"]

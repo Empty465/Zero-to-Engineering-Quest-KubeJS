@@ -1002,11 +1002,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"2CBEAAE7E27D0C4D"
-				"083AE6A0A9EAC21B"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["2CBEAAE7E27D0C4D"]
 			description: ["{ze.quest.143.des}"]
 			id: "7317F51045417F16"
 			rewards: [{

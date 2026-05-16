@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CSC",
+    "APA"
+  ],
+  "key": {
+    "P": {
+      "item": "create:rotation_speed_controller"
+    },
+    "B": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    "S": {
+      "item": "rlovelyr:robot_core"
+    },
+    "A": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "create:creative_motor",
+    "count": 1
+  }
+}

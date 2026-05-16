@@ -140,7 +140,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5E31388488F3E173"]
+			dependencies: ["1662086D43D735B7"]
 			description: ["{ze.crafting.steel_1_des}"]
 			icon: "immersiveengineering:ingot_steel"
 			id: "71DDAB6608AF1A3D"
@@ -161,7 +161,7 @@
 			]
 			title: "{ze.crafting.basic}"
 			x: -1.5d
-			y: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -188,7 +188,102 @@
 			]
 			title: "{ze.crafting.infus}"
 			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E31388488F3E173"]
+			description: ["{ze.crafting.andCasing_1_des}"]
+			icon: "create:andesite_casing"
+			id: "6D8BB2B1B1DF9101"
+			optional: true
+			subtitle: "{ze.crafting.andCasing}"
+			tasks: [
+				{
+					id: "7DF2F812F2AE34E3"
+					title: "{ze.quest.cheak}"
+					type: "checkmark"
+				}
+				{
+					id: "1FC864F67666E717"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			title: "{ze.crafting.basic}"
+			x: -1.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["6D8BB2B1B1DF9101"]
+			description: ["{ze.crafting.andCasing_2_des}"]
+			icon: { Count: 4, id: "create:andesite_casing" }
+			id: "67A4B9C26B8AFD09"
+			optional: true
+			shape: "square"
+			subtitle: "{ze.crafting.andCasing}"
+			tasks: [
+				{
+					id: "1E3D8A79463A50CC"
+					title: "{ze.quest.cheak}"
+					type: "checkmark"
+				}
+				{
+					count: 4L
+					id: "02365ACE3EEC5E92"
+					item: { Count: 4, id: "create:andesite_casing" }
+					type: "item"
+				}
+			]
+			title: "{ze.crafting.oiled}"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E31388488F3E173"]
+			description: ["{ze.crafting.andAlloy_1_des}"]
+			icon: "create:andesite_alloy"
+			id: "737204B7A07137FB"
+			optional: true
+			subtitle: "{ze.crafting.andAlloy}"
+			tasks: [
+				{
+					id: "6EC02CCF9DB0CDFB"
+					title: "{ze.quest.cheak}"
+					type: "checkmark"
+				}
+				{
+					id: "6834B46E3744F858"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "{ze.crafting.basic}"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["737204B7A07137FB"]
+			description: ["{ze.crafting.andAlloy_2_des}"]
+			icon: "create:andesite_alloy"
+			id: "1E722A76734A35A0"
+			optional: true
+			shape: "gear"
+			subtitle: "{ze.crafting.andAlloy}"
+			tasks: [
+				{
+					id: "43BCD76B398FA785"
+					title: "{ze.quest.cheak}"
+					type: "checkmark"
+				}
+				{
+					id: "1F8D5AC9047006DB"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "{ze.crafting.mix}"
+			x: 0.5d
+			y: -2.5d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.u.subtitle}"]

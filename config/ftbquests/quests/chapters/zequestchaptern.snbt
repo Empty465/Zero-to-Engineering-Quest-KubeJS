@@ -77,7 +77,7 @@
 				}
 			]
 			title: "{ze.quest.195.title}"
-			x: 0.0d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -175,7 +175,7 @@
 				type: "item"
 			}]
 			title: "{ze.quest.326.title}"
-			x: 1.0d
+			x: 0.5d
 			y: 0.0d
 		}
 	]

@@ -596,7 +596,7 @@
 				type: "item"
 			}]
 			title: "{ze.buy.glu_inject}"
-			x: -6.5d
+			x: -6.0d
 			y: -1.0d
 		}
 		{
@@ -1053,6 +1053,42 @@
 			title: "{ze.sell.logStone}"
 			x: -6.5d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1851A112539BE3B8"
+				"5FF4682EA906CA1D"
+			]
+			description: ["{ze.buy.nightvision.des}"]
+			icon: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "minecraft:long_night_vision"
+				}
+			}
+			id: "4DA7417EDA62CB7C"
+			rewards: [{
+				id: "5F7194B2BA3614FD"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ze.buy}"
+			tasks: [{
+				count: 15L
+				id: "49DA9BE1DEB60B7D"
+				item: "kubejs:money"
+				type: "item"
+			}]
+			title: "{ze.buy.nightvision}"
+			x: -7.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["{ze.quest.chapter.r.subtitle}"]

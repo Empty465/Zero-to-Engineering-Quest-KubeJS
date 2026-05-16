@@ -63,6 +63,12 @@
 				}
 			}
 			id: "51942840124E85C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0327CAB5250F2EB4"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
 			subtitle: "{ze.quest.407.subtitle}"
 			tasks: [
 				{
@@ -203,6 +209,10 @@
 				"51942840124E85C3"
 				"0CA8AEA23E5A9EE7"
 				"5DECC3A74418E55B"
+				"3A439F287C466827"
+				"2FFF1B3F40780EF1"
+				"77B1B450AEC86454"
+				"53C6B178609601C0"
 			]
 			description: ["{ze.quest.405.des}"]
 			icon: "kubejs:transcendent_engineering_part"
@@ -234,10 +244,19 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3ECCB7C8080B0136"]
+			dependencies: [
+				"3ECCB7C8080B0136"
+				"4F4A22B98E645E20"
+			]
 			description: ["{ze.quest.406.des}"]
 			icon: "cyber_ware_port:body_part_heart"
 			id: "0CA8AEA23E5A9EE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "719B42BE0D6B62FA"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
 			subtitle: "{ze.quest.406.subtitle}"
 			tasks: [
 				{
@@ -284,6 +303,12 @@
 			dependencies: ["3ECCB7C8080B0136"]
 			description: ["{ze.quest.408.des}"]
 			id: "5DECC3A74418E55B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "204D5099FE157A5F"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
 			subtitle: "{ze.quest.408.subtitle}"
 			tasks: [
 				{
@@ -505,6 +530,156 @@
 			]
 			title: "{ze.quest.408.title}"
 			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3ECCB7C8080B0136"
+				"785185417D64E868"
+				"2EACCE6635A1E44E"
+			]
+			description: ["{ze.quest.409.des}"]
+			icon: "minecolonies:golden_bread"
+			id: "3A439F287C466827"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19F60D44E1BD8626"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.409.subtitle}"
+			tasks: [
+				{
+					id: "676030C5C77F6C94"
+					item: {
+						Count: 1
+						id: "minecolonies:plate_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58F18A6FA0BFF43C"
+					item: {
+						Count: 1
+						id: "minecolonies:plate_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D5CA8AB54B81725"
+					item: {
+						Count: 1
+						id: "minecolonies:plate_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15247469F6AACBB2"
+					item: {
+						Count: 1
+						id: "minecolonies:plate_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E8479BDFAFC3FAB"
+					item: "minecolonies:golden_bread"
+					type: "item"
+				}
+				{
+					id: "3A2CE3909D62DF46"
+					item: "minecolonies:chorus_bread"
+					type: "item"
+				}
+			]
+			title: "{ze.quest.409.title}"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3ECCB7C8080B0136"]
+			description: ["{ze.quest.410.des}"]
+			id: "2FFF1B3F40780EF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44C403B4D2DFF0CE"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.410.subtitle}"
+			tasks: [{
+				count: 4000L
+				id: "77E0EF95830D952A"
+				item: "createaddition:chocolate_cake"
+				type: "item"
+			}]
+			title: "{ze.quest.410.title}"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3ECCB7C8080B0136"]
+			description: ["{ze.quest.411.des}"]
+			id: "77B1B450AEC86454"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3087C7E0E1714135"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.411.subtitle}"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "17A1308B669E999B"
+				ignore_dimension: false
+				position: [I;
+					0
+					10000
+					0
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "{ze.quest.411.task}"
+				type: "location"
+			}]
+			title: "{ze.quest.411.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3ECCB7C8080B0136"]
+			description: ["{ze.quest.412.des}"]
+			id: "53C6B178609601C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BCFB25FFD43DACB"
+				table_id: 6462801880492370807L
+				type: "random"
+			}]
+			subtitle: "{ze.quest.412.subtitle}"
+			tasks: [{
+				id: "0C8E0697B74E81AE"
+				points: false
+				type: "xp"
+				value: 999L
+			}]
+			title: "{ze.quest.412.title}"
+			x: -3.0d
 			y: 1.5d
 		}
 	]
