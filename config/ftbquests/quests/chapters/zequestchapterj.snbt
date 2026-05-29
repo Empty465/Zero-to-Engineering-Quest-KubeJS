@@ -63,6 +63,7 @@
 		{
 			dependencies: ["579D0C4E6180BEFB"]
 			description: ["{ze.quest.179.des}"]
+			hide_until_deps_complete: true
 			id: "3B7EE0060B98114D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -107,6 +108,7 @@
 				"2C4C12BE458A71CF"
 			]
 			description: ["{ze.quest.181.des}"]
+			hide_until_deps_complete: true
 			id: "7E33E14D7F1814FE"
 			rewards: [{
 				auto: "enabled"
@@ -160,6 +162,7 @@
 		{
 			dependencies: ["292BFEE679B56D00"]
 			description: ["{ze.quest.190.des}"]
+			hide_until_deps_complete: true
 			id: "13ED9BD3C68AD06A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -225,6 +228,7 @@
 		{
 			dependencies: ["292BFEE679B56D00"]
 			description: ["{ze.quest.191.des}"]
+			hide_until_deps_complete: true
 			icon: "avaritia:infinity_helmet"
 			id: "1069F4A52F9D63AC"
 			rewards: [{
@@ -263,6 +267,7 @@
 		{
 			dependencies: ["2BDF0FEEA1FFD6F0"]
 			description: ["{ze.quest.189.des}"]
+			hide_until_deps_complete: true
 			id: "06977A4CB0523928"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -289,6 +294,7 @@
 		{
 			dependencies: ["292BFEE679B56D00"]
 			description: ["{ze.quest.192.des}"]
+			hide_until_deps_complete: true
 			id: "26815236E9AF2EF8"
 			rewards: [{
 				exclude_from_claim_all: true

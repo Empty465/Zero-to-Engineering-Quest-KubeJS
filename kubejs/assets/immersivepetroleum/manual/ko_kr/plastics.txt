@@ -1,9 +1,9 @@
 석유 플라스틱
 유해물질은 들어있지 않습니다!
 <&plastics0>
-<link;immersiveengineering:plastic;§n§o페놀릭 수지§r>는 현대 화학의 경이로운 발명품이지만, 석유를 이용한 공장으로는 생산하지 않았습니다.
+<link;immersiveengineering:plastic;§n§o페놀릭 수지§r>는 현대 화학의 경이로운 발명품이지만, 석유를 이용하여 만드는 공정은 마땅치 않았습니다.
 
-새롭게 개발된 열분해 시스템을 사용하면 이러한 문제가 더 이상 발생하지 않습니다. 페놀 수지는 <link;immersivepetroleum:fluids;§n§o나프타§r;naphtha>를 고온 공정을 통해 <link;immersivepetroleum:fluids;§n§o석유 가스§r;petroleum_gas>로 분해하여 생산할 수 있습니다.
+새롭게 개발된 열분해 시스템을 사용하면 이러한 문제를 해결할 수 있습니다. 페놀 수지는 <link;immersivepetroleum:fluids;§n§o나프타§r;naphtha>를 고온 공정을 통해 <link;immersivepetroleum:fluids;§n§o석유 가스§r;petroleum_gas>로 분해하여 생산할 수 있습니다.
 <&plastics1>
 <link;immersivepetroleum:hydrotreater;§n§o고압 정제기§r>는 나프타를 분해하여 1500mB의 나프타와 500mB의 물을 2000mB의 석유 가스로 전환하는데 이용됩니다.
 

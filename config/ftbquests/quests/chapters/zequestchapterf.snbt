@@ -435,7 +435,7 @@
 		{
 			dependencies: [
 				"7EFA1DAD03B2E770"
-				"6475CFEA8D86413B"
+				"6CC642A1677A957E"
 			]
 			description: ["{ze.quest.102.des}"]
 			id: "2451716112EF2FB9"
@@ -772,7 +772,7 @@
 					type: "item"
 				}
 				{
-					count: 66L
+					count: 68L
 					id: "0E9216461EFA26DB"
 					item: "mekanism:structural_glass"
 					type: "item"
